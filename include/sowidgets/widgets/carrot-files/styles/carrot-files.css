@@ -1,0 +1,95 @@
+.carrot-files{
+}
+.carrot-files header{
+	padding:1em 0;
+	font-size:1.1em;
+}
+.carrot-files ul{
+	padding:0;
+	margin:0;
+	border-width:0px;
+	border-style:solid;
+}
+.carrot-files ul li{
+	position:relative;
+	padding:1em 1em 1em .5em;
+	margin:.5em 0;
+	border-width:0px;
+	border-style:solid;
+}
+.carrot-files ul li .file-info{
+	display:block;
+	float:left;
+	position:relative;
+	width:89%;
+	
+}
+.carrot-files ul li .file-icon{
+	display:block;
+	float:left;
+	width:10%;
+	text-align:center;
+	padding:0em;
+	margin-right:1%;
+}
+.carrot-files ul li .file-icon a{	
+	display:block;
+	
+}
+
+.carrot-files ul li .file-icon span[class*=sow-icon-]{
+	font-size:2.6em;
+}
+
+
+.carrot-files ul li .file-icon .file-image-icon{
+	display:inline-block;
+	border-width:0px;
+	border-style:solid;
+	margin-right:.5em;
+}
+.carrot-files ul li .file-icon .file-image-icon img{
+	width:100%;
+	height:100%;
+}
+
+.carrot-files ul li .file-alt-url{
+	display:inline-block;
+	float:right;
+	padding-top:1em;
+	font-size:.8em;
+	font-style:italic;
+}
+.carrot-files ul li .file-name{
+	font-size:1.2em;
+}
+.carrot-files ul li .file-size{
+		font-size:.9em;
+}
+.carrot-files ul li .file-description{
+	display:block;
+	font-style:italic;
+	padding:.5em 0 0 0;
+	opacity:.7;
+}
+.carrot-files ul li:after { /*clearfix*/
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+@media (max-width: 767px){
+	.carrot-files{
+		/*margin:0em 1em;*/
+	}
+	
+	.carrot-files ul li .file-info{
+		width:79%;
+		
+	}
+	.carrot-files ul li .file-icon{
+		width:20%;
+		
+	}
+}

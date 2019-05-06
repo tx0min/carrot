@@ -1,0 +1,73 @@
+html {
+	/*overflow-y: auto;*/
+	/* Kudos to @sami for pointing out that setting the overflow to "auto" instead of "hidden" fixes the keyboard nav bug! */
+	/*background-color: transparent;*/
+}
+
+@media only screen and (max-device-width:480px) {
+	html {
+		/*overflow: auto;*/
+	}
+}
+
+
+
+body{
+	
+	scrollbar-base-color: #f9f7e2; 
+	scrollbar-face-color: #df3b82; 
+	scrollbar-track-color: #f9f7e2; 
+	scrollbar-arrow-color: #f9f7e2;
+	scrollbar-highlight-color: #df3b82; 
+	scrollbar-3dlight-color: #df3b82; 
+	scrollbar-shadow-color: #df3b82;
+	scrollbar-darkshadow-color: #df3b82;
+	 -webkit-border-radius: 6px;
+   
+
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+ 	border-width: 0px;
+ 	 -webkit-border-radius: 6px;
+   
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    height: 0px;
+    display: block;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-track        { 
+		background-color: rgba(30,30,30,0.1); 
+		 -webkit-border-radius: 6px;
+		 padding:2px;
+   
+}
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(30,30,30,0); 
+    -webkit-border-radius: 0px;
+    padding:2px;
+    
+	
+	
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: rgba(125,125,125,1); 
+    -webkit-border-radius: 0px;
+    margin:2px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 50px;
+    background-color: rgba(125,125,125,1); 
+    -webkit-border-radius: 0px;
+    margin:2px;
+}

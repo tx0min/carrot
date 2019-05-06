@@ -1,0 +1,4519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Txopress 1.0\n"
+"Report-Msgid-Bugs-To: http://mensula.cat\n"
+"POT-Creation-Date: 2018-02-19 09:45+0100\n"
+"PO-Revision-Date: 2018-02-19 09:53+0100\n"
+"Last-Translator: Mensula <info@mensula.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: ca_ES\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../assets/js/jquery-ui/jquery-ui.min.js:6
+msgid "<div>"
+msgstr ""
+
+#: ../assets/js/jquery-ui/jquery-ui.min.js:6
+msgid ""
+"<div style='display:block;position:absolute;width:50px;height:50px;overflow:"
+"hidden;'><div style='height:100px;width:auto;'></div></div>"
+msgstr ""
+
+#: ../assets/js/jquery-ui/jquery-ui.min.js:6
+#: ../assets/js/jquery-ui/jquery-ui.min.js:7
+msgid "body"
+msgstr ""
+
+#: ../assets/js/jquery-ui/jquery-ui.min.js:6
+msgid "img[usemap='#"
+msgstr ""
+
+#: ../assets/js/jquery-ui/jquery-ui.min.js:7
+msgid ":data(ui-draggable)"
+msgstr ""
+
+#: ../assets/js/packery/packery.pkgd.min.js:14
+msgid "transform"
+msgstr ""
+
+#: ../assets/js/youtube/jquery.tube.min.js:2
+msgid "#"
+msgstr ""
+
+#: ../assets/js/youtube/jquery.tube.min.js:2
+#, fuzzy
+#| msgid "Description"
+msgid "script:first"
+msgstr "Descripció"
+
+#: ../assets/js/youtube/jquery.tube.min.js:2
+msgid "a[rel]"
+msgstr ""
+
+#: ../comments.php:22
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:46
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:52 ../include/functions.php:202
+msgid "Previous"
+msgstr ""
+
+#: ../comments.php:53 ../include/functions.php:201
+msgid "Next"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: ../include/acf_options.php:13 ../include/acf_options.php:14
+#: ../include/acf_options.php:22
+msgid "Theme Settings"
+msgstr "Configuració del tema"
+
+#: ../include/acf_options.php:54 ../include/customizer/kirki_options.php:49
+#, fuzzy
+#| msgid "Theme Settings"
+msgid "Settings"
+msgstr "Configuració del tema"
+
+#: ../include/acf_options.php:60
+msgid "Enable Advanced Custom Fields Admin Page"
+msgstr ""
+
+#: ../include/acf_options.php:101
+#: ../posttypes/posttypes/authors/authors.class.php:215
+#: ../posttypes/posttypes/authors/authors.class.php:220
+#, fuzzy
+#| msgid "Social icons"
+msgid "Social Networks"
+msgstr "Icones socials"
+
+#: ../include/acf_options.php:138
+msgid "Enter the full URL of the Facebook page or profile."
+msgstr ""
+
+#: ../include/acf_options.php:154
+msgid "Enter the Twitter username, with the preceding @."
+msgstr ""
+
+#: ../include/acf_options.php:173
+msgid "Enter the Instagram username, with the preceding @."
+msgstr ""
+
+#: ../include/acf_options.php:192
+msgid "Enter the full URL of the LinkedIn profile."
+msgstr ""
+
+#: ../include/acf_options.php:211
+msgid "Enter the full URL of the Wikipedia page."
+msgstr ""
+
+#: ../include/acf_options.php:255 ../include/customizer/kirki_options.php:361
+#: ../posttypes/posttypes/performances/performances.class.php:56
+#: ../posttypes/posttypes/projects/projects.class.php:30
+#, fuzzy
+#| msgid "Image Type"
+msgid "Image Gallery"
+msgstr "Tipus d'imatge"
+
+#: ../include/acf_options.php:259 ../include/functions.php:348
+msgid "Images"
+msgstr "Imatges"
+
+#: ../include/acf_options.php:285
+#, fuzzy
+#| msgid "Header Layout"
+msgid "Layout"
+msgstr "Tipus de capçalera"
+
+#: ../include/acf_options.php:297
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:49
+#, fuzzy
+#| msgid "Articles"
+msgid "Vertical"
+msgstr "Articles"
+
+#: ../include/acf_options.php:298
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:48
+msgid "Horizontal"
+msgstr ""
+
+#: ../include/acf_options.php:299 ../include/customizer/kirki_options.php:1987
+#: ../include/customizer/kirki_options.php:2368
+#: ../include/customizer/kirki_options.php:2692
+msgid "Grid"
+msgstr "Graella"
+
+#: ../include/acf_options.php:301
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:24
+msgid "Slider"
+msgstr ""
+
+#: ../include/acf_options.php:315 ../include/acf_options.php:1163
+#: ../include/customizer/kirki_options.php:956
+#: ../include/customizer/kirki_options.php:1601
+#: ../include/sowidgets/carrot-postswidget.class.php:301
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:68
+msgid "Columns"
+msgstr "Columnes"
+
+#: ../include/acf_options.php:348
+msgid "Gutter"
+msgstr ""
+
+#: ../include/acf_options.php:359 ../include/customizer/kirki_options.php:17
+#: ../include/sowidgets/carrot-sowidgets-setup.php:107
+#: ../include/sowidgets/carrot-sowidgets-setup.php:134
+#: ../include/sowidgets/carrot-sowidgets-setup.php:201
+#: ../include/sowidgets/carrot-sowidgets-setup.php:457
+#: ../include/sowidgets/carrot-sowidgets-setup.php:658
+#: ../posttypes/posttypes/projects/projects.class.php:231
+msgid "None"
+msgstr "Cap"
+
+#: ../include/acf_options.php:360 ../include/customizer/kirki_options.php:18
+msgid "1px"
+msgstr ""
+
+#: ../include/acf_options.php:361 ../include/customizer/kirki_options.php:19
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:74
+#, fuzzy
+#| msgid "Small Gap"
+msgid "Small"
+msgstr "Espai en blanc petit"
+
+#: ../include/acf_options.php:362 ../include/customizer/kirki_options.php:20
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:75
+msgid "Medium"
+msgstr ""
+
+#: ../include/acf_options.php:363 ../include/customizer/kirki_options.php:21
+#, fuzzy
+#| msgid "Bio"
+msgid "Big"
+msgstr "Biografia"
+
+#: ../include/acf_options.php:377 ../include/customizer/kirki_options.php:976
+#: ../include/customizer/kirki_options.php:2209
+#: ../include/customizer/kirki_options.php:2592
+#, fuzzy
+#| msgid "Thumbnail"
+msgid "Thumbnail size"
+msgstr "Miniatura"
+
+#: ../include/acf_options.php:410
+msgid "Use lightbox"
+msgstr ""
+
+#: ../include/acf_options.php:424
+#, fuzzy
+#| msgid "Images"
+msgid "Images border"
+msgstr "Imatges"
+
+#: ../include/acf_options.php:511 ../include/acf_options.php:1041
+#: ../include/posttypes/customposttype.class.php:738
+#, fuzzy
+#| msgid "Grid Columns"
+msgid "Grid columns"
+msgstr "Columnes de la graella"
+
+#: ../include/acf_options.php:513
+#, fuzzy
+#| msgid "Page display options"
+msgid "For images displayed in grids"
+msgstr "Opcions de visualització de la pàgina"
+
+#: ../include/acf_options.php:561
+msgid "Sidebar display"
+msgstr "Visualització de la barra lateral"
+
+#: ../include/acf_options.php:572 ../include/customizer/kirki_options.php:2016
+#: ../include/customizer/kirki_options.php:2403
+#: ../include/customizer/kirki_options.php:2736
+msgid "No sidebar"
+msgstr "Sense barra lateral"
+
+#: ../include/acf_options.php:573 ../include/customizer/kirki_options.php:2017
+#: ../include/customizer/kirki_options.php:2404
+#: ../include/customizer/kirki_options.php:2737
+msgid "Left sidebar"
+msgstr "Barra lateral a l'esquerra"
+
+#: ../include/acf_options.php:574 ../include/customizer/kirki_options.php:2018
+#: ../include/customizer/kirki_options.php:2405
+#: ../include/customizer/kirki_options.php:2738
+msgid "Right sidebar"
+msgstr "Barra lateral a la dreta"
+
+#: ../include/acf_options.php:575 ../include/customizer/kirki_options.php:2019
+#: ../include/customizer/kirki_options.php:2406
+msgid "Bottom bar"
+msgstr "Barra lateral a sota"
+
+#: ../include/acf_options.php:590 ../include/customizer/kirki_options.php:2037
+#: ../include/customizer/kirki_options.php:2424
+msgid "Sidebar Columns"
+msgstr "Columnes de la barra lateral"
+
+#: ../include/acf_options.php:622
+msgid "Page display options"
+msgstr "Opcions de visualització de la pàgina"
+
+#: ../include/acf_options.php:634
+msgid "Site Defaults"
+msgstr "Per defecte"
+
+#: ../include/acf_options.php:635
+msgid "Custom options for this page"
+msgstr "Personalitzar per aquesta pàgina"
+
+#: ../include/acf_options.php:650
+msgid "Custom display options"
+msgstr "Opcions de visualització personalitzades"
+
+#: ../include/acf_options.php:670 ../include/customizer/kirki_options.php:1002
+msgid "Show Header"
+msgstr "Mostrar la capçalera"
+
+#: ../include/acf_options.php:671 ../include/customizer/kirki_options.php:1503
+msgid "Sticky Header"
+msgstr "Capçalera enganxifosa"
+
+#: ../include/acf_options.php:672
+msgid "Show Page Title"
+msgstr "Mostrar el títol de la pàgina"
+
+#: ../include/acf_options.php:673 ../include/customizer/kirki_options.php:2324
+#: ../include/posttypes/customposttype.class.php:554
+#, fuzzy
+#| msgid "Show Header"
+msgid "Show Breadcrumb"
+msgstr "Mostrar la capçalera"
+
+#: ../include/acf_options.php:674
+msgid "Show Footer"
+msgstr "Mostrar el peu de pàgina"
+
+#: ../include/acf_options.php:688
+msgid "Header Layout"
+msgstr "Tipus de capçalera"
+
+#: ../include/acf_options.php:699 ../include/customizer/kirki_options.php:1517
+msgid "Default header"
+msgstr "Per defecte"
+
+#: ../include/acf_options.php:700 ../include/customizer/kirki_options.php:1026
+msgid "Selected header"
+msgstr "Triar un disseny de capçalera"
+
+#: ../include/acf_options.php:772
+msgid "Sticky Header Style"
+msgstr "Estil de la capçalera fixa"
+
+#: ../include/acf_options.php:797
+#, fuzzy
+#| msgid "Default header"
+msgid "Default sticky header"
+msgstr "Per defecte"
+
+#: ../include/acf_options.php:798 ../include/customizer/kirki_options.php:1531
+#, fuzzy
+#| msgid "Selected header"
+msgid "Selected sticky header"
+msgstr "Triar un disseny de capçalera"
+
+#: ../include/acf_options.php:857
+#, fuzzy
+#| msgid "Header Layout"
+msgid "Footer Layout"
+msgstr "Tipus de capçalera"
+
+#: ../include/acf_options.php:882
+#, fuzzy
+#| msgid "Default header"
+msgid "Default footer"
+msgstr "Per defecte"
+
+#: ../include/acf_options.php:883 ../include/customizer/kirki_options.php:1578
+#, fuzzy
+#| msgid "Selected header"
+msgid "Selected footer"
+msgstr "Triar un disseny de capçalera"
+
+#: ../include/acf_options.php:971
+#, fuzzy
+#| msgid "Articles"
+msgid "Article fields"
+msgstr "Articles"
+
+#: ../include/acf_options.php:975
+msgid "Summary"
+msgstr "Entradeta"
+
+#: ../include/acf_options.php:1013 ../include/customizer/kirki_options.php:2310
+#, fuzzy
+#| msgid "Post Type Image"
+msgid "Post Template"
+msgstr "Icona del format de l'entrada"
+
+#: ../include/acf_options.php:1017
+#: ../include/posttypes/customposttype.class.php:540
+#: ../include/posttypes/customposttype.class.php:712
+#: ../include/posttypes/customposttype.class.php:716
+msgid "Template"
+msgstr ""
+
+#: ../include/acf_options.php:1043
+msgid "For articles displayed in grids"
+msgstr ""
+
+#: ../include/acf_options.php:1065 ../include/customizer/kirki_options.php:2344
+#: ../posttypes/posttypes/authors/authors.class.php:338
+#: ../posttypes/posttypes/performances/performances.class.php:173
+#: ../posttypes/posttypes/projects/projects.class.php:36
+#: ../posttypes/posttypes/projects/projects.class.php:537
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Show featured image"
+msgstr "Imatge destacada"
+
+#: ../include/acf_options.php:1077
+#: ../posttypes/posttypes/projects/projects.class.php:49
+#, php-format
+msgid "Defined by theme (%s)"
+msgstr ""
+
+#: ../include/acf_options.php:1077 ../include/acf_options.php:1078
+#: ../posttypes/posttypes/projects/projects.class.php:49
+#: ../posttypes/posttypes/projects/projects.class.php:50
+#, fuzzy
+#| msgid "Show ADs"
+msgid "Show"
+msgstr "Mostrar Publicitat"
+
+#: ../include/acf_options.php:1077 ../include/acf_options.php:1079
+#: ../posttypes/posttypes/projects/projects.class.php:49
+#: ../posttypes/posttypes/projects/projects.class.php:51
+msgid "Hide"
+msgstr ""
+
+#: ../include/acf_options.php:1087
+#: ../posttypes/posttypes/projects/projects.class.php:59
+msgid ""
+"Shows the featured image, only if supported by the selected template. This "
+"option overrides the global configuration"
+msgstr ""
+
+#: ../include/acf_options.php:1115
+msgid "Article Options"
+msgstr "Opcions de l'article"
+
+#: ../include/acf_options.php:1119
+msgid "Drop Cap"
+msgstr "Capitular Inicial"
+
+#: ../include/acf_options.php:1122
+msgid "Check to highlight the article first letter"
+msgstr "Marcar-ho per fer la primera lletra Capitular"
+
+#: ../include/acf_options.php:1133
+msgid "Hyphenate"
+msgstr "Separar el contingut amb guionets"
+
+#: ../include/acf_options.php:1136
+msgid "Check to hyphen content ends of lines"
+msgstr "Marcar-ho per separar el contingut amb guionets"
+
+#: ../include/acf_options.php:1148
+msgid "Columnize"
+msgstr "Distribuir en columnes"
+
+#: ../include/acf_options.php:1151
+msgid "Check to distribute content in columns"
+msgstr "Marcar-ho per distribuir el contingut en columnes"
+
+#: ../include/carrot_options.php:23 ../include/carrot_options.php:24
+msgid "Carrot"
+msgstr ""
+
+#: ../include/carrot_options.php:34 ../include/carrot_options.php:35
+msgid "Developer"
+msgstr ""
+
+#: ../include/carrot_options.php:60 ../include/carrot_options.php:516
+msgid "Shortcodes"
+msgstr ""
+
+#: ../include/carrot_options.php:61 ../include/carrot_options.php:167
+#: ../include/carrot_options.php:420
+#: ../include/posttypes/customposttype.class.php:853
+#, fuzzy
+#| msgid "Show Options"
+msgid "Options"
+msgstr "Opcions de visualització"
+
+#: ../include/carrot_options.php:62
+#, fuzzy
+#| msgid "Customized"
+msgid "Customizer"
+msgstr "Personalitzada"
+
+#: ../include/carrot_options.php:112
+msgid "Welcome to Carrot! Enjoy :)"
+msgstr ""
+
+#: ../include/carrot_options.php:164
+msgid "Slug"
+msgstr ""
+
+#: ../include/carrot_options.php:165 ../include/carrot_options.php:189
+#: ../include/carrot_options.php:336 ../include/carrot_options.php:384
+msgid "Label"
+msgstr ""
+
+#: ../include/carrot_options.php:166 ../include/carrot_options.php:337
+#: ../include/carrot_options.php:385
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: ../include/carrot_options.php:168
+#, fuzzy
+#| msgid "Site Defaults"
+msgid "Default"
+msgstr "Per defecte"
+
+#: ../include/carrot_options.php:169
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:61
+#: ../posttypes/posttypes/performances/performances.class.php:137
+#: ../posttypes/posttypes/projects/projects.class.php:178
+msgid "Value"
+msgstr ""
+
+#: ../include/carrot_options.php:170 ../include/carrot_options.php:338
+msgid "Code"
+msgstr ""
+
+#: ../include/carrot_options.php:188 ../include/carrot_options.php:335
+#: ../include/carrot_options.php:383 ../include/carrot_options.php:521
+#: ../include/sowidgets/carrot-postswidget.class.php:236
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:57
+#: ../posttypes/posttypes/performances/performances.class.php:130
+#: ../posttypes/posttypes/projects/projects.class.php:171
+msgid "Name"
+msgstr "Nom"
+
+#: ../include/carrot_options.php:378
+msgid "Subfields"
+msgstr ""
+
+#: ../include/carrot_options.php:462
+msgid "Global"
+msgstr ""
+
+#: ../include/carrot_options.php:602
+msgid "Choose a style preset"
+msgstr ""
+
+#: ../include/carrot_posttypes.php:7
+#: ../include/posttypes/customposttype.class.php:340
+#: ../include/sowidgets/carrot-postswidget.class.php:266
+msgid "Featured Image"
+msgstr "Imatge destacada"
+
+#: ../include/carrot_starter-content.php:15 ../include/functions.php:1163
+msgid "Home"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:16
+msgid "This is home page placeholder. Welcome!"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:23
+#: ../include/customizer/kirki_options.php:1974
+msgid "Blog"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:24
+msgid ""
+"This is blog page placeholder. Anything you enter here will not appear in "
+"the front end, except for search results pages."
+msgstr ""
+
+#: ../include/carrot_starter-content.php:29
+#, fuzzy
+#| msgid "Header align"
+msgid "Header Sample"
+msgstr "Alineació de la capçalera"
+
+#: ../include/carrot_starter-content.php:30
+msgid "This is a header sample"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:35
+#, fuzzy
+#| msgid "Footer Menu"
+msgid "Footer Sample"
+msgstr "Menú del peu"
+
+#: ../include/carrot_starter-content.php:36
+msgid "This is a footer sample"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:20
+#, php-format
+msgid "Page %s"
+msgstr "Pàgines %s"
+
+#: ../include/carrot_template_functions.php:45
+#, fuzzy
+#| msgid "Newer posts"
+msgid "Newer articles"
+msgstr "Més nous"
+
+#: ../include/carrot_template_functions.php:48
+#, fuzzy
+#| msgid "Published articles"
+msgid "Older articles"
+msgstr "Articles publicats"
+
+#: ../include/carrot_template_functions.php:142
+#, php-format
+msgid "Read %s time"
+msgid_plural "Read %s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/carrot_template_functions.php:160
+msgid "comments"
+msgstr "comentaris"
+
+#: ../include/carrot_template_functions.php:174
+msgid "likes"
+msgstr "m'agrada"
+
+#: ../include/carrot_template_functions.php:243 ../include/functions.php:855
+#: ../include/sowidgets/carrot-postswidget.class.php:251
+msgid "Text: "
+msgstr "Text:"
+
+#: ../include/carrot_template_functions.php:1150
+#, fuzzy
+#| msgid "Older posts"
+msgid "Related posts"
+msgstr "Més antics"
+
+#: ../include/customizer/controls/kirki-icons.php:97
+msgid "Search icons..."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:7
+#: ../include/customizer/kirki_options.php:38
+msgid "Logo"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:8
+msgid "Site title"
+msgstr "Títol del lloc"
+
+#: ../include/customizer/kirki_options.php:9
+#, fuzzy
+#| msgid "Description"
+msgid "Site description"
+msgstr "Descripció"
+
+#: ../include/customizer/kirki_options.php:10
+#: ../include/customizer/kirki_options.php:1755
+msgid "Contact info"
+msgstr "Informació de contacte"
+
+#: ../include/customizer/kirki_options.php:11
+#: ../include/customizer/kirki_options.php:1756
+msgid "Social icons"
+msgstr "Icones socials"
+
+#: ../include/customizer/kirki_options.php:12
+#: ../include/customizer/kirki_options.php:1757
+msgid "Menu"
+msgstr "Menú"
+
+#: ../include/customizer/kirki_options.php:13
+#: ../include/customizer/kirki_options.php:176 ../searchform.php:10
+#: ../templates/search/search-box.php:6
+msgid "Search"
+msgstr "Buscar"
+
+#: ../include/customizer/kirki_options.php:26
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:44
+#, fuzzy
+#| msgid "Theme Settings"
+msgid "Carrot Settings"
+msgstr "Configuració del tema"
+
+#: ../include/customizer/kirki_options.php:45
+#, fuzzy
+#| msgid "Customize site colors and text fonts."
+msgid "Customize site settings, colors, icons and text fonts."
+msgstr "Personalitza els colors i tipografies del lloc"
+
+#: ../include/customizer/kirki_options.php:53
+#: ../include/customizer/kirki_options.php:2780
+#, fuzzy
+#| msgid "Full width?"
+msgid "Full width"
+msgstr "Toda l'amplada de la finestra?"
+
+#: ../include/customizer/kirki_options.php:58
+msgid "Container max width"
+msgstr "Amplada màxima del contenidor"
+
+#: ../include/customizer/kirki_options.php:82
+#, fuzzy
+#| msgid "Show Page Title"
+msgid "Show pages title"
+msgstr "Mostrar el títol de la pàgina"
+
+#: ../include/customizer/kirki_options.php:87
+#: ../include/customizer/kirki_options.php:2708
+#: ../include/customizer/kirki_options.php:2790
+#, fuzzy
+#| msgid "Show Header"
+msgid "Show breadcrumb"
+msgstr "Mostrar la capçalera"
+
+#: ../include/customizer/kirki_options.php:92
+msgid "Use AJAX search"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:102
+#, fuzzy
+#| msgid "Icon"
+msgid "Icons"
+msgstr "Icona"
+
+#: ../include/customizer/kirki_options.php:111
+msgid "Icons size"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:136
+#, fuzzy
+#| msgid "From right"
+msgid "Arrow right"
+msgstr "Des de la dreta"
+
+#: ../include/customizer/kirki_options.php:141
+#, fuzzy
+#| msgid "From left"
+msgid "Arrow left"
+msgstr "Des de l'esquerra"
+
+#: ../include/customizer/kirki_options.php:146
+msgid "Arrow up"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:151
+msgid "Arrow down"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:156
+#: ../include/customizer/kirki_options.php:216
+msgid "Angle left"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:161
+#: ../include/customizer/kirki_options.php:221
+msgid "Angle right"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:166
+msgid "Angle up"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:171
+msgid "Angle down"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:181
+#: ../include/customizer/kirki_options.php:1284
+msgid "Plus"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:186
+msgid "Minus"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:191
+msgid "Close"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:196
+#, fuzzy
+#| msgid "Show Categories"
+msgid "Category"
+msgstr "Mostrar categories"
+
+#: ../include/customizer/kirki_options.php:201
+#, fuzzy
+#| msgid "Tags"
+msgid "Tag"
+msgstr "Etiquetes"
+
+#: ../include/customizer/kirki_options.php:206
+#: ../include/sowidgets/carrot-postswidget.class.php:146
+#: ../include/sowidgets/carrot-postswidget.class.php:465
+#: ../posttypes/posttypes/performances/performances.class.php:48
+msgid "Date"
+msgstr "Data"
+
+#: ../include/customizer/kirki_options.php:211
+msgid "Time"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:226
+msgid "Email"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:231
+msgid "Web"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:236
+msgid "Phone"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:241
+#: ../include/sowidgets/carrot-postswidget.class.php:239
+msgid "Twitter"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:246
+#, fuzzy
+#| msgid "Facebook URL"
+msgid "Facebook"
+msgstr "URL del Facebook"
+
+#: ../include/customizer/kirki_options.php:251
+msgid "Instagram"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:256
+#, fuzzy
+#| msgid "LinkedIn URL"
+msgid "Linkedin"
+msgstr "URL de LinkedIn"
+
+#: ../include/customizer/kirki_options.php:261
+msgid "Youtube"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:266
+#, fuzzy
+#| msgid "Google + URL"
+msgid "Google+"
+msgstr "URL de Google +"
+
+#: ../include/customizer/kirki_options.php:271
+msgid "Flickr"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:276
+msgid "Pinterest"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:281
+msgid "Wikipedia"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:286
+#: ../presets/bookstore/class-bookstore-woocommerce.php:636
+msgid "Download"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:291 ../include/functions.php:203
+#, fuzzy
+#| msgid "Loading..."
+msgid "Loading"
+msgstr "Carregant..."
+
+#: ../include/customizer/kirki_options.php:296
+#: ../include/sowidgets/carrot-postswidget.class.php:339
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:92
+msgid "Zoom"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:301
+msgid "Hand pointing"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:306
+#, fuzzy
+#| msgid "Comments"
+msgid "Comment "
+msgstr "Comentaris"
+
+#: ../include/customizer/kirki_options.php:311
+msgid "Comment (not empty)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:316
+#, fuzzy
+#| msgid "Pagination"
+msgid "Pagination Item"
+msgstr "Paginació"
+
+#: ../include/customizer/kirki_options.php:321
+msgid "Shopping Cart (empty)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:326
+msgid "Shopping Cart (full)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:331
+msgid "Double quote left"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:336
+msgid "Double quote right"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:341
+#: ../presets/bookstore/class-bookstore-woocommerce.php:216
+msgid "Award"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:346
+msgid "Map marker"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:351
+#, fuzzy
+#| msgid "Sidebar display"
+msgid "Video play"
+msgstr "Visualització de la barra lateral"
+
+#: ../include/customizer/kirki_options.php:356
+msgid "Music"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:367
+#: ../presets/bookstore/class-bookstore-woocommerce.php:247
+#, fuzzy
+#| msgid "Theme Colors"
+msgid "Colors"
+msgstr "Colors del tema"
+
+#: ../include/customizer/kirki_options.php:371
+msgid "Body BG Color"
+msgstr "Color de fons de la pàgina"
+
+#: ../include/customizer/kirki_options.php:398
+msgid "Body Text Color"
+msgstr "Color de text de la pàgina"
+
+#: ../include/customizer/kirki_options.php:432
+msgid "Body Strong Color"
+msgstr "Color de resalt de la pàgina"
+
+#: ../include/customizer/kirki_options.php:443
+msgid "Borders & Separators Color"
+msgstr "Color de les vore si separadors"
+
+#: ../include/customizer/kirki_options.php:518
+#: ../include/sowidgets/fields/themecolor.class.php:30
+msgid "Primary Color"
+msgstr "Color primari"
+
+#: ../include/customizer/kirki_options.php:639
+msgid "Text color Over Primary"
+msgstr "Color de text sobre color primari"
+
+#: ../include/customizer/kirki_options.php:691
+#: ../include/sowidgets/fields/themecolor.class.php:31
+msgid "Alternate Color"
+msgstr "Color alternatiu"
+
+#: ../include/customizer/kirki_options.php:769
+msgid "Text color Over Alternate"
+msgstr "Color de text sobre color alternatiu"
+
+#: ../include/customizer/kirki_options.php:809
+#, fuzzy
+#| msgid "Text typography"
+msgid "Typography "
+msgstr "Tipografia del text"
+
+#: ../include/customizer/kirki_options.php:813
+msgid "Text typography"
+msgstr "Tipografia del text"
+
+#: ../include/customizer/kirki_options.php:834
+msgid "Headings typography"
+msgstr "Tipografia de les capçaleres"
+
+#: ../include/customizer/kirki_options.php:862
+#, fuzzy
+#| msgid "Header"
+msgid "Preloader "
+msgstr "Capçalera"
+
+#: ../include/customizer/kirki_options.php:865
+#, fuzzy
+#| msgid "Show Header"
+msgid "Show preloader"
+msgstr "Mostrar la capçalera"
+
+#: ../include/customizer/kirki_options.php:870
+msgid "Show main logo in preloader"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:883
+#, fuzzy
+#| msgid "Show Content"
+msgid "Show loading text"
+msgstr "Mostra contingut"
+
+#: ../include/customizer/kirki_options.php:897
+#, fuzzy
+#| msgid "Custom color"
+msgid "Custom preloader text"
+msgstr "Personalitzat"
+
+#: ../include/customizer/kirki_options.php:913
+#, fuzzy
+#| msgid "Custom options for this page"
+msgid "Custom preloader image"
+msgstr "Personalitzar per aquesta pàgina"
+
+#: ../include/customizer/kirki_options.php:926
+msgid "Related"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:927
+#, fuzzy
+#| msgid "Customize header display options "
+msgid "Customize all related articles sections"
+msgstr "Personalitzar les opcions de visualització de la capçalera"
+
+#: ../include/customizer/kirki_options.php:930
+#, fuzzy
+#| msgid "Articles"
+msgid "Articles count"
+msgstr "Articles"
+
+#: ../include/customizer/kirki_options.php:940
+#, fuzzy
+#| msgid "Show Thumbnail"
+msgid "Show title under thumbnail"
+msgstr "Mostrar miniatura"
+
+#: ../include/customizer/kirki_options.php:945
+#, fuzzy
+#| msgid "Show Thumbnail"
+msgid "Show title on hover thumbnail"
+msgstr "Mostrar miniatura"
+
+#: ../include/customizer/kirki_options.php:950
+#, fuzzy
+#| msgid "Show Thumbnail"
+msgid "Show excerpt under thumbnail"
+msgstr "Mostrar miniatura"
+
+#: ../include/customizer/kirki_options.php:966
+#, fuzzy
+#| msgid "Thumbnail Columns"
+msgid "Mobile columns"
+msgstr "Columnes que ocupa la miniatura (1 a 12)"
+
+#: ../include/customizer/kirki_options.php:983
+#, fuzzy
+#| msgid "No separation"
+msgid "Separation"
+msgstr "Cap separació"
+
+#: ../include/customizer/kirki_options.php:997
+#: ../include/sowidgets/carrot-basewidget.class.php:560
+msgid "Header"
+msgstr "Capçalera"
+
+#: ../include/customizer/kirki_options.php:998
+msgid "Customize header display options "
+msgstr "Personalitzar les opcions de visualització de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1009
+msgid "Header layout"
+msgstr "Disposició de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1012
+#: ../include/customizer/kirki_options.php:1228
+#: ../include/customizer/kirki_options.php:1564
+msgid "Theme default"
+msgstr "Per defecte"
+
+#: ../include/customizer/kirki_options.php:1013
+#: ../include/customizer/kirki_options.php:1229
+#: ../include/customizer/kirki_options.php:1518
+#: ../include/customizer/kirki_options.php:1565
+msgid "Customized"
+msgstr "Personalitzada"
+
+#: ../include/customizer/kirki_options.php:1027
+#: ../include/customizer/kirki_options.php:1243
+#: ../include/sowidgets/widgets/carrot-block/carrot-block.php:48
+#, fuzzy
+#| msgid ""
+#| "You can create your custom Headers in the \"headers\" section of the "
+#| "Wordpress Dashboard."
+msgid ""
+"You can create your custom Blocks in the \"blocks\" section of the Wordpress "
+"Dashboard."
+msgstr ""
+"Pots crear caçaleres personalitzades a l'apartat \"Capçaleres\" de "
+"l'Escriptori de Wordpress."
+
+#: ../include/customizer/kirki_options.php:1046
+msgid "Header align"
+msgstr "Alineació de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1049
+#: ../include/customizer/kirki_options.php:1265
+#: ../include/customizer/kirki_options.php:2190
+#: ../include/customizer/kirki_options.php:2572
+#: ../include/sowidgets/carrot-postswidget.class.php:205
+#: ../include/sowidgets/carrot-postswidget.class.php:289
+#: ../include/sowidgets/carrot-postswidget.class.php:430
+#: ../include/sowidgets/carrot-postswidget.class.php:502
+#: ../include/sowidgets/fields/dimensions.class.php:54
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:43
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:97
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:71
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:158
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:57
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:133
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:57
+#: ../posttypes/posttypes/projects/projects.class.php:407
+msgid "Left"
+msgstr "Esquerra"
+
+#: ../include/customizer/kirki_options.php:1050
+#: ../include/sowidgets/carrot-postswidget.class.php:206
+#: ../include/sowidgets/carrot-postswidget.class.php:431
+#: ../include/sowidgets/carrot-postswidget.class.php:503
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:44
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:72
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:83
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:159
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:170
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:58
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:134
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:58
+#: ../posttypes/posttypes/projects/projects.class.php:408
+#: ../posttypes/posttypes/projects/projects.class.php:437
+msgid "Center"
+msgstr "Centre"
+
+#: ../include/customizer/kirki_options.php:1051
+#: ../include/customizer/kirki_options.php:1266
+#: ../include/customizer/kirki_options.php:2191
+#: ../include/customizer/kirki_options.php:2573
+#: ../include/sowidgets/carrot-postswidget.class.php:207
+#: ../include/sowidgets/carrot-postswidget.class.php:290
+#: ../include/sowidgets/carrot-postswidget.class.php:432
+#: ../include/sowidgets/carrot-postswidget.class.php:504
+#: ../include/sowidgets/fields/dimensions.class.php:52
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:45
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:98
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:73
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:160
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:59
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:135
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:59
+#: ../posttypes/posttypes/projects/projects.class.php:409
+msgid "Right"
+msgstr "Dreta"
+
+#: ../include/customizer/kirki_options.php:1069
+msgid "Full width header?"
+msgstr "La capçalera ocupa tot l'ample?"
+
+#: ../include/customizer/kirki_options.php:1088
+#: ../include/customizer/kirki_options.php:1391
+#: ../include/customizer/kirki_options.php:1751
+msgid "Show Options"
+msgstr "Opcions de visualització"
+
+#: ../include/customizer/kirki_options.php:1106
+msgid "Header color"
+msgstr "Color de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1110
+#: ../include/customizer/kirki_options.php:1413
+#: ../include/customizer/kirki_options.php:1648
+#: ../include/customizer/kirki_options.php:1784
+msgid "Primary color"
+msgstr "Color primari"
+
+#: ../include/customizer/kirki_options.php:1111
+#: ../include/customizer/kirki_options.php:1414
+#: ../include/customizer/kirki_options.php:1649
+#: ../include/customizer/kirki_options.php:1785
+msgid "Primary color inverse"
+msgstr "Color primari invertit"
+
+#: ../include/customizer/kirki_options.php:1112
+#: ../include/customizer/kirki_options.php:1415
+#: ../include/customizer/kirki_options.php:1650
+#: ../include/customizer/kirki_options.php:1786
+msgid "Alternate color"
+msgstr "Color alternatiu"
+
+#: ../include/customizer/kirki_options.php:1113
+#: ../include/customizer/kirki_options.php:1416
+#: ../include/customizer/kirki_options.php:1651
+#: ../include/customizer/kirki_options.php:1787
+msgid "Alternate color inverse"
+msgstr "Color alternatiu invertit"
+
+#: ../include/customizer/kirki_options.php:1114
+#: ../include/customizer/kirki_options.php:1417
+#: ../include/customizer/kirki_options.php:1652
+#: ../include/customizer/kirki_options.php:1788
+#: ../include/sowidgets/carrot-basewidget.class.php:15
+#: ../include/sowidgets/carrot-sowidgets-setup.php:13
+#: ../include/sowidgets/fields/themecolor.class.php:33
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:65
+msgid "White"
+msgstr "Blanc"
+
+#: ../include/customizer/kirki_options.php:1115
+#: ../include/customizer/kirki_options.php:1418
+#: ../include/customizer/kirki_options.php:1653
+#: ../include/customizer/kirki_options.php:1789
+#: ../include/sowidgets/carrot-basewidget.class.php:16
+#: ../include/sowidgets/carrot-sowidgets-setup.php:14
+#: ../include/sowidgets/fields/themecolor.class.php:34
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:64
+msgid "Black"
+msgstr "Negre"
+
+#: ../include/customizer/kirki_options.php:1116
+#: ../include/customizer/kirki_options.php:1419
+#: ../include/customizer/kirki_options.php:1654
+#: ../include/customizer/kirki_options.php:1790
+msgid "Custom color"
+msgstr "Personalitzat"
+
+#: ../include/customizer/kirki_options.php:1134
+msgid "Header custom BG color"
+msgstr "Color de fons personalitzat de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1164
+msgid "Header custom text color"
+msgstr "Color de text personalitzat de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1214
+msgid "Mobile drawer"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1218
+#, fuzzy
+#| msgid "Show Header"
+msgid "Show Mobile drawer "
+msgstr "Mostrar la capçalera"
+
+#: ../include/customizer/kirki_options.php:1225
+#, fuzzy
+#| msgid "Header layout"
+msgid "Drawer layout"
+msgstr "Disposició de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1242
+#, fuzzy
+#| msgid "Selected header"
+msgid "Selected drawer"
+msgstr "Triar un disseny de capçalera"
+
+#: ../include/customizer/kirki_options.php:1262
+msgid "Phone Menu position"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1280
+msgid "Phone Menu opener style"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1283
+msgid "Hamburguer"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1296
+msgid "Opener size"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1325
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:40
+msgid "Width"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1350
+#, fuzzy
+#| msgid "Theme Background color"
+msgid "Show background overlay"
+msgstr "Color de fons del tema"
+
+#: ../include/customizer/kirki_options.php:1361
+#, fuzzy
+#| msgid "Opacity"
+msgid "Overlay opacity"
+msgstr "Opacitat"
+
+#: ../include/customizer/kirki_options.php:1409
+#, fuzzy
+#| msgid "Theme Colors"
+msgid "Phone menu color"
+msgstr "Colors del tema"
+
+#: ../include/customizer/kirki_options.php:1432
+#, fuzzy
+#| msgid "Header custom BG color"
+msgid "Phone Menu custom BG color"
+msgstr "Color de fons personalitzat de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1463
+#, fuzzy
+#| msgid "Header custom text color"
+msgid "Phone Menu custom text color"
+msgstr "Color de text personalitzat de la capçalera"
+
+#: ../include/customizer/kirki_options.php:1507
+msgid "Show Sticky Header"
+msgstr "Mostrar la capçalera enganxifosa"
+
+#: ../include/customizer/kirki_options.php:1514
+#, fuzzy
+#| msgid "Sticky header color"
+msgid "Sticky header layout"
+msgstr "Color de la capçalera enganxifosa"
+
+#: ../include/customizer/kirki_options.php:1532
+#, fuzzy
+#| msgid ""
+#| "You can create your custom Headers in the \"headers\" section of the "
+#| "Wordpress Dashboard."
+msgid ""
+"You can create your custom Sticky Headers in the \"blocks\" section of the "
+"Wordpress Dashboard."
+msgstr ""
+"Pots crear caçaleres personalitzades a l'apartat \"Capçaleres\" de "
+"l'Escriptori de Wordpress."
+
+#: ../include/customizer/kirki_options.php:1551
+msgid "Footer"
+msgstr "Peu"
+
+#: ../include/customizer/kirki_options.php:1554
+msgid "Show footer?"
+msgstr "Mostrar peu?"
+
+#: ../include/customizer/kirki_options.php:1561
+#, fuzzy
+#| msgid "Footer color"
+msgid "Footer layout"
+msgstr "Color del peu"
+
+#: ../include/customizer/kirki_options.php:1579
+#, fuzzy
+#| msgid ""
+#| "You can create your custom Headers in the \"headers\" section of the "
+#| "Wordpress Dashboard."
+msgid ""
+"You can create your custom Footers in the \"blocks\" section of the "
+"Wordpress Dashboard."
+msgstr ""
+"Pots crear caçaleres personalitzades a l'apartat \"Capçaleres\" de "
+"l'Escriptori de Wordpress."
+
+#: ../include/customizer/kirki_options.php:1595
+msgid "Show back to top button?"
+msgstr "Mostrar botó de tornar a dalt de tot"
+
+#: ../include/customizer/kirki_options.php:1604
+msgid "One"
+msgstr "Una"
+
+#: ../include/customizer/kirki_options.php:1605
+msgid "Two"
+msgstr "Dues"
+
+#: ../include/customizer/kirki_options.php:1606
+msgid "Three"
+msgstr "Tres"
+
+#: ../include/customizer/kirki_options.php:1607
+msgid "Four"
+msgstr "Quatre"
+
+#: ../include/customizer/kirki_options.php:1625
+#, fuzzy
+#| msgid "Full width header?"
+msgid "Full width footer?"
+msgstr "La capçalera ocupa tot l'ample?"
+
+#: ../include/customizer/kirki_options.php:1644
+msgid "Footer color"
+msgstr "Color del peu"
+
+#: ../include/customizer/kirki_options.php:1672
+msgid "Footer custom BG color"
+msgstr "Color de fons personalitzat del peu"
+
+#: ../include/customizer/kirki_options.php:1702
+msgid "Footer custom text color"
+msgstr "Color de text personalitzat del peu"
+
+#: ../include/customizer/kirki_options.php:1735
+msgid "Show Subfooter"
+msgstr "Mostrar sub-peu"
+
+#: ../include/customizer/kirki_options.php:1754
+msgid "Copyright"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1780
+msgid "Subfooter color"
+msgstr "Color de sub-peu"
+
+#: ../include/customizer/kirki_options.php:1809
+msgid "Subfooter custom BG color"
+msgstr "Color de fons personalitzat del sub-peu"
+
+#: ../include/customizer/kirki_options.php:1833
+msgid "Subfooter custom text color"
+msgstr "Color de text personalitzat del sub-peu"
+
+#: ../include/customizer/kirki_options.php:1857
+msgid "Copyright text"
+msgstr "Text de Copyright"
+
+#: ../include/customizer/kirki_options.php:1880
+msgid "Contact"
+msgstr "Contacte"
+
+#: ../include/customizer/kirki_options.php:1885
+#, fuzzy
+#| msgid "Show Options"
+msgid "Show Icons"
+msgstr "Opcions de visualització"
+
+#: ../include/customizer/kirki_options.php:1891
+#, fuzzy
+#| msgid "Contact info"
+msgid "Contact layout"
+msgstr "Informació de contacte"
+
+#: ../include/customizer/kirki_options.php:1894
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:53
+msgid "Inline"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1895
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:54
+#: ../posttypes/posttypes/block/block.class.php:14
+msgid "Block"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1901
+msgid "Contact Phone"
+msgstr "Telèfon de contacte"
+
+#: ../include/customizer/kirki_options.php:1906
+msgid "Contact Email"
+msgstr "Email de contacte"
+
+#: ../include/customizer/kirki_options.php:1911
+msgid "Contact Address"
+msgstr "Adreça postal de contacte"
+
+#: ../include/customizer/kirki_options.php:1917
+msgid "Facebook URL"
+msgstr "URL del Facebook"
+
+#: ../include/customizer/kirki_options.php:1923
+msgid "Twitter Username"
+msgstr "Nom d'usuari de Twitter"
+
+#: ../include/customizer/kirki_options.php:1929
+msgid "LinkedIn URL"
+msgstr "URL de LinkedIn"
+
+#: ../include/customizer/kirki_options.php:1935
+msgid "Google + URL"
+msgstr "URL de Google +"
+
+#: ../include/customizer/kirki_options.php:1941
+msgid "Youtube URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1947
+#, fuzzy
+#| msgid "Facebook URL"
+msgid "Flickr URL"
+msgstr "URL del Facebook"
+
+#: ../include/customizer/kirki_options.php:1953
+#, fuzzy
+#| msgid "Extern URL"
+msgid "Pinterest URL"
+msgstr "URL Externa"
+
+#: ../include/customizer/kirki_options.php:1959
+msgid "Instagram User"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1965
+msgid "RSS Feed"
+msgstr "Font RSS"
+
+#: ../include/customizer/kirki_options.php:1981
+msgid "Blog Style"
+msgstr "Estil del Blog"
+
+#: ../include/customizer/kirki_options.php:1985
+msgid "Classic"
+msgstr "Clàsic"
+
+#: ../include/customizer/kirki_options.php:1986
+#: ../include/customizer/kirki_options.php:2367
+#: ../include/customizer/kirki_options.php:2691
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:124
+msgid "List"
+msgstr "Llista"
+
+#: ../include/customizer/kirki_options.php:1994
+#: ../include/customizer/kirki_options.php:2381
+#: ../include/customizer/kirki_options.php:2714
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:35
+msgid "Grid Columns"
+msgstr "Columnes de la graella"
+
+#: ../include/customizer/kirki_options.php:2012
+#: ../include/customizer/kirki_options.php:2399
+#: ../include/customizer/kirki_options.php:2732
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: ../include/customizer/kirki_options.php:2025
+#: ../include/customizer/kirki_options.php:2412
+msgid "Pagination"
+msgstr "Paginació"
+
+#: ../include/customizer/kirki_options.php:2029
+#: ../include/customizer/kirki_options.php:2416
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:49
+msgid "No pagination"
+msgstr "Sense paginació"
+
+#: ../include/customizer/kirki_options.php:2030
+#: ../include/customizer/kirki_options.php:2417
+msgid "Classic (next/prev)"
+msgstr "Càssica (anterior/següent)"
+
+#: ../include/customizer/kirki_options.php:2031
+#: ../include/customizer/kirki_options.php:2418
+msgid "Page numbers"
+msgstr "Números de pàgina"
+
+#: ../include/customizer/kirki_options.php:2055
+#: ../include/customizer/kirki_options.php:2442
+#: ../include/customizer/kirki_options.php:2745
+#, fuzzy
+#| msgid "Articles"
+msgid "Articles gap"
+msgstr "Articles"
+
+#: ../include/customizer/kirki_options.php:2069
+#: ../include/customizer/kirki_options.php:2457
+#, fuzzy
+#| msgid "Articles"
+msgid "Articles border"
+msgstr "Articles"
+
+#: ../include/customizer/kirki_options.php:2088
+#: ../include/customizer/kirki_options.php:2476
+msgid "Show Thumbnail"
+msgstr "Mostrar miniatura"
+
+#: ../include/customizer/kirki_options.php:2100
+#: ../include/customizer/kirki_options.php:2318
+#: ../include/customizer/kirki_options.php:2482
+#: ../include/posttypes/customposttype.class.php:548
+msgid "Show Title"
+msgstr "Mostrar títol"
+
+#: ../include/customizer/kirki_options.php:2112
+#: ../include/customizer/kirki_options.php:2494
+msgid "Show Date"
+msgstr "Mostrar data"
+
+#: ../include/customizer/kirki_options.php:2125
+#: ../include/customizer/kirki_options.php:2506
+msgid "Show Excerpt"
+msgstr "Mostrar resum"
+
+#: ../include/customizer/kirki_options.php:2137
+#: ../include/customizer/kirki_options.php:2519
+msgid "Show Author"
+msgstr "Mostrar autor"
+
+#: ../include/customizer/kirki_options.php:2149
+#: ../include/customizer/kirki_options.php:2532
+msgid "Show Content"
+msgstr "Mostra contingut"
+
+#: ../include/customizer/kirki_options.php:2161
+#: ../include/customizer/kirki_options.php:2544
+msgid "Show Categories"
+msgstr "Mostrar categories"
+
+#: ../include/customizer/kirki_options.php:2173
+#: ../include/customizer/kirki_options.php:2556
+msgid "Show Comments"
+msgstr "Mostrar icona de comentaris"
+
+#: ../include/customizer/kirki_options.php:2186
+#: ../include/customizer/kirki_options.php:2568
+msgid "Thumbnail position"
+msgstr "Posició de la miniatura"
+
+#: ../include/customizer/kirki_options.php:2192
+#: ../include/customizer/kirki_options.php:2574
+#: ../include/sowidgets/carrot-postswidget.class.php:291
+#: ../include/sowidgets/carrot-postswidget.class.php:416
+#: ../include/sowidgets/carrot-postswidget.class.php:488
+#: ../include/sowidgets/fields/dimensions.class.php:51
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:99
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:82
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:169
+#: ../posttypes/posttypes/projects/projects.class.php:436
+msgid "Top"
+msgstr "A sobre"
+
+#: ../include/customizer/kirki_options.php:2193
+#: ../include/customizer/kirki_options.php:2575
+#: ../include/sowidgets/carrot-postswidget.class.php:292
+#: ../include/sowidgets/carrot-postswidget.class.php:418
+#: ../include/sowidgets/carrot-postswidget.class.php:490
+#: ../include/sowidgets/fields/dimensions.class.php:53
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:100
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:84
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:171
+#: ../posttypes/posttypes/projects/projects.class.php:438
+msgid "Bottom"
+msgstr "A sota"
+
+#: ../include/customizer/kirki_options.php:2237
+#: ../include/customizer/kirki_options.php:2619
+msgid "Thumbnail Columns"
+msgstr "Columnes que ocupa la miniatura (1 a 12)"
+
+#: ../include/customizer/kirki_options.php:2270
+#: ../include/customizer/kirki_options.php:2652
+msgid "Thumbnail border radius"
+msgstr "Radiu de la vora de la miniatura"
+
+#: ../include/customizer/kirki_options.php:2303
+#, fuzzy
+#| msgid "Older posts"
+msgid "Single Posts"
+msgstr "Més antics"
+
+#: ../include/customizer/kirki_options.php:2330
+#: ../posttypes/posttypes/performances/performances.class.php:159
+#: ../posttypes/posttypes/projects/projects.class.php:523
+msgid "Show navigation (next and previous)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2331
+#: ../include/customizer/kirki_options.php:2338
+#: ../include/customizer/kirki_options.php:2345
+#: ../posttypes/posttypes/performances/performances.class.php:160
+#: ../posttypes/posttypes/performances/performances.class.php:167
+#: ../posttypes/posttypes/performances/performances.class.php:174
+#: ../posttypes/posttypes/projects/projects.class.php:524
+#: ../posttypes/posttypes/projects/projects.class.php:531
+#: ../posttypes/posttypes/projects/projects.class.php:538
+msgid "Only if supported by the selected layout"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2337
+#: ../include/customizer/kirki_options.php:2795
+#: ../posttypes/posttypes/performances/performances.class.php:166
+#: ../posttypes/posttypes/projects/projects.class.php:530
+#, fuzzy
+#| msgid "Show Date"
+msgid "Show related"
+msgstr "Mostrar data"
+
+#: ../include/customizer/kirki_options.php:2354
+msgid "Archive"
+msgstr "Arxiu"
+
+#: ../include/customizer/kirki_options.php:2363
+msgid "Archive Style"
+msgstr "Estiu de l'arxiu"
+
+#: ../include/customizer/kirki_options.php:2375
+msgid "Show Archive Header"
+msgstr "Mostrar la capçalera de l'arxiu"
+
+#: ../include/customizer/kirki_options.php:2679
+msgid "Woocommerce"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2680
+#, fuzzy
+#| msgid "Customize header display options "
+msgid "Customize woocommerce options."
+msgstr "Personalitzar les opcions de visualització de la capçalera"
+
+#: ../include/customizer/kirki_options.php:2687
+#, fuzzy
+#| msgid "Blog Style"
+msgid "Shop Style"
+msgstr "Estil del Blog"
+
+#: ../include/customizer/kirki_options.php:2698
+#, fuzzy
+#| msgid "Full width?"
+msgid "Shop full width"
+msgstr "Toda l'amplada de la finestra?"
+
+#: ../include/customizer/kirki_options.php:2703
+#: ../include/customizer/kirki_options.php:2785
+#, fuzzy
+#| msgid "Show Title"
+msgid "Show title"
+msgstr "Mostrar títol"
+
+#: ../include/customizer/kirki_options.php:2753
+msgid "Products border"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2773
+msgid "Woocommerce Product"
+msgstr ""
+
+#: ../include/customizer/kirki_setup.php:74
+msgid "Carrot Theme."
+msgstr ""
+
+#: ../include/functions.php:76
+#, fuzzy
+#| msgid "Header Home Menu"
+msgid "Header Menu"
+msgstr "Menú de capçalera a portada"
+
+#: ../include/functions.php:77
+#, fuzzy
+#| msgid "Sticky Header Home Menu"
+msgid "Sticky Header Menu"
+msgstr "Menú fixe de capçalera a portada"
+
+#: ../include/functions.php:78
+#, fuzzy
+#| msgid "Footer Menu"
+msgid "Phone Menu"
+msgstr "Menú del peu"
+
+#: ../include/functions.php:79
+msgid "Footer Menu"
+msgstr "Menú del peu"
+
+#: ../include/functions.php:90
+msgid "Blog Sidebar"
+msgstr "Barra lateral del blog"
+
+#: ../include/functions.php:98
+#, fuzzy
+#| msgid "Pages Sidebar"
+msgid "Single Post Sidebar"
+msgstr "Barra lateral de les pàgines"
+
+#: ../include/functions.php:106
+msgid "Pages Sidebar"
+msgstr "Barra lateral de les pàgines"
+
+#: ../include/functions.php:115
+#, fuzzy
+#| msgid "Blog Sidebar"
+msgid "Shop Sidebar"
+msgstr "Barra lateral del blog"
+
+#: ../include/functions.php:225
+msgid "No results found"
+msgstr ""
+
+#: ../include/functions.php:329
+#, php-format
+msgid "You searched: %s"
+msgstr "Has buscat: %s"
+
+#: ../include/functions.php:337
+msgid "Y"
+msgstr "Y"
+
+#: ../include/functions.php:339
+msgid "F Y"
+msgstr "F \\d\\e Y"
+
+#: ../include/functions.php:341
+msgid "F j, Y"
+msgstr "j \\d\\e F \\d\\e Y"
+
+#: ../include/functions.php:344
+msgid "Asides"
+msgstr ""
+
+#: ../include/functions.php:346
+msgid "Galleries"
+msgstr "Galeries"
+
+#: ../include/functions.php:350
+#: ../posttypes/posttypes/authors/authors.class.php:244
+#: ../posttypes/posttypes/performances/performances.class.php:88
+#: ../posttypes/posttypes/performances/performances.class.php:94
+#: ../posttypes/posttypes/projects/projects.class.php:110
+#: ../posttypes/posttypes/projects/projects.class.php:129
+msgid "Videos"
+msgstr "Videos"
+
+#: ../include/functions.php:352
+msgid "Quotes"
+msgstr "Cites"
+
+#: ../include/functions.php:354
+msgid "Links"
+msgstr "Enllaços"
+
+#: ../include/functions.php:356
+msgid "Statuses"
+msgstr "Estats"
+
+#: ../include/functions.php:358
+msgid "Audio"
+msgstr "Audio"
+
+#: ../include/functions.php:360
+msgid "Chats"
+msgstr "Xats"
+
+#: ../include/functions.php:367
+msgid "Archives"
+msgstr "Arxiu"
+
+#: ../include/functions.php:1067
+#: ../include/posttypes/customposttype.class.php:1050
+msgid "--Default site template--"
+msgstr ""
+
+#: ../include/functions.php:1105
+msgid "-- Select a Block --"
+msgstr ""
+
+#: ../include/functions.php:1370
+#, fuzzy
+#| msgid "Page %s"
+msgid "Page"
+msgstr "Pàgines %s"
+
+#: ../include/posttypes/customposttype.class.php:69
+msgid "CustomPostTypes"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:70
+msgid "CustomPostType"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:377
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:566
+msgid "Single "
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:683
+msgid "Options for:"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:740
+#, php-format
+msgid "For %s displayed in grids"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:863
+#, fuzzy, php-format
+#| msgid "Page %s"
+msgid "Manage %s"
+msgstr "Pàgines %s"
+
+#: ../include/posttypes/customtaxonomy.class.php:32
+#, fuzzy
+#| msgid "Customized"
+msgid "CustomTaxonomies"
+msgstr "Personalitzada"
+
+#: ../include/posttypes/customtaxonomy.class.php:33
+#, fuzzy
+#| msgid "Custom color"
+msgid "CustomTaxonomy"
+msgstr "Personalitzat"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:12
+#: ../include/sowidgets/carrot-sowidgets-setup.php:10
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:62
+#: ../posttypes/posttypes/projects/projects.class.php:232
+msgid "Primary"
+msgstr "Primari"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:13
+#: ../include/sowidgets/carrot-sowidgets-setup.php:11
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:63
+#: ../posttypes/posttypes/projects/projects.class.php:233
+msgid "Alternate"
+msgstr "Alternatiu"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:14
+#: ../include/sowidgets/carrot-sowidgets-setup.php:12
+msgid "Borders"
+msgstr "Vores"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:259
+#: ../posttypes/posttypes/authors/authors.class.php:98
+msgid "Title"
+msgstr "Títol"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:264
+msgid "Widget Style"
+msgstr "Estil del Widget"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:269
+#: ../include/sowidgets/carrot-basewidget.class.php:570
+msgid "Font Family"
+msgstr "Tipus de lletra"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:274
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:118
+msgid "Background color"
+msgstr "Color de fons"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:280
+msgid "Text color"
+msgstr "Color del text"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:286
+msgid "Box Margins"
+msgstr "Marge exterior de la Caixa"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:291
+#: ../include/sowidgets/carrot-sowidgets-setup.php:52
+msgid "Margin"
+msgstr "Marge exterior"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:297
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:101
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:188
+msgid "Padding"
+msgstr "Marge interior de la caixa"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:305
+msgid "Box Border"
+msgstr "Vora de la caixa"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:310
+#: ../include/sowidgets/fields/dimensions.class.php:73
+msgid "Apply the same value to all?"
+msgstr "Aplicar el mateix valor a tots?"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:322
+msgid "Border All"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:332
+#: ../include/sowidgets/carrot-basewidget.class.php:378
+#: ../include/sowidgets/carrot-basewidget.class.php:424
+#: ../include/sowidgets/carrot-basewidget.class.php:470
+#: ../include/sowidgets/carrot-basewidget.class.php:516
+#: ../include/sowidgets/carrot-basewidget.class.php:609
+#: ../include/sowidgets/carrot-basewidget.class.php:645
+#: ../include/sowidgets/carrot-postswidget.class.php:180
+#: ../include/sowidgets/carrot-sowidgets-setup.php:188
+#: ../include/sowidgets/carrot-sowidgets-setup.php:417
+#: ../include/sowidgets/carrot-sowidgets-setup.php:618
+msgid "Border Width"
+msgstr "Amplada de la vora"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:342
+#: ../include/sowidgets/carrot-basewidget.class.php:388
+#: ../include/sowidgets/carrot-basewidget.class.php:434
+#: ../include/sowidgets/carrot-basewidget.class.php:480
+#: ../include/sowidgets/carrot-basewidget.class.php:526
+#: ../include/sowidgets/carrot-basewidget.class.php:619
+#: ../include/sowidgets/carrot-basewidget.class.php:655
+msgid "Border color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:348
+#: ../include/sowidgets/carrot-basewidget.class.php:394
+#: ../include/sowidgets/carrot-basewidget.class.php:440
+#: ../include/sowidgets/carrot-basewidget.class.php:486
+#: ../include/sowidgets/carrot-basewidget.class.php:532
+#: ../include/sowidgets/carrot-basewidget.class.php:625
+#: ../include/sowidgets/carrot-basewidget.class.php:661
+msgid "Border style"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:352
+#: ../include/sowidgets/carrot-basewidget.class.php:398
+#: ../include/sowidgets/carrot-basewidget.class.php:444
+#: ../include/sowidgets/carrot-basewidget.class.php:490
+#: ../include/sowidgets/carrot-basewidget.class.php:536
+#: ../include/sowidgets/carrot-basewidget.class.php:629
+#: ../include/sowidgets/carrot-basewidget.class.php:665
+msgid "No border"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:353
+#: ../include/sowidgets/carrot-basewidget.class.php:399
+#: ../include/sowidgets/carrot-basewidget.class.php:445
+#: ../include/sowidgets/carrot-basewidget.class.php:491
+#: ../include/sowidgets/carrot-basewidget.class.php:537
+#: ../include/sowidgets/carrot-basewidget.class.php:630
+#: ../include/sowidgets/carrot-basewidget.class.php:666
+#: ../include/sowidgets/carrot-sowidgets-setup.php:202
+#: ../include/sowidgets/carrot-sowidgets-setup.php:458
+#: ../include/sowidgets/carrot-sowidgets-setup.php:659
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:27
+msgid "Solid"
+msgstr "Línia continua"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:354
+#: ../include/sowidgets/carrot-basewidget.class.php:400
+#: ../include/sowidgets/carrot-basewidget.class.php:446
+#: ../include/sowidgets/carrot-basewidget.class.php:492
+#: ../include/sowidgets/carrot-basewidget.class.php:538
+#: ../include/sowidgets/carrot-basewidget.class.php:631
+#: ../include/sowidgets/carrot-basewidget.class.php:667
+#: ../include/sowidgets/carrot-sowidgets-setup.php:204
+#: ../include/sowidgets/carrot-sowidgets-setup.php:460
+#: ../include/sowidgets/carrot-sowidgets-setup.php:661
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:29
+msgid "Dotted"
+msgstr "Línia de punts"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:355
+#: ../include/sowidgets/carrot-basewidget.class.php:401
+#: ../include/sowidgets/carrot-basewidget.class.php:447
+#: ../include/sowidgets/carrot-basewidget.class.php:493
+#: ../include/sowidgets/carrot-basewidget.class.php:539
+#: ../include/sowidgets/carrot-basewidget.class.php:632
+#: ../include/sowidgets/carrot-basewidget.class.php:668
+#: ../include/sowidgets/carrot-sowidgets-setup.php:203
+#: ../include/sowidgets/carrot-sowidgets-setup.php:459
+#: ../include/sowidgets/carrot-sowidgets-setup.php:660
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:28
+msgid "Dashed"
+msgstr "Linia discontinua"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:356
+#: ../include/sowidgets/carrot-basewidget.class.php:402
+#: ../include/sowidgets/carrot-basewidget.class.php:448
+#: ../include/sowidgets/carrot-basewidget.class.php:494
+#: ../include/sowidgets/carrot-basewidget.class.php:540
+#: ../include/sowidgets/carrot-basewidget.class.php:633
+#: ../include/sowidgets/carrot-basewidget.class.php:669
+#: ../include/sowidgets/carrot-sowidgets-setup.php:205
+#: ../include/sowidgets/carrot-sowidgets-setup.php:461
+#: ../include/sowidgets/carrot-sowidgets-setup.php:662
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:30
+msgid "Double"
+msgstr "Línia continua doble"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:361
+#: ../include/sowidgets/carrot-basewidget.class.php:407
+#: ../include/sowidgets/carrot-basewidget.class.php:453
+#: ../include/sowidgets/carrot-basewidget.class.php:499
+#: ../include/sowidgets/carrot-basewidget.class.php:545
+msgid "Border radius"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:373
+#: ../include/sowidgets/carrot-basewidget.class.php:604
+msgid "Border Top"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:419
+msgid "Border Right"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:465
+#: ../include/sowidgets/carrot-basewidget.class.php:640
+msgid "Border Bottom"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:511
+msgid "Border Left"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:566
+msgid "Show header"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:575
+#: ../include/sowidgets/carrot-postswidget.class.php:375
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:82
+msgid "Icon"
+msgstr "Icona"
+
+#: ../include/sowidgets/carrot-basewidget.class.php:579
+msgid "Icon Image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:580
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:38
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:125
+msgid "Choose image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:581
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:92
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:126
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:39
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:126
+msgid "Set image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:587
+msgid "Header Background color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:593
+msgid "Header Text color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:600
+msgid "Show More Button if possible"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:130
+#: ../templates/archive/archive-header-basic.php:11
+#: ../templates/archive/archive-header-category.php:17
+#: ../templates/archive/archive-header-posttype.php:11
+msgid "Articles"
+msgstr "Articles"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:135
+msgid "Posts query"
+msgstr "Consulta d'entrades"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:141
+msgid "Show post options"
+msgstr "Opcions de visualització de l'entrada"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:143
+msgid "Post Thumbnail"
+msgstr "Miniatura de l'entrada"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:144
+#: ../include/sowidgets/carrot-postswidget.class.php:463
+msgid "Post Title"
+msgstr "Títol de l'entrada"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:145
+#: ../include/sowidgets/carrot-postswidget.class.php:464
+#: ../posttypes/posttypes/authors/authors.class.php:14
+#: ../posttypes/posttypes/projects/projects.class.php:488
+#: ../presets/bookstore/class-bookstore-woocommerce.php:480
+#: ../presets/bookstore/class-bookstore-woocommerce.php:508
+#: ../presets/bookstore/class-bookstore-woocommerce.php:583
+msgid "Author"
+msgstr "Autor"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:147
+msgid "Comments"
+msgstr "Comentaris"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:148
+#: ../templates/post/default.php:59 ../templates/post/nosidebar.php:33
+#: ../templates/post/press.php:123
+msgid "Categories"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:149
+#: ../include/sowidgets/carrot-postswidget.class.php:467
+msgid "Excerpt"
+msgstr "Resum"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:150
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:27
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:114
+msgid "Content"
+msgstr "Contingut"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:155
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:22
+msgid "Style"
+msgstr "Estil"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:191
+msgid "Articles Separation"
+msgstr "Separació entre articles"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:193
+msgid "No gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:194
+msgid "Small gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:195
+msgid "Medium gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:196
+msgid "Big gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:197
+msgid "One pixel gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:203
+msgid "Text alignment"
+msgstr "Alineació del text"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:219
+msgid "Append plus icon after excerpt"
+msgstr "Afegir una icona + després del resum"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:226
+msgid "Author Display"
+msgstr "Visualització de l'autor"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:234
+msgid "Show author options"
+msgstr "Opcions de visualització de l'autor"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:237
+msgid "Avatar"
+msgstr "Imatge de perfil"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:238
+msgid "Bio"
+msgstr "Biografia"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:240
+#: ../include/sowidgets/carrot-postswidget.class.php:250
+msgid "Prefix"
+msgstr "Prefix"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:246
+msgid "Author before post title "
+msgstr "L'autor es mostra abans que el títol"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:257
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:90
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:124
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:263
+msgid "Image Type"
+msgstr "Tipus d'imatge"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:267
+msgid "Author Image"
+msgstr "Imatge de l'autor"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:268
+msgid "Post Type Image"
+msgstr "Icona del format de l'entrada"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:274
+msgid "Format"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:286
+msgid "Position"
+msgstr "Posició"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:314
+msgid "Thumb is responsive"
+msgstr "La miniatura és responsive"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:329
+msgid "Hover Effect"
+msgstr "Efecte al passar el ratolí per sobre"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:334
+msgid "Effect on hover"
+msgstr "Efecte al passar el ratolí per sobre"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:337
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:86
+msgid "No effect"
+msgstr "Cap efecte"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:338
+msgid "Opacity"
+msgstr "Opacitat"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:348
+msgid "BG color"
+msgstr "Color de fons"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:354
+msgid "FG color"
+msgstr "Color del text"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:355
+msgid "Only applicable when custom BG color is chosen"
+msgstr "Només s'aplica si tries un color personalizat de fons"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:361
+#, fuzzy
+#| msgid "View more icon size"
+msgid "View more icon"
+msgstr "Mida de la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:366
+msgid "Show view more icon"
+msgstr "Mostrar la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:383
+msgid "View more icon size"
+msgstr "Mida de la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:393
+msgid "View more icon Border Width"
+msgstr "Amplada de la vora de la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:403
+msgid "View more icon Border radius"
+msgstr "Radi de la vora de la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:413
+msgid "View more icon vertical position"
+msgstr "Posició vertical de la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:417
+#: ../include/sowidgets/carrot-postswidget.class.php:489
+msgid "Middle"
+msgstr "Al mig"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:427
+msgid "View more icon horizontal position"
+msgstr "Posició horitzontal de la icona de veure més"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:443
+#, fuzzy
+#| msgid "Text: "
+msgid "Text"
+msgstr "Text:"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:448
+#, fuzzy
+#| msgid "Show Title"
+msgid "Show Text"
+msgstr "Mostrar títol"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:461
+#, fuzzy
+#| msgid "Show post options"
+msgid "Show text options"
+msgstr "Opcions de visualització de l'entrada"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:466
+msgid "Taxonomy"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:479
+msgid "Show entry taxonomy"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:485
+#, fuzzy
+#| msgid "Title vertical position"
+msgid "Text vertical position"
+msgstr "Posició vertical del títol"
+
+#: ../include/sowidgets/carrot-postswidget.class.php:499
+#, fuzzy
+#| msgid "Title horizontal position"
+msgid "Text horizontal position"
+msgstr "Posició horitzontal del títol"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:56
+msgid "Margin arround the entire widget."
+msgstr "Marge al voltant de tot el widget."
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:62
+#: ../include/sowidgets/carrot-sowidgets-setup.php:355
+#: ../include/sowidgets/carrot-sowidgets-setup.php:556
+msgid "Hidden on Extra small devices"
+msgstr "Ocult en dispositius molt petits"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:63
+#: ../include/sowidgets/carrot-sowidgets-setup.php:356
+#: ../include/sowidgets/carrot-sowidgets-setup.php:557
+msgid "Phones (<768px)"
+msgstr "Telèfons  (<768px)"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:70
+#: ../include/sowidgets/carrot-sowidgets-setup.php:363
+#: ../include/sowidgets/carrot-sowidgets-setup.php:564
+msgid "Hidden on Small devices"
+msgstr "Ocult en dispositius petits"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:71
+#: ../include/sowidgets/carrot-sowidgets-setup.php:364
+#: ../include/sowidgets/carrot-sowidgets-setup.php:565
+msgid "Tablets (>=768px)"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:79
+#: ../include/sowidgets/carrot-sowidgets-setup.php:372
+#: ../include/sowidgets/carrot-sowidgets-setup.php:573
+msgid "Hidden on Medium devices"
+msgstr "Ocult en dispositius mitjans"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:80
+#: ../include/sowidgets/carrot-sowidgets-setup.php:373
+#: ../include/sowidgets/carrot-sowidgets-setup.php:574
+msgid "Desktops (>=992px)"
+msgstr "Portàtils (>=992px)"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:88
+#: ../include/sowidgets/carrot-sowidgets-setup.php:381
+#: ../include/sowidgets/carrot-sowidgets-setup.php:582
+msgid "Hidden on Large  devices"
+msgstr "Ocult en dispositius grans"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:89
+#: ../include/sowidgets/carrot-sowidgets-setup.php:382
+#: ../include/sowidgets/carrot-sowidgets-setup.php:583
+msgid "Desktops (>=1200px)"
+msgstr "Ordinadors d'escriptori (>=1200px)"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:103
+msgid "Appear Effect"
+msgstr "Efecte d'aparició"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:104
+msgid "Choose the effect of the widget when it enters screen."
+msgstr "Tria l'efecte amb que apareix el widget quan entra a pantalla."
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:108
+#, fuzzy
+#| msgid "From left"
+msgid "Slide from left"
+msgstr "Des de l'esquerra"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:109
+#, fuzzy
+#| msgid "From right"
+msgid "Slide from right"
+msgstr "Des de la dreta"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:110
+#, fuzzy
+#| msgid "From top"
+msgid "Slide from top"
+msgstr "Des de dalt"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:111
+#, fuzzy
+#| msgid "From bottom"
+msgid "Slide from bottom"
+msgstr "Des de baix"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:112
+#, fuzzy
+#| msgid "From center"
+msgid "Grow from center"
+msgstr "Des del centre"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:113
+#, fuzzy
+#| msgid "From left"
+msgid "Grow from left"
+msgstr "Des de l'esquerra"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:114
+#, fuzzy
+#| msgid "From right"
+msgid "Grow from right"
+msgstr "Des de la dreta"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:115
+#, fuzzy
+#| msgid "From top"
+msgid "Grow from top"
+msgstr "Des de dalt"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:116
+#, fuzzy
+#| msgid "From bottom"
+msgid "Grow from bottom"
+msgstr "Des de baix"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:117
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:201
+msgid "Flip horizontal"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:118
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:202
+msgid "Flip vertical"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:119
+#, fuzzy
+#| msgid "From center"
+msgid "Rotate from center"
+msgstr "Des del centre"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:130
+#, fuzzy
+#| msgid "Appear Effect"
+msgid "Appear Delay"
+msgstr "Efecte d'aparició"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:131
+msgid "Delay of the appearing effect."
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:135
+msgid "1"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:136
+msgid "2"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:137
+msgid "3"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:138
+msgid "4"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:139
+msgid "5"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:140
+msgid "6"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:141
+msgid "7"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:142
+msgid "8"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:167
+#: ../include/sowidgets/carrot-sowidgets-setup.php:396
+#: ../include/sowidgets/carrot-sowidgets-setup.php:597
+msgid "Theme Background color"
+msgstr "Color de fons del tema"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:168
+#: ../include/sowidgets/carrot-sowidgets-setup.php:178
+#: ../include/sowidgets/carrot-sowidgets-setup.php:397
+#: ../include/sowidgets/carrot-sowidgets-setup.php:407
+#: ../include/sowidgets/carrot-sowidgets-setup.php:598
+#: ../include/sowidgets/carrot-sowidgets-setup.php:608
+msgid "Choose a color from the theme customizer colors."
+msgstr "Tria un color dels configurats al personalitzador del tema"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:177
+#: ../include/sowidgets/carrot-sowidgets-setup.php:406
+#: ../include/sowidgets/carrot-sowidgets-setup.php:607
+msgid "Theme Border color"
+msgstr "Color de les vores del tema"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:198
+#: ../include/sowidgets/carrot-sowidgets-setup.php:454
+#: ../include/sowidgets/carrot-sowidgets-setup.php:655
+msgid "Border Style"
+msgstr "Estil de la vora"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:346
+#: ../include/sowidgets/carrot-sowidgets-setup.php:539
+msgid "Top Margin"
+msgstr "Marge superior"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:347
+#: ../include/sowidgets/carrot-sowidgets-setup.php:540
+msgid "Space above the row. Default is 0px."
+msgstr "Espai sobre la fila. Per defecte 0px."
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:547
+#, fuzzy
+#| msgid "Bottom bar"
+msgid "Bottom Margin"
+msgstr "Barra lateral a sota"
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:548
+#, fuzzy
+#| msgid "Space above the row. Default is 0px."
+msgid "Space blelow the row. Default is 0px."
+msgstr "Espai sobre la fila. Per defecte 0px."
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:699
+msgid "Themify Icons"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:1073
+msgid "Carrot SiteOrigin Widgets"
+msgstr ""
+
+#: ../include/sowidgets/fields/themecolor.class.php:29
+msgid "Transparent"
+msgstr ""
+
+#: ../include/sowidgets/fields/themecolor.class.php:32
+msgid "Borders Color"
+msgstr ""
+
+#: ../include/sowidgets/fields/themecolor.class.php:35
+msgid "Custom Color"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:26
+msgid "Showed ADs"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:30
+#: ../posttypes/posttypes/banners/banners.class.php:193
+msgid "Random"
+msgstr "Aleatori"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:31
+#: ../posttypes/posttypes/banners/banners.class.php:194
+msgid "Last published"
+msgstr "Els últims"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:32
+#: ../posttypes/posttypes/banners/banners.class.php:195
+msgid "Related (by current post or page tags)"
+msgstr "Relacionats (per etiqueta)"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:33
+#: ../posttypes/posttypes/banners/banners.class.php:196
+msgid "User selected"
+msgstr "Triar-los manualment"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:43
+msgid "Banner Format"
+msgstr "Formats de banner"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:55
+#: ../posttypes/posttypes/banners/banners.class.php:244
+msgid "AD Number"
+msgstr "Número de Banners"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:56
+msgid "The max number of banners showed."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:69
+msgid "The number of columns the banners will be displayed"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:77
+msgid "Columns (small devices)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:78
+msgid "The number of columns the banners will be displayed on small devices"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:87
+#: ../posttypes/posttypes/banners/banners.class.php:279
+msgid "Selected ADs"
+msgstr "Banners Triats"
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:96
+msgid "Track Imprints"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:101
+msgid "Track Clicks"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-block/carrot-block.php:47
+msgid "Choose the Block to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:47
+#, fuzzy
+#| msgid "Author Display"
+msgid "Book to display"
+msgstr "Visualització de l'autor"
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:50
+#, fuzzy
+#| msgid "Random"
+msgid "Random book"
+msgstr "Aleatori"
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:51
+#, fuzzy
+#| msgid "Last published"
+msgid "Last book published"
+msgstr "Els últims"
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:52
+#, fuzzy
+#| msgid "Selected ADs"
+msgid "Selected book"
+msgstr "Banners Triats"
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:61
+msgid "Select a book"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:73
+msgid "Info to display of the book"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:76
+msgid "Book cover"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:77
+#, fuzzy
+#| msgid "Show Author"
+msgid "Book author"
+msgstr "Mostrar autor"
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:78
+msgid "Book passages"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:79
+msgid "Book reviews"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:88
+msgid "Enter a number (leave blank for unlimited)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:25
+msgid "Button text"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:30
+#, fuzzy
+#| msgid "Blog Style"
+msgid "Button style"
+msgstr "Estil del Blog"
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:33
+msgid "Flat"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:34
+msgid "Wire"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:35
+msgid "Pill"
+msgstr "Pastilla"
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:40
+msgid "Button align"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:50
+#, fuzzy
+#| msgid "Author Display"
+msgid "Button display"
+msgstr "Visualització de l'autor"
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:59
+#, fuzzy
+#| msgid "Custom color"
+msgid "Button color"
+msgstr "Personalitzat"
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:70
+msgid "Button size"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:73
+msgid "Extra Small"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:76
+msgid "Large"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:77
+msgid "Extra Large"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:94
+#, fuzzy
+#| msgid "Position"
+msgid "Icon position"
+msgstr "Posició"
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:106
+#, fuzzy
+#| msgid "Extern URL"
+msgid "Button URL"
+msgstr "URL Externa"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:59
+msgid "Files"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:60
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:78
+msgid "File"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:69
+msgid "File name"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:73
+#, fuzzy
+#| msgid "Description"
+msgid "File description"
+msgstr "Descripció"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:79
+msgid "Choose file"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:80
+msgid "Set file"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:86
+#, fuzzy
+#| msgid "Custom color"
+msgid "Custom icon"
+msgstr "Personalitzat"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:91
+#, fuzzy
+#| msgid "Custom options for this page"
+msgid "Custom icon image"
+msgstr "Personalitzar per aquesta pàgina"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:94
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:128
+msgid "If set, it will be displayed over the icon."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:99
+msgid "File referer URL"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:106
+#, fuzzy
+#| msgid "Description"
+msgid "Files description"
+msgstr "Descripció"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:113
+#, fuzzy
+#| msgid "Show Title"
+msgid "Show filesize"
+msgstr "Mostrar títol"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:118
+#, fuzzy
+#| msgid "Default header"
+msgid "Default icon"
+msgstr "Per defecte"
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:125
+#, fuzzy
+#| msgid "Default header"
+msgid "Default image icon"
+msgstr "Per defecte"
+
+#: ../include/sowidgets/widgets/carrot-files/tpl/carrot-files.php:46
+msgid "Referer"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:22
+msgid "Front Side"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:31
+#: ../presets/bookstore/class-bookstore-woocommerce.php:252
+msgid "Background Color"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:37
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:124
+msgid "Background Image"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:45
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:132
+msgid "Background image opacity"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:55
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:142
+msgid "Background size"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:59
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:146
+msgid "Default size"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:60
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:147
+#: ../posttypes/posttypes/projects/projects.class.php:466
+msgid "Cover"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:61
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:148
+#: ../posttypes/posttypes/projects/projects.class.php:467
+msgid "Contain"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:62
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:149
+msgid "Stretch"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:67
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:154
+msgid "Background horizontal position"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:78
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:165
+msgid "Background vertical position"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:89
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:176
+msgid "Background repeat"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:93
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:180
+#: ../posttypes/posttypes/projects/projects.class.php:377
+msgid "No repeat"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:94
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:181
+#: ../posttypes/posttypes/projects/projects.class.php:380
+msgid "Repeat Both"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:95
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:182
+#: ../posttypes/posttypes/projects/projects.class.php:378
+#: ../posttypes/posttypes/projects/projects.class.php:379
+msgid "Repeat X"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:96
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:183
+msgid "Repeat V"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:109
+msgid "Back Side"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:198
+msgid "Flip Effect"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:203
+msgid "Slide horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:204
+msgid "Slide vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:205
+msgid "Cross-fade"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:210
+msgid "Enable horiozontal swipe on touch devices?"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-layerslider/carrot-layerslider.php:29
+msgid "(Unnamed Slider)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-layerslider/carrot-layerslider.php:51
+msgid "Choose the Layer Slider"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-layerslider/carrot-layerslider.php:52
+msgid ""
+"You can edit existing slider or create new ones in the <a href=\"admin.php?"
+"page=layerslider\">LayerSlider WP</a> section in the Wordpress Dashboard."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:39
+msgid "Choose the Menu to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:45
+#, fuzzy
+#| msgid "Header layout"
+msgid "Menu layout"
+msgstr "Disposició de la capçalera"
+
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:54
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:130
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:54
+msgid "Align"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:26
+msgid "Grid Options"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:39
+msgid "Use variable grid sizes"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:41
+msgid "You can set each article grid size individually."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:46
+msgid "Pagination Style"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:50
+msgid "Next and Previous arrows"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:51
+msgid "Numbered pagination"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:52
+#, fuzzy
+#| msgid "No pagination"
+msgid "Dotted pagination"
+msgstr "Sense paginació"
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:53
+msgid "Load More Button"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:54
+msgid "Lazy Load"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:60
+msgid "Filters"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:61
+msgid "Filter"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:70
+msgid "Filter Title"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:74
+msgid "Hide Title"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:79
+msgid "Filtering"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:86
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Obligatori"
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:91
+msgid "Terms to select"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:95
+msgid "Single"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:96
+msgid "Multiple"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:105
+msgid "Filter terms condition"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:109
+msgid "All the terms"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:110
+msgid "Any term"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:121
+msgid "Filter style"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:125
+msgid "Dropdown"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:143
+msgid "Filters condition"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:147
+msgid "All the filters"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:148
+msgid "Any filter"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:179
+msgid "Load more"
+msgstr "Carregar més"
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:180
+msgid "Loading..."
+msgstr "Carregant..."
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:181
+msgid "No more items"
+msgstr "No hi ha més articles"
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:182
+msgid "No results"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:183
+msgid "Older posts"
+msgstr "Més antics"
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:184
+msgid "Newer posts"
+msgstr "Més nous"
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:185
+msgid "Choose filter"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:288
+msgid "Reset"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:30
+msgid "Auto play"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:35
+msgid "Loop"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:40
+#, fuzzy
+#| msgid "Effect on hover"
+msgid "Pause on hover"
+msgstr "Efecte al passar el ratolí per sobre"
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:45
+#, fuzzy
+#| msgid "Enable star rating"
+msgid "Enable dragging"
+msgstr "Habilitar les votacions amb estrelles"
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:50
+msgid "Show navigation"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:55
+msgid "Show Pagination"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:63
+#, fuzzy
+#| msgid "Articles Separation"
+msgid "Articles per page"
+msgstr "Separació entre articles"
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:71
+#, fuzzy
+#| msgid "Hidden on Extra small devices"
+msgid "Articles per page in small devices"
+msgstr "Ocult en dispositius molt petits"
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:76
+msgid "Cycle by page"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:77
+msgid ""
+"If there is more than one item per page and this option is checked, "
+"navigation will cycle the whole page. Otherwise it will cycle by article."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:83
+msgid "Effect"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:84
+msgid "Effect only works when there is 1 article per page"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:87
+msgid "Fade"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:88
+msgid "Slide Horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:89
+msgid "Slide Vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:90
+msgid "Flip Horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:91
+msgid "Flip Vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:101
+msgid "Slider timeout"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:102
+msgid "Time between slides (in miliseconds)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:111
+msgid "Slide speed"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:112
+msgid "Slide transition speed (in miliseconds)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:26
+msgid "Blank space"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:48
+msgid "Height"
+msgstr "Alçada"
+
+#: ../include/sowidgets/widgets/carrot-separator/carrot-separator.php:64
+msgid "Color"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:41
+msgid "Choose the Shortcode to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:47
+msgid "or Type the shortcode name (without the brackets)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:52
+msgid "Attributes"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:53
+msgid "Attribute"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Instal·lar extensions obligatòries"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Instal·lar Extensions"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instal·lant Extensió: %s"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Actualitzant Extensió: %s"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Ha fallat alguna cosa amb l'API de la extensió."
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Començar a instal·lar la extensió "
+msgstr[1] "Començar a instal·lar les extensions"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Començar a actualitzar la extensió "
+msgstr[1] "Començar a actualitzar les extensions"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Començar a activar la extensió"
+msgstr[1] "Començar a activar les extensions"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Tornar a l'instal·lador d'extensions obligatòries"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:393
+#: ../include/tgmpa/class-tgm-plugin-activation.php:920
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2626
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Tornar a l'Escriptori"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:394
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Extensió activada satisfactòriament."
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:395
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Ignorar aquest avís"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1027
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1214
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Recomanat"
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3602
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3602
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../include/woocommerce/carrot-woocommerce-template-functions.php:22
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:13
+#, fuzzy
+#| msgid "Author"
+msgid "Authors"
+msgstr "Autor"
+
+#: ../posttypes/posttypes/authors/authors.class.php:15
+#: ../posttypes/posttypes/authors/authors.class.php:16
+#, fuzzy
+#| msgid "Show Author"
+msgid "New author"
+msgstr "Mostrar autor"
+
+#: ../posttypes/posttypes/authors/authors.class.php:17
+#, fuzzy
+#| msgid "Author"
+msgid "Add new author"
+msgstr "Autor"
+
+#: ../posttypes/posttypes/authors/authors.class.php:18
+msgid "Edit author"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:33
+msgid "Personal data"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:39
+msgid "Birth year"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:59
+msgid "Birth place"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:65
+#, fuzzy
+#| msgid "Pagination"
+msgid "Publications"
+msgstr "Paginació"
+
+#: ../posttypes/posttypes/authors/authors.class.php:80
+msgid "Other publications"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:95
+msgid "Add publication"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:116
+msgid "Editorial"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:134
+#: ../posttypes/posttypes/performances/performances.class.php:42
+#: ../presets/bookstore/class-bookstore-woocommerce.php:237
+msgid "Year"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:154
+msgid "Awards and Honours"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:171
+#: ../presets/bookstore/class-bookstore-woocommerce.php:464
+msgid "Synopsis"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:191
+#: ../posttypes/posttypes/authors/authors.class.php:196
+#, fuzzy
+#| msgid "Intern Link"
+msgid "Interview"
+msgstr "Link Intern"
+
+#: ../posttypes/posttypes/authors/authors.class.php:239
+msgid "Multimedia"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:250
+#: ../posttypes/posttypes/performances/performances.class.php:103
+#: ../posttypes/posttypes/projects/projects.class.php:144
+#, fuzzy
+#| msgid "Videos"
+msgid "Add Video"
+msgstr "Videos"
+
+#: ../posttypes/posttypes/authors/authors.class.php:253
+#: ../posttypes/posttypes/performances/performances.class.php:106
+#: ../posttypes/posttypes/projects/projects.class.php:147
+#, fuzzy
+#| msgid "Videos"
+msgid "Video URL"
+msgstr "Videos"
+
+#: ../posttypes/posttypes/authors/authors.class.php:256
+#: ../posttypes/posttypes/performances/performances.class.php:109
+#: ../posttypes/posttypes/projects/projects.class.php:150
+msgid "Youtube or Vimeo video URL"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:261
+#, fuzzy
+#| msgid "Audio"
+msgid "Audio/Music"
+msgstr "Audio"
+
+#: ../posttypes/posttypes/authors/authors.class.php:267
+#, fuzzy
+#| msgid "Audio"
+msgid "Add Audio"
+msgstr "Audio"
+
+#: ../posttypes/posttypes/authors/authors.class.php:270
+#, fuzzy
+#| msgid "Audio"
+msgid "Audio URL"
+msgstr "Audio"
+
+#: ../posttypes/posttypes/authors/authors.class.php:273
+msgid "Spotify song or playlist URL"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:287
+#: ../posttypes/posttypes/projects/projects.class.php:13
+msgid "Projects"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:292
+msgid "Author projects"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:317
+msgid "Link to Woocommerce products"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:324
+msgid "Link to Projects"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:348
+#: ../posttypes/posttypes/authors/authors.class.php:353
+msgid "Related Authors"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:595
+msgid "Also written"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:13
+msgid "Banners"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:14
+msgid "Banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:15
+#: ../posttypes/posttypes/banners/banners.class.php:16
+msgid "New banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:17
+msgid "Add new banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:18
+msgid "Edit banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:38
+msgid "Extern URL"
+msgstr "URL Externa"
+
+#: ../posttypes/posttypes/banners/banners.class.php:53
+msgid "Intern Link"
+msgstr "Link Intern"
+
+#: ../posttypes/posttypes/banners/banners.class.php:74
+msgid "Open in new window"
+msgstr "Obrir en finestra nova"
+
+#: ../posttypes/posttypes/banners/banners.class.php:89
+#: ../posttypes/posttypes/banners/banners.class.php:125
+msgid "Clicks"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:104
+#: ../posttypes/posttypes/banners/banners.class.php:133
+msgid "Imprints"
+msgstr "Visualitzacions"
+
+#: ../posttypes/posttypes/banners/banners.class.php:157
+msgid "Show ADs"
+msgstr "Mostrar Publicitat"
+
+#: ../posttypes/posttypes/banners/banners.class.php:173
+msgid "AD Type"
+msgstr "Tipus de Banner"
+
+#: ../posttypes/posttypes/banners/banners.class.php:210
+msgid "AD Format"
+msgstr "Format de Banner"
+
+#: ../posttypes/posttypes/block/block.class.php:13
+msgid "Blocks"
+msgstr "Blocs"
+
+#: ../posttypes/posttypes/block/block.class.php:15
+msgid "New block"
+msgstr "Nou bloc"
+
+#: ../posttypes/posttypes/block/block.class.php:16
+msgid "Add new block"
+msgstr "Afegir nou bloc"
+
+#: ../posttypes/posttypes/block/block.class.php:17
+msgid "Edit block"
+msgstr "Editar bloc"
+
+#: ../posttypes/posttypes/performances/performances.class.php:13
+msgid "Performances"
+msgstr "Actuacions"
+
+#: ../posttypes/posttypes/performances/performances.class.php:14
+msgid "Performance"
+msgstr "Actuació"
+
+#: ../posttypes/posttypes/performances/performances.class.php:15
+msgid "New Performance"
+msgstr "Nova Actuació"
+
+#: ../posttypes/posttypes/performances/performances.class.php:16
+msgid "Add new Performance"
+msgstr "Afegir nova actuació"
+
+#: ../posttypes/posttypes/performances/performances.class.php:17
+msgid "Edit Performance"
+msgstr "Editar actuació"
+
+#: ../posttypes/posttypes/performances/performances.class.php:31
+msgid "Performance Information"
+msgstr "Informació de l'actuació"
+
+#: ../posttypes/posttypes/performances/performances.class.php:36
+msgid "Location"
+msgstr "Ubicació"
+
+#: ../posttypes/posttypes/performances/performances.class.php:64
+msgid "Gallery"
+msgstr "Galeria"
+
+#: ../posttypes/posttypes/performances/performances.class.php:115
+#: ../posttypes/posttypes/projects/projects.class.php:156
+msgid "Data sheet"
+msgstr "Fitxa tècnica"
+
+#: ../posttypes/posttypes/performances/performances.class.php:121
+#: ../posttypes/posttypes/projects/projects.class.php:162
+msgid "Fields"
+msgstr "Camps"
+
+#: ../posttypes/posttypes/performances/performances.class.php:127
+#: ../posttypes/posttypes/projects/projects.class.php:168
+msgid "Add field"
+msgstr "Afegir camp"
+
+#: ../posttypes/posttypes/projects/projects.class.php:14
+msgid "Project"
+msgstr "Projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:15
+msgid "New project"
+msgstr "Nou projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:16
+msgid "Add new project"
+msgstr "Afegir nou projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:17
+msgid "Edit project"
+msgstr "Editar projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:63
+msgid "Show image gallery"
+msgstr "Mostrar la galeria"
+
+#: ../posttypes/posttypes/projects/projects.class.php:80
+msgid "Project Gallery"
+msgstr "Galeria del projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:115
+msgid "Show videos"
+msgstr "Mostra videos"
+
+#: ../posttypes/posttypes/projects/projects.class.php:122
+msgid "Videos before images"
+msgstr "Videos per sobre de les imatges"
+
+#: ../posttypes/posttypes/projects/projects.class.php:187
+msgid "Project settings"
+msgstr "Configuració del projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:220
+msgid "Project BG color"
+msgstr "Color de fons del projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:234
+msgid "Custom"
+msgstr "Personalitzada"
+
+#: ../posttypes/posttypes/projects/projects.class.php:248
+msgid "Custom BG color"
+msgstr "Color de fons personalitzat"
+
+#: ../posttypes/posttypes/projects/projects.class.php:272
+msgid "Custom Text color"
+msgstr "Color de text personalitzat"
+
+#: ../posttypes/posttypes/projects/projects.class.php:296
+msgid "Custom alternate color"
+msgstr "Color de text alternatius"
+
+#: ../posttypes/posttypes/projects/projects.class.php:320
+msgid "Use custom BG color in lightbox"
+msgstr "Usar el color personalitzat al lightbox"
+
+#: ../posttypes/posttypes/projects/projects.class.php:343
+msgid "Project BG image"
+msgstr "Imatge de fons del projecte"
+
+#: ../posttypes/posttypes/projects/projects.class.php:366
+msgid "Project BG image repeat"
+msgstr "Repetició de la imatge de fons"
+
+#: ../posttypes/posttypes/projects/projects.class.php:396
+msgid "Project BG image horizontal position"
+msgstr "Posició horitzontal de la imatge de fons"
+
+#: ../posttypes/posttypes/projects/projects.class.php:425
+msgid "Project BG image vertical position"
+msgstr "Posició vertical de la imatge de fons"
+
+#: ../posttypes/posttypes/projects/projects.class.php:454
+msgid "Project BG image size"
+msgstr "Mida de la imatge de fons"
+
+#: ../posttypes/posttypes/projects/projects.class.php:465
+msgid "Auto"
+msgstr "Auto"
+
+#: ../posttypes/posttypes/projects/projects.class.php:493
+msgid "Project Author"
+msgstr "Autor del projecte"
+
+#: ../posttypes/taxonomies/adtag.class.php:13
+msgid "Banner Tags"
+msgstr "Etiquetes del banner"
+
+#: ../posttypes/taxonomies/adtag.class.php:14
+msgid "Banner Tag"
+msgstr "Etiqueta del banner"
+
+#: ../posttypes/taxonomies/adtag.class.php:15
+#: ../posttypes/taxonomies/adtag.class.php:16
+msgid "New Banner Tag"
+msgstr "Nova etiqueta de banner"
+
+#: ../posttypes/taxonomies/adtag.class.php:17
+msgid "Add new Banner Tag"
+msgstr "Afegir nova etiqueta de banner"
+
+#: ../posttypes/taxonomies/adtag.class.php:18
+msgid "Edit Banner Tag"
+msgstr "Editar etiqueta de banner"
+
+#: ../posttypes/taxonomies/adtype.class.php:13
+msgid "Banner Types"
+msgstr "Tipus de banner"
+
+#: ../posttypes/taxonomies/adtype.class.php:14
+msgid "Banner Type"
+msgstr "Tipus de banner"
+
+#: ../posttypes/taxonomies/adtype.class.php:15
+#: ../posttypes/taxonomies/adtype.class.php:16
+msgid "New Banner Type"
+msgstr "Nou tipus de banner"
+
+#: ../posttypes/taxonomies/adtype.class.php:17
+msgid "Add new Banner Type"
+msgstr "Afegir nou tipus de banner"
+
+#: ../posttypes/taxonomies/adtype.class.php:18
+msgid "Edit Banner Type"
+msgstr "Editar tipus de banner"
+
+#: ../posttypes/taxonomies/performancecategory.class.php:13
+msgid "Performance Categories"
+msgstr "Categories d'actuació"
+
+#: ../posttypes/taxonomies/performancecategory.class.php:14
+msgid "Performance Category"
+msgstr "Categoria d'actuació"
+
+#: ../posttypes/taxonomies/performancecategory.class.php:15
+#: ../posttypes/taxonomies/performancecategory.class.php:16
+msgid "New Performance Category"
+msgstr "Nova categoria d'actuació"
+
+#: ../posttypes/taxonomies/performancecategory.class.php:17
+msgid "Add new Performance Category"
+msgstr "Afegir nova categoria d'actuació"
+
+#: ../posttypes/taxonomies/performancecategory.class.php:18
+msgid "Edit Performance Category"
+msgstr "Editar categoria d'actuació"
+
+#: ../posttypes/taxonomies/performancetag.class.php:13
+msgid "Performance Tags"
+msgstr "Etiquetes d'actuació"
+
+#: ../posttypes/taxonomies/performancetag.class.php:14
+msgid "Performance Tag"
+msgstr "Etiqueta d'actuació"
+
+#: ../posttypes/taxonomies/performancetag.class.php:15
+#: ../posttypes/taxonomies/performancetag.class.php:16
+msgid "New Performance Tag"
+msgstr "Nova etiqueta d'actuació"
+
+#: ../posttypes/taxonomies/performancetag.class.php:17
+msgid "Add new Performance Tag"
+msgstr "Afegir nova etiqueta d'actuació"
+
+#: ../posttypes/taxonomies/performancetag.class.php:18
+msgid "Edit Performance Tag"
+msgstr "Editar etiqueta d'actuació"
+
+#: ../posttypes/taxonomies/projectcategory.class.php:13
+msgid "Project Categories"
+msgstr "Categories de projecte"
+
+#: ../posttypes/taxonomies/projectcategory.class.php:14
+msgid "Project Category"
+msgstr "Categoria de projecte"
+
+#: ../posttypes/taxonomies/projectcategory.class.php:15
+#: ../posttypes/taxonomies/projectcategory.class.php:16
+msgid "New Project Category"
+msgstr "Nova categoria de projecte"
+
+#: ../posttypes/taxonomies/projectcategory.class.php:17
+msgid "Add new Project Category"
+msgstr "Afegir nova categoria de projecte"
+
+#: ../posttypes/taxonomies/projectcategory.class.php:18
+msgid "Edit Project Category"
+msgstr "Editar categoria de projecte"
+
+#: ../posttypes/taxonomies/projecttag.class.php:13
+msgid "Project Tags"
+msgstr "Etiquetes de projecte"
+
+#: ../posttypes/taxonomies/projecttag.class.php:14
+msgid "Project Tag"
+msgstr "Etiqueta de projecte"
+
+#: ../posttypes/taxonomies/projecttag.class.php:15
+#: ../posttypes/taxonomies/projecttag.class.php:16
+msgid "New Project Tag"
+msgstr "Nova etiqueta de projecte"
+
+#: ../posttypes/taxonomies/projecttag.class.php:17
+msgid "Add new Project Tag"
+msgstr "Afegir nova "
+
+#: ../posttypes/taxonomies/projecttag.class.php:18
+msgid "Edit Project Tag"
+msgstr "Editar etiqueta de projecte"
+
+#: ../presets/bookstore/bookstore.php:570
+#: ../presets/bookstore/class-bookstore-woocommerce.php:490
+msgid "Preview"
+msgstr "Vista prèvia"
+
+#: ../presets/bookstore/bookstore.php:573
+#: ../presets/bookstore/class-bookstore-woocommerce.php:633
+msgid ""
+"You can enjoy a brief summary of the book by downloading it through the "
+"following button."
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:74
+#, fuzzy
+#| msgid "Contact info"
+msgid "Product info"
+msgstr "Informació de contacte"
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:78
+#: ../presets/bookstore/class-bookstore-woocommerce.php:83
+msgid "Passages"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:98
+msgid "Add Passage"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:102
+msgid "Passage"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:123
+#, fuzzy
+#| msgid "Extern URL"
+msgid "External Reviews"
+msgstr "URL Externa"
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:128
+msgid "Reviews"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:143
+msgid "Add Review"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:147
+#, fuzzy
+#| msgid "Show Author"
+msgid "Review Author"
+msgstr "Mostrar autor"
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:154
+msgid "Review Media"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:161
+msgid "Review Link"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:168
+#, fuzzy
+#| msgid "Show Excerpt"
+msgid "Review Excerpt"
+msgstr "Mostrar resum"
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:192
+#: ../presets/bookstore/class-bookstore-woocommerce.php:197
+msgid "Awards"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:212
+msgid "Add Award"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:267
+#, fuzzy
+#| msgid "Text color"
+msgid "Text Color"
+msgstr "Color del text"
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:362
+#: ../presets/bookstore/class-bookstore-woocommerce.php:366
+msgid "Related Products"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:514
+#: ../presets/bookstore/class-bookstore-woocommerce.php:544
+msgid "Preview PDF"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:546
+msgid "Upload PDF"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:558
+msgid "Remove"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:584
+msgid "Create new author"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/content-single-product.php:101
+msgid "Buy"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/add-to-cart/simple.php:35
+msgid "elLibro"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/add-to-cart/variable.php:20
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/product-attributes.php:28
+#, fuzzy
+#| msgid "Height"
+msgid "Weight"
+msgstr "Alçada"
+
+#: ../presets/bookstore/woocommerce/single-product/product-attributes.php:34
+msgid "Dimensions"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/product-image.php:75
+msgid "Awaiting product image"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/related.php:13
+#: ../woocommerce/single-product/related.php:13
+msgid "You may also be interested..."
+msgstr ""
+
+#: ../templates/archive/archive-header-category.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultats de la cerca: %s"
+
+#: ../templates/archive/archive-header-user.php:23
+msgid "Published articles"
+msgstr "Articles publicats"
+
+#: ../templates/post.php:223 ../templates/tile/default.php:228
+#, php-format
+msgid "%s comments"
+msgstr "%s comentaris"
+
+#: ../templates/post/default.php:54 ../templates/post/featured-right.php:18
+#: ../templates/post/nosidebar.php:28
+#, fuzzy
+#| msgid "Published articles"
+msgid "Published on"
+msgstr "Articles publicats"
+
+#: ../templates/post/default.php:69 ../templates/post/nosidebar.php:41
+#: ../templates/post/press.php:132
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: ../templates/post/press.php:28
+msgid "Un article de"
+msgstr ""
+
+#: ../templates/post/press.php:44
+msgid "Publicat el"
+msgstr ""
+
+#: ../templates/post/press.php:86
+msgid "ADs"
+msgstr "Publicitat"
+
+#: ../templates/post/press.php:150
+#, fuzzy
+#| msgid "%s comments"
+msgid "Leave a comment"
+msgstr "%s comentaris"
+
+#: ../templates/preloader.php:20
+#, fuzzy
+#| msgid "Loading..."
+msgid "Loading ..."
+msgstr "Carregant..."
+
+#: ../templates/search/no-results.php:2
+#, php-format
+msgid "No results for the following query: <strong>%s</strong>"
+msgstr ""
+
+#: ../templates/search/search-box.php:5
+#, fuzzy
+#| msgid "Search"
+msgid "Search for..."
+msgstr "Buscar"
+
+#: ../tribe-events/single-event.php:50 ../tribe-events/single-event.php:103
+#, fuzzy, php-format
+#| msgid "No pagination"
+msgid "%s Navigation"
+msgstr "Sense paginació"
+
+#: ../woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:60
+#, fuzzy
+#| msgid "Box Border"
+msgid "Your order"
+msgstr "Vora de la caixa"
+
+#~ msgid "Sticky Header Inner Menu"
+#~ msgstr "Menú fixe de capçalera a planes interiors"
+
+#~ msgid "Header Inner Menu"
+#~ msgstr "Menú de capçalera a planes interiors"
+
+#~ msgid "Footer top border width"
+#~ msgstr "Amplada de la vora del peu"
+
+#~ msgid "Sidebar border"
+#~ msgstr "Vora de la barra lateral"
+
+#~ msgid "Boxed"
+#~ msgstr "Emmarcat"
+
+#~ msgid "Thumbnail border width"
+#~ msgstr "Amplada de la vora de la miniatura"
+
+#~ msgid "Archive header color"
+#~ msgstr "Color de la capçalera de l'arxiu"
+
+#~ msgid "Archive header bottom border"
+#~ msgstr "Vora inferior de la capçalera de l'arxiu"
+
+#~ msgid "Headers"
+#~ msgstr "Capçaleres"
+
+#~ msgid "Normal header"
+#~ msgstr "El mateix que la capçalera normal"
+
+#~ msgid "Minified Sticky header"
+#~ msgstr "Capçalera simplificada"
+
+#~ msgid "Background"
+#~ msgstr "Fons"
+
+#~ msgid "Profile Picture"
+#~ msgstr "Imatge de perfil"
+
+#~ msgid "Twitter user withouth @"
+#~ msgstr "Usuari de Twitter (sense @)"
+
+#~ msgid "Check to enable user star rating"
+#~ msgstr "Marcar-ho per habilitar les votacions dels usuaris amb estrelles"
+
+#~ msgid "Articles Style"
+#~ msgstr "Estil dels articles"
+
+#~ msgid "Header Separation"
+#~ msgstr "Separació de la capçalera de l'article"
+
+#~ msgid "Line"
+#~ msgstr "Línea"
+
+#~ msgid "Gap"
+#~ msgstr "Espai en blanc"
+
+#~ msgid "Outline articles on hover"
+#~ msgstr "Enmarcar esl articles al passar el ratolí per sobre"
+
+#~ msgid "Landscape"
+#~ msgstr "Apaisat"
+
+#~ msgid "Portrait"
+#~ msgstr "Vertical"
+
+#~ msgid "Square"
+#~ msgstr "Quadrat"
+
+#~ msgid "Thumbnail border"
+#~ msgstr "Vora de la miniatura"
+
+#~ msgid "Typography / General"
+#~ msgstr "Tipografia / General"
+
+#~ msgid "Typography / Headings"
+#~ msgstr "Tipografia / Capçaleres"
+
+#~ msgid "Header menu style"
+#~ msgstr "Estil del menú de la capçalera"
+
+#~ msgid "Clean"
+#~ msgstr "Net"
+
+#~ msgid "Bordered"
+#~ msgstr "Vorejat"
+
+#~ msgid "Tab"
+#~ msgstr "Pestanya"
+
+#~ msgid "Change when not on top?"
+#~ msgstr "Canviar quan no s'està a dalt de tot?"
+
+#~ msgid "Header not on top custom BG color"
+#~ msgstr ""
+#~ "Color de fons personalitzat de la capçalera quan no està dalt de tot"
+
+#~ msgid "Header not on top custom text color"
+#~ msgstr ""
+#~ "Color de text personalitzat de la capçalera quan no està dalt de tot"
+
+#~ msgid "Minified Sticky Header"
+#~ msgstr "Capçalera enganxifosa mínima"
+
+#~ msgid "Sticky Header custom BG color"
+#~ msgstr "Color de fons personalitzat de la capçalera enganxifosa"
+
+#~ msgid "Sticky Header custom text color"
+#~ msgstr "Color de text personalitzat de la capçalera enganxifosa"
+
+#~ msgid "Alternate Small Logo"
+#~ msgstr "Logo petit alternatiu"
+
+#~ msgid "If not set the default site logo will be displayed"
+#~ msgstr "Si no es defineix es mostrarà el logo principal"

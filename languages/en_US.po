@@ -1,0 +1,6423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Carrot Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon Jun 26 2017 12:17:48 GMT+0200 (Central Europe "
+"Daylight Time)\n"
+"PO-Revision-Date: Wed Aug 02 2017 14:33:51 GMT+0200 (Central Europe Daylight "
+"Time)\n"
+"Last-Translator: aaa aaa <info@mensula.cat>\n"
+"Language-Team: \n"
+"Language: English\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Target-Locale: en_US"
+
+#: ../plugins/layerslider/classes/class.km.autoupdate.v3.php:280
+msgid "Your settings were successfully saved."
+msgstr ""
+
+#: ../plugins/layerslider/wp/widgets.php:10
+msgid "Insert a slider with LayerSlider WP Widget"
+msgstr ""
+
+#: ../plugins/layerslider/wp/widgets.php:12
+msgid "LayerSlider WP Widget"
+msgstr ""
+
+#: ../plugins/layerslider/wp/widgets.php:33
+msgid "LayerSlider"
+msgstr ""
+
+#: ../plugins/layerslider/wp/widgets.php:39
+msgid "Choose a slider:"
+msgstr ""
+
+#: ../plugins/layerslider/wp/widgets.php:52
+msgid "You didn't create any slider yet."
+msgstr ""
+
+#: ../plugins/layerslider/wp/widgets.php:56
+msgid "Title:"
+msgstr ""
+
+#: ../plugins/layerslider/wp/actions.php:540 ../plugins/layerslider/wp/actions.
+#: php:566
+msgid ""
+"It looks like your files isn't writable, so PHP couldn't make any changes "
+"(CHMOD)."
+msgstr ""
+
+#: ../plugins/layerslider/wp/actions.php:540 ../plugins/layerslider/wp/actions.
+#: php:566
+msgid "Cannot write to file"
+msgstr ""
+
+#: ../plugins/layerslider/wp/actions.php:554
+msgid "It looks like you haven't selected any skin to edit."
+msgstr ""
+
+#: ../plugins/layerslider/wp/actions.php:554
+msgid "No skin selected."
+msgstr ""
+
+#: ../plugins/layerslider/wp/shortcodes.php:53
+msgid "LayerSlider encountered a problem while it tried to show your slider."
+msgstr ""
+
+#: ../plugins/layerslider/wp/shortcodes.php:54
+msgid ""
+"Please make sure that you've used the right shortcode or method to insert "
+"the slider, and check if the corresponding slider exists and it wasn't "
+"deleted previously."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:45 ../plugins/layerslider/wp/notices.php:
+#: 69
+msgid "An update is available for LayerSlider WP!"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:47
+#, php-format
+msgid "You have version %1$s. Update to version %2$s."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:49 ../plugins/layerslider/wp/notices.php:
+#: 50
+msgid "Install now"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:71
+#, php-format
+msgid "You have version %1$s. The latest version is %2$s."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:72
+msgid ""
+"New releases contain new features, bug fixes and various improvements across "
+"the entire plugin."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:73
+msgid ""
+"Set up auto-updates to upgrade to this new version, or request it from the "
+"author of your theme if you've received LayerSlider from them."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:73
+msgid "Click here"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:73
+msgid "to learn more"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:74
+msgid "Hide this message"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:87
+msgid "The new version of LayerSlider WP is almost ready!"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:89
+msgid ""
+"For a faster and more reliable solution, LayerSlider WP needs to convert "
+"your data associated with the plugin. Your sliders and settings will remain "
+"still, and it only takes a click on this button."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:92
+msgid "Convert Data"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:104
+msgid "Server configuration issues detected!"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:106
+msgid ""
+"phpQuery, an external library in LayerSlider, have unmet dependencies. It "
+"requires PHP5 with the following extensions installed: PHP DOM extension, "
+"PHP Multibyte String extension. Please contact with your hosting provider to "
+"resolve these dependencies, as it will likely prevent LayerSlider from "
+"functioning properly."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:107
+msgid "This issue could result a blank page in slider builder."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:119
+msgid "Would you like to receive automatic updates and premium support?"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:121
+msgid ""
+"By activating the plugin with your Item Purchase Code you can receive update "
+"notifications with one-click installation and better support services. This "
+"is optional and not needed if you've received LayerSlider bundled with a "
+"theme."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:135
+msgid "LayerSlider 6 is coming soon. Participate in the beta program!"
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:137
+msgid ""
+"With two years in the making, LayerSlider 6 is our biggest update yet. It "
+"has so many new features and surprises that it almost feels like an entirely "
+"new plugin while keeping the user interface familiar. The release date is "
+"approaching fast, this is your chance to gain access all the cool new stuff "
+"before everyone else. Participate in our closed beta program and help us "
+"preparing LayerSlider 6 for the final release."
+msgstr ""
+
+#: ../plugins/layerslider/wp/notices.php:157
+#, php-format
+msgid ""
+"You need to authorize this site in order to get upgrades or support for this "
+"plugin. %sPurchase a license%s or %senter an existing purchase code%s."
+msgstr ""
+
+#: ../plugins/layerslider/wp/menus.php:33 ..
+#: plugins/layerslider/views/slider_list.php:331
+msgid "All Sliders"
+msgstr ""
+
+#: ../plugins/layerslider/wp/menus.php:39 ..
+#: plugins/layerslider/views/skin_editor.php:65
+msgid "Skin Editor"
+msgstr ""
+
+#: ../plugins/layerslider/wp/menus.php:45
+msgid "CSS Editor"
+msgstr ""
+
+#: ../plugins/layerslider/wp/menus.php:50
+msgid "Transition Builder"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-demo-sliders.php:7
+msgid "Choose a demo slider to import"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-demo-sliders.php:21
+msgid "Import all demo sliders (might be slow)"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-demo-sliders.php:26
+msgid ""
+"More demo content can be found in the downloaded package from CodeCanyon. "
+"You can import them in the usual way in the \"Import and Export Sliders\" "
+"section below."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer-item.php:6
+msgid "Hide layer in the editor."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer-item.php:7
+msgid "Prevent layer from dragging in the editor."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer-item.php:11 ..
+#: plugins/layerslider/templates/tmpl-layer-item.php:12
+msgid "Remove this layer"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-beta-feedback.php:4
+msgid "Using beta version"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-beta-feedback.php:5
+msgid "Send feedback"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-add-slider.php:7
+msgid "Name your new slider"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-add-slider.php:9
+msgid "e.g. Homepage slider"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-add-slider.php:10
+msgid "Add slider"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-share-sheet.php:37
+msgid "Enjoy using LayerSlider?"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-share-sheet.php:41
+msgid ""
+"If so, please consider recommending it to your friends on your favorite "
+"social network!"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-share-sheet.php:45
+msgid "Share"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-share-sheet.php:49
+msgid "Tweet"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:8 ..
+#: posttypes/posttypes/banners/banners.class.php:118
+msgid "Image"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:9
+msgid "Text"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:10
+msgid "HTML / Video / Audio"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:11
+msgid "Dynamic content from posts"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:19
+msgid "Paragraph"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:20
+msgid "H1"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:21
+msgid "H2"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:22
+msgid "H3"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:23
+msgid "H4"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:24
+msgid "H5"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:25
+msgid "H6"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:40
+msgid "Click on the image preview to open WordPress Media Library or"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:41
+msgid "insert from URL"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:42 ..
+#: plugins/layerslider/templates/tmpl-slide.php:30
+msgid "use post image"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:48
+msgid ""
+"Type here the contents of your layer. You can use any HTML codes in this "
+"field to insert content others then text. This field is also shortcode-aware,"
+" so you can insert content from other plugins as well as video embed codes."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:52
+msgid "Add Media"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:54
+msgid "Insert self-hosted video or audio"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:81
+msgid ""
+"Click on one or more post placeholders to insert them into your layer's "
+"content. Post placeholders act like shortcodes in WP, and they will be "
+"filled with the actual content from your posts."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:82
+msgid "Limit text length (if any)"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:84 ..
+#: plugins/layerslider/templates/tmpl-slide.php:78
+msgid "Configure post options"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:94
+msgid "Transition in"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:133
+msgid "Transition out"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:172
+msgid "Other options"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:183 ..
+#: plugins/layerslider/templates/tmpl-slide.php:58
+msgid "use post URL"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:210
+msgid "Layout & Positions"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:221 ..
+#: include/sowidgets/carrot-basewidget.class.php:286 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:101 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:188
+msgid "Padding"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:232
+msgid "Border"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:243
+msgid "Font"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:254 ..
+#: plugins/layerslider/templates/tmpl-slider-settings.php:23
+msgid "Misc"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:259
+msgid "Word-wrap"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:260
+msgid ""
+"If you use custom sized layers, you have to enable this setting to wrap your "
+"text."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:264
+msgid "Custom CSS"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-layer.php:265
+msgid ""
+"If you want to set style settings other then above, you can use here any CSS "
+"codes. Please make sure to write valid markup."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:6
+msgid "Type your slider name here"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:8
+msgid "e.g. homepageslider"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:14 ..
+#: plugins/layerslider/views/slider_edit.php:147
+msgid "Slider Settings"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:17 ..
+#: include/posttypes/customposttype.class.php:257 ..
+#: posttypes/posttypes/projects/projects.class.php:129
+msgid "Layout"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:18
+msgid "Slideshow"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:19 ..
+#: plugins/layerslider/templates/tmpl-slider-settings.php:252
+msgid "Appearance"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:20
+msgid "Navigation Area"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:21
+msgid "Thumbnail Navigation"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:22 ..
+#: include/functions.php:317 ../posttypes/posttypes/projects/projects.class.php:
+#: 241 ../posttypes/posttypes/projects/projects.class.php:253 ..
+#: posttypes/posttypes/authors/authors.class.php:244
+msgid "Videos"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:24 ..
+#: plugins/layerslider/config/defaults.php:512
+msgid "YourLogo"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:31
+msgid "Slider dimensions"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:42
+msgid "Responsive mode"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:53
+msgid "Full-width slider settings"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:69 ..
+#: plugins/layerslider/templates/tmpl-slider-settings.php:138
+msgid "Other settings"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:89
+msgid "Slideshow behavior"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:105
+msgid "Starting slide options"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:116
+msgid "Slideshow navigation"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:127
+msgid "Looping"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:129 ..
+#: plugins/layerslider/config/defaults.php:203
+msgid "Loops"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:131
+msgid ""
+"Number of loops if automatically start slideshow is enabled (0 means "
+"infinite!)"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:154 ..
+#: plugins/layerslider/config/defaults.php:242
+msgid "Skin"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:170
+msgid ""
+"You can change the skin of the slider. The 'noskin' skin is a border- and "
+"buttonless skin. Your custom skins will appear in the list when you create "
+"their folders as well."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:178 ..
+#: plugins/layerslider/config/defaults.php:259
+msgid "Background image"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:200
+msgid "Custom slider CSS"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:210
+msgid "Show navigation buttons"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:226
+msgid "Navigation buttons on hover"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:237
+msgid "Slideshow timers"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:254 ..
+#: plugins/layerslider/config/defaults.php:359
+msgid "Thumbnail navigation"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:263
+msgid "Thumbnail dimensions"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slider-settings.php:274
+msgid "Thumbnail appearance"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:34
+msgid "Find posts with the filters above"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:53
+msgid "Don't filter categories"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:65
+msgid "Don't filter tags"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:77
+msgid "Don't filter taxonomies"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:105
+msgid "Order results by"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:106
+msgid "On this slide"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:118
+msgid "Get the "
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:120
+msgid "following"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:125
+msgid "item in the set of matched selection"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-post-options.php:128
+msgid "Preview from currenty matched elements"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:9
+msgid "Slide Options"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:29 ..
+#: plugins/layerslider/templates/tmpl-slide.php:30 ..
+#: plugins/layerslider/templates/tmpl-slide.php:40 ..
+#: plugins/layerslider/views/transition_builder.php:535 ..
+#: plugins/layerslider/views/transition_builder.php:554 ..
+#: plugins/layerslider/views/slider_list.php:369
+msgid "or"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:29 ..
+#: plugins/layerslider/templates/tmpl-slide.php:40
+msgid "enter URL"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:49
+msgid "You can select your desired slide transitions by clicking on this button."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:72 ..
+#: plugins/layerslider/config/defaults.php:790 ..
+#: plugins/layerslider/config/defaults.php:1150
+msgid "Hidden"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:73 ..
+#: plugins/layerslider/config/defaults.php:792
+msgid ""
+"If you don't want to use this slide in your front-page, but you want to keep "
+"it, you can hide it with this switch."
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:79
+msgid "Duplicate this slide"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:93 ..
+#: plugins/layerslider/views/transition_builder.php:67 ..
+#: plugins/layerslider/views/transition_builder.php:349 ..
+#: plugins/layerslider/views/transition_builder.php:569 ..
+#: plugins/layerslider/views/transition_builder.php:901 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:452
+msgid "Preview"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:112 ..
+#: plugins/layerslider/views/transition_builder.php:77 ..
+#: plugins/layerslider/views/transition_builder.php:359 ..
+#: plugins/layerslider/views/transition_builder.php:579 ..
+#: plugins/layerslider/views/transition_builder.php:911
+msgid "Enter Preview"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:121
+msgid "Layers"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:123 ..
+#: plugins/layerslider/views/slider_list.php:119
+msgid "Add New"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:127
+msgid "Layer options"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:128
+msgid "Timeline"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:135 ..
+#: include/sowidgets/carrot-postswidget.class.php:150 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:27 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:114
+msgid "Content"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:136 ..
+#: plugins/layerslider/views/transition_builder.php:404 ..
+#: plugins/layerslider/views/transition_builder.php:958
+msgid "Transition"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:137
+msgid "Link & Attributes"
+msgstr ""
+
+#: ../plugins/layerslider/templates/tmpl-slide.php:138
+msgid "Styles"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:14
+msgid "Slider width"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:16
+msgid ""
+"The width of the slider in pixels. Accepts percents, but is only recommended "
+"for full-width layout."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:28
+msgid "Slider height"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:30
+msgid "The height of the slider in pixels."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:42
+msgid "Responsive"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:44
+msgid ""
+"Responsive mode provides optimal viewing experience across a wide range of "
+"devices (from desktop to mobile) by adapting and scaling your sliders for "
+"the viewing environment."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:51
+msgid "Max-width"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:53
+msgid ""
+"The maximum width your slider can take in pixels when responsive mode is "
+"enabled."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:67
+msgid "Full-width"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:69
+msgid ""
+"Enable this option to force the slider to become full-width, even if your "
+"theme does not support such layout."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:79
+msgid "Responsive under"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:81
+msgid ""
+"Turns on responsive mode in a full-width slider under the specified value in "
+"pixels. Can only be used with full-width mode."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:92
+msgid "Layers container"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:94
+msgid ""
+"Creates an invisible inner container with the given dimension in pixels to "
+"hold and center your layers."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:105
+msgid "Hide on mobile"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:107
+msgid "Hides the slider on mobile devices."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:115
+msgid "Hide under"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:117
+msgid "Hides the slider under the given value of browser width in pixels."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:127
+msgid "Hide over"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:129
+msgid "Hides the slider over the given value of browser width in pixel."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:142
+msgid "Start slideshow"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:144
+msgid "Slideshow will automatically start after pages have loaded."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:150
+msgid "Start in viewport"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:152
+msgid "The slider will start only if it enters into the viewport."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:158 ..
+#: include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:40
+msgid "Pause on hover"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:160
+msgid ""
+"Slideshow will temporally pause when someone moves the mouse cursor over the "
+"slider."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:166
+msgid "Start with slide"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:168
+msgid ""
+"The slider will start with the specified slide. You can use the value "
+"\"random\"."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:177
+msgid "Animate starting slide"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:179
+msgid ""
+"Disabling this option will result a static starting slide for the fisrt time "
+"on page load."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:185
+msgid "Shuffle mode"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:187
+msgid ""
+"Slideshow will proceed in random order. This feature does not work with "
+"looping."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:194
+msgid "Two way slideshow"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:196
+msgid "Slideshow can go backwards if someone switches to a previous slide."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:205
+msgid "Number of loops if slideshow is enabled. Zero means infinite loops."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:213
+msgid "Force the number of loops"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:215
+msgid ""
+"The slider will always stop at the given number of loops, even if someone "
+"restarts slideshow."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:221
+msgid "Keyboard navigation"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:223
+msgid "You can navigate through slides with the left and right arrow keys."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:229
+msgid "Touch navigation"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:231
+msgid "Gesture-based navigation when swiping on touch-enabled devices."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:244
+msgid ""
+"The skin used for this slider. The 'noskin' skin is a border- and buttonless "
+"skin. Your custom skins will appear in the list when you create their "
+"folders."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:251 ../include/sowidgets/carrot-
+#: basewidget.class.php:263 ../include/sowidgets/widgets/carrot-flip-card/carrot-
+#: flip-card.php:118
+msgid "Background color"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:253
+msgid ""
+"Global background color of the slider. Slides with non-transparent "
+"background will cover this one. You can use all CSS methods such as HEX or "
+"RGB(A) values."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:261
+msgid ""
+"Global background image of the slider. Slides with non-transparent "
+"backgrounds will cover it. This image will not scale in responsive mode."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:266
+msgid "Initial fade duration"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:268
+msgid ""
+"Change the duration of the initial fade animation when the page loads. Enter "
+"0 to disable fading."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:278
+msgid "Slider CSS"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:280
+msgid ""
+"You can enter custom CSS to change some style properties on the slider "
+"wrapper element. More complex CSS should be applied with the Custom Styles "
+"Editor."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:294
+msgid "Show Prev & Next buttons"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:296
+msgid "Disabling this option will hide the Prev and Next buttons."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:303
+msgid "Show Prev & Next buttons on hover"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:305
+msgid ""
+"Show the buttons only when someone moves the mouse cursor over the slider. "
+"This option depends on the previous setting."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:311
+msgid "Show Start & Stop buttons"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:313
+msgid "Disabling this option will hide the Start & Stop buttons."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:319
+msgid "Show slide navigation buttons"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:321
+msgid "Disabling this option will hide slide navigation buttons or thumbnails."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:328
+msgid "Slide navigation on hover"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:330
+msgid ""
+"Slide navigation buttons (including thumbnails) will be shown on mouse hover "
+"only."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:336
+msgid "Show bar timer"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:338
+msgid "Show the bar timer to indicate slideshow progression."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:345
+msgid "Show circle timer"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:347
+msgid "Use circle timer to indicate slideshow progression."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:361
+msgid "Use thumbnail navigation instead of slide bullet buttons."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:363
+msgid "Disabled"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:364
+msgid "Hover"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:365
+msgid "Always"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:372
+msgid "Thumbnail container width"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:374
+msgid "The width of the thumbnail area."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:380
+msgid "Thumbnail width"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:382
+msgid "The width of thumbnails in the navigation area."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:391
+msgid "Thumbnail height"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:393
+msgid "The height of thumbnails in the navigation area."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:403
+msgid "Active thumbnail opacity"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:405
+msgid "Opacity in percentage of the active slide's thumbnail."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:415
+msgid "Inactive thumbnail opacity"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:417
+msgid "Opacity in percentage of inactive slide thumbnails."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:431
+msgid "Automatically play videos"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:433
+msgid "Videos will be automatically started on the active slide."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:441
+msgid "Pause slideshow"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:443
+msgid ""
+"The slideshow can temporally be paused while videos are playing. You can "
+"choose to permanently stop the pause until manual restarting."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:445
+msgid "While playing"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:446
+msgid "Permanently"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:447
+msgid "No action"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:461
+msgid "Youtube preview"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:463
+msgid ""
+"The preview image quaility for YouTube videos. Please note, some videos do "
+"not have HD previews, and you may need to choose a lower quaility."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:465
+msgid "Maximum quality"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:466
+msgid "High quality"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:467
+msgid "Medium quality"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:468
+msgid "Default quality"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:479
+msgid "Image preload"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:481
+msgid "Preloads images used in the next slides for seamless animations."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:486
+msgid "Lazy load images"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:488
+msgid ""
+"Loads images only when needed to save bandwidth and server resources. Relies "
+"on the preload feature."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:496
+msgid "Use relative URLs"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:498
+msgid ""
+"Use relative URLs for local images. This setting could be important when "
+"moving your WP installation."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:514
+msgid ""
+"A fixed image layer can be shown above the slider that remains still during "
+"slide progression. Can be used to display logos or watermarks."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:521
+msgid "YourLogo style"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:523
+msgid "CSS properties to control the image placement and appearance."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:530
+msgid "YourLogo link"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:532
+msgid "Enter an URL to link the YourLogo image."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:539
+msgid "Link target"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:667
+msgid "Set a slide image"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:669
+msgid ""
+"The slide image/background. Click on the image to open the WordPress Media "
+"Library to choose or upload an image."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:681
+msgid "Set a slide thumbnail"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:683
+msgid ""
+"The thumbnail image of this slide. Click on the image to open the WordPress "
+"Media Library to choose or upload an image. If you leave this field empty, "
+"the slide image will be used."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:697
+msgid "Slide delay"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:699
+msgid ""
+"Here you can set the time interval between slide changes, this slide will "
+"stay visible for the time specified here. This value is in millisecs, so the "
+"value 1000 means 1 second. Please don't use 0 or very low values."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:728
+msgid "Time Shift"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:730
+msgid ""
+"You can control here the timing of the layer animations when the slider "
+"changes to this slide with a 3D/2D transition. Zero means that the layers of "
+"this slide will animate in when the slide transition ends. You can time-"
+"shift the starting time of the layer animations with positive or negative "
+"values."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:738 ..
+#: plugins/layerslider/config/defaults.php:1181
+msgid "Enter URL"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:740
+msgid "If you want to link the whole slide, enter the URL of your link here."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:749
+msgid "Link Target"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:765
+msgid "#ID"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:767
+msgid ""
+"You can apply an ID attribute on the HTML element of this slide to work with "
+"it in your custom CSS or Javascript code."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:775
+msgid "Deeplink"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:777
+msgid ""
+"You can specify a slide alias name which you can use in your URLs with a "
+"hash mark, so LayerSlider will start with the correspondig slide."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:868 ..
+#: plugins/layerslider/config/defaults.php:984
+msgid "OffsetX"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:870
+msgid ""
+"The horizontal offset to align the starting position of layers. Positive and "
+"negative numbers are allowed or enter left / right to position the layer out "
+"of the frame."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:875 ..
+#: plugins/layerslider/config/defaults.php:991
+msgid "OffsetY"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:877
+msgid ""
+"The vertical offset to align the starting position of layers. Positive and "
+"negative numbers are allowed or enter top / bottom to position the layer out "
+"of the frame."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:885 ..
+#: plugins/layerslider/config/defaults.php:1001 ..
+#: plugins/layerslider/views/transition_builder.php:143 ..
+#: plugins/layerslider/views/transition_builder.php:200 ..
+#: plugins/layerslider/views/transition_builder.php:279 ..
+#: plugins/layerslider/views/transition_builder.php:409 ..
+#: plugins/layerslider/views/transition_builder.php:651 ..
+#: plugins/layerslider/views/transition_builder.php:721 ..
+#: plugins/layerslider/views/transition_builder.php:809 ..
+#: plugins/layerslider/views/transition_builder.php:963
+msgid "Duration"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:887
+msgid ""
+"The transition duration in milliseconds when the layer enters into the slide."
+" A second equals to 1000 milliseconds."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:896 ..
+#: plugins/layerslider/config/defaults.php:1119 ..
+#: plugins/layerslider/views/transition_builder.php:106 ..
+#: plugins/layerslider/views/transition_builder.php:185 ..
+#: plugins/layerslider/views/transition_builder.php:261 ..
+#: plugins/layerslider/views/transition_builder.php:321 ..
+#: plugins/layerslider/views/transition_builder.php:388 ..
+#: plugins/layerslider/views/transition_builder.php:610 ..
+#: plugins/layerslider/views/transition_builder.php:706 ..
+#: plugins/layerslider/views/transition_builder.php:787 ..
+#: plugins/layerslider/views/transition_builder.php:864 ..
+#: plugins/layerslider/views/transition_builder.php:942
+msgid "Delay"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:898
+msgid ""
+"Delays the transition with the given amount of milliseconds before the layer "
+"enters into the slide. A second equals to 1000 milliseconds."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:907 ..
+#: plugins/layerslider/config/defaults.php:1023 ..
+#: plugins/layerslider/views/transition_builder.php:145 ..
+#: plugins/layerslider/views/transition_builder.php:202 ..
+#: plugins/layerslider/views/transition_builder.php:281 ..
+#: plugins/layerslider/views/transition_builder.php:411 ..
+#: plugins/layerslider/views/transition_builder.php:653 ..
+#: plugins/layerslider/views/transition_builder.php:723 ..
+#: plugins/layerslider/views/transition_builder.php:811 ..
+#: plugins/layerslider/views/transition_builder.php:965
+msgid "Easing"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:909 ..
+#: plugins/layerslider/config/defaults.php:1025 ..
+#: plugins/layerslider/views/transition_builder.php:147 ..
+#: plugins/layerslider/views/transition_builder.php:204 ..
+#: plugins/layerslider/views/transition_builder.php:283 ..
+#: plugins/layerslider/views/transition_builder.php:413 ..
+#: plugins/layerslider/views/transition_builder.php:656 ..
+#: plugins/layerslider/views/transition_builder.php:725 ..
+#: plugins/layerslider/views/transition_builder.php:814 ..
+#: plugins/layerslider/views/transition_builder.php:967
+msgid ""
+"The timing function of the animation. With this function you can manipulate "
+"the movement of the animated object. Please click on the link next to this "
+"select field to open easings.net for more information and real-time examples."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:914 ..
+#: plugins/layerslider/config/defaults.php:1030 ..
+#: plugins/layerslider/views/transition_builder.php:454 ..
+#: plugins/layerslider/views/transition_builder.php:1008 ..
+#: include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:87
+msgid "Fade"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:916 ..
+#: plugins/layerslider/config/defaults.php:1032
+msgid "Fade the layer during the transition."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:924 ..
+#: plugins/layerslider/config/defaults.php:1041
+msgid "Rotate"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:926
+msgid ""
+"Rotates the layer clockwise from the given angle to zero degree. Negative "
+"values are allowed for counterclockwise rotation."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:931 ..
+#: plugins/layerslider/config/defaults.php:1048 ..
+#: plugins/layerslider/views/transition_builder.php:183 ..
+#: plugins/layerslider/views/transition_builder.php:249 ..
+#: plugins/layerslider/views/transition_builder.php:259 ..
+#: plugins/layerslider/views/transition_builder.php:319 ..
+#: plugins/layerslider/views/transition_builder.php:474 ..
+#: plugins/layerslider/views/transition_builder.php:704 ..
+#: plugins/layerslider/views/transition_builder.php:785 ..
+#: plugins/layerslider/views/transition_builder.php:862 ..
+#: plugins/layerslider/views/transition_builder.php:1028
+msgid "RotateX"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:933
+msgid ""
+"Rotates the layer along the X (horizontal) axis from the given angle to zero "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:938 ..
+#: plugins/layerslider/config/defaults.php:1055 ..
+#: plugins/layerslider/views/transition_builder.php:184 ..
+#: plugins/layerslider/views/transition_builder.php:260 ..
+#: plugins/layerslider/views/transition_builder.php:320 ..
+#: plugins/layerslider/views/transition_builder.php:476 ..
+#: plugins/layerslider/views/transition_builder.php:705 ..
+#: plugins/layerslider/views/transition_builder.php:786 ..
+#: plugins/layerslider/views/transition_builder.php:863 ..
+#: plugins/layerslider/views/transition_builder.php:1030
+msgid "RotateY"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:940
+msgid ""
+"Rotates the layer along the Y (vertical) axis from the given angle to zero "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:945 ..
+#: plugins/layerslider/config/defaults.php:1062
+msgid "SkewX"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:947
+msgid ""
+"Skews the layer along the X (horizontal) axis from the given angle to 0 "
+"degree. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:952 ..
+#: plugins/layerslider/config/defaults.php:1069
+msgid "SkewY"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:954
+msgid ""
+"Skews the layer along the Y (vertical) axis from the given angle to 0 degree."
+" Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:959 ..
+#: plugins/layerslider/config/defaults.php:1076
+msgid "ScaleX"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:961
+msgid "Scales the layer's width from the given value to its original size."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:967 ..
+#: plugins/layerslider/config/defaults.php:1084
+msgid "ScaleY"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:969
+msgid "Scales the layer's height from the given value to its original size."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:975 ..
+#: plugins/layerslider/config/defaults.php:1092
+msgid "TransformOrigin"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:977 ..
+#: plugins/layerslider/config/defaults.php:1094
+msgid ""
+"This option allows you to modify the origin for transformations of the layer "
+"according to its position. The three values represent the X, Y and Z axis in "
+"3D space. OriginX can be left, center, right, a number or a percentage value."
+" OriginY can be top, center, bottom, a number or a percentage value. OriginZ "
+"can be a number and corresponds the depth in 3D space."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:986
+msgid ""
+"The horizontal offset to align the ending position of layers. Positive and "
+"negative numbers are allowed or write left / right to position the layer out "
+"of the frame."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:993
+msgid ""
+"The vertical offset to align the starting position of layers. Positive and "
+"negative numbers are allowed or write top / bottom to position the layer out "
+"of the frame."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1003
+msgid ""
+"The transition duration in milliseconds when the layer leaves the slide. A "
+"second equals to 1000 milliseconds."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1012
+msgid "Show until"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1014
+msgid ""
+"The layer will be visible for the time you specify here, then it will slide "
+"out. You can use this setting for layers to leave the slide before the slide "
+"itself animates out, or for example before other layers will slide in. This "
+"value in millisecs, so the value 1000 means 1 second."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1043
+msgid ""
+"Rotates the layer clockwise by the given angle from its original position. "
+"Negative values are allowed for counterclockwise rotation."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1050
+msgid ""
+"Rotates the layer along the X (horizontal) axis by the given angle from its "
+"original state. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1057
+msgid ""
+"Rotates the layer along the Y (vertical) axis by the given angle from its "
+"orignal state. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1064
+msgid ""
+"Skews the layer along the X (horizontal) axis by the given angle from its "
+"orignal state. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1071
+msgid ""
+"Skews the layer along the Y (vertical) axis by the given angle from its "
+"original state. Negative values are allowed for reverse direction."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1078
+msgid "Scales the layer's width by the given value from its original size."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1086
+msgid "Scales the layer's height by the given value from its original size."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1099
+msgid "Parallax Level"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1101
+msgid ""
+"Applies a parallax effect on layers when you move your mouse over the slider."
+" Higher values make the layer more sensitive to mouse move. Negative values "
+"are allowed."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1108 ..
+#: plugins/layerslider/config/defaults.php:1113 ..
+#: plugins/layerslider/views/transition_builder.php:450 ..
+#: plugins/layerslider/views/transition_builder.php:1004 ..
+#: include/carrot_options.php:166 ../include/carrot_options.php:337 ..
+#: include/carrot_options.php:385 ../include/tgmpa/class-tgm-plugin-activation.
+#: php:2642
+msgid "Type"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1121
+msgid ""
+"Delay before the animation start when the layer slides out. This value is in "
+"millisecs, so the value 1000 means 1 second."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1130 ..
+#: plugins/layerslider/config/defaults.php:1140 ..
+#: plugins/layerslider/views/transition_builder.php:482 ..
+#: plugins/layerslider/views/transition_builder.php:1036
+msgid "Scale"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1132
+msgid ""
+"You can set the initial scale of this layer here which will be animated to "
+"the default (1.0) value."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1142
+msgid ""
+"You can set the ending scale value here, this sublayer will be animated from "
+"the default (1.0) value to yours."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1152
+msgid ""
+"If you don't want to use this layer, but you want to keep it, you can hide "
+"it with this switch."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1167
+msgid "Distance"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1169
+msgid ""
+"The default value is -1 which means that the layer will be positioned "
+"exactly outside of the slide container. You can use the default setting in "
+"most of the cases. If you need to set the start or end position of the layer "
+"from further of the edges of the slide container, you can use 2, 3 or higher "
+"values."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1183
+msgid ""
+"If you want to link your layer, type here the URL. You can use a hash mark "
+"followed by a number to link this layer to another slide. Example: #3 - this "
+"will switch to the third slide."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1191
+msgid "URL target"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1208 ..
+#: include/customizer/kirki_options.php:1123
+msgid "Width"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1210
+#, php-format
+msgid ""
+"You can set the width of your layer. You can use pixels, percentage, or the "
+"default value 'auto'. Examples: 100px, 50% or auto."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1218
+msgid "Height"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1220
+#, php-format
+msgid ""
+"You can set the height of your layer. You can use pixels, percentage, or the "
+"default value 'auto'. Examples: 100px, 50% or auto"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1228 ..
+#: plugins/layerslider/config/defaults.php:1248 ..
+#: plugins/layerslider/config/defaults.php:1288 ..
+#: plugins/layerslider/views/transition_builder.php:461 ..
+#: plugins/layerslider/views/transition_builder.php:1015 ..
+#: include/customizer/kirki_options.php:1991 ../include/customizer/kirki_options.
+#: php:2331 ../include/sowidgets/carrot-postswidget.class.php:290 ..
+#: include/sowidgets/carrot-postswidget.class.php:410 ..
+#: include/sowidgets/carrot-postswidget.class.php:475 ..
+#: include/sowidgets/fields/dimensions.class.php:51 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:99 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:82 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:169
+msgid "Top"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1230
+msgid ""
+"The layer position from the top of the slide. You can use pixels and "
+"percentage. Examples: 100px or 50%. You can move your layers in the preview "
+"above with a drag n' drop, or set the exact values here."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1238 ..
+#: plugins/layerslider/config/defaults.php:1278 ..
+#: plugins/layerslider/config/defaults.php:1318 ..
+#: plugins/layerslider/views/transition_builder.php:464 ..
+#: plugins/layerslider/views/transition_builder.php:1018 ..
+#: include/customizer/kirki_options.php:884 ../include/customizer/kirki_options.
+#: php:1063 ../include/customizer/kirki_options.php:1989 ..
+#: include/customizer/kirki_options.php:2329 ../include/sowidgets/carrot-
+#: postswidget.class.php:205 ../include/sowidgets/carrot-postswidget.class.php:
+#: 288 ../include/sowidgets/carrot-postswidget.class.php:424 ..
+#: include/sowidgets/carrot-postswidget.class.php:489 ..
+#: include/sowidgets/fields/dimensions.class.php:54 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:43 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:97 ..
+#: include/sowidgets/widgets/carrot-menu/carrot-menu.php:57 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:71 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:158 ..
+#: include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:126
+msgid "Left"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1240
+msgid ""
+"The layer position from the left side of the slide. You can use pixels and "
+"percentage. Examples: 100px or 50%. You can move your layers in the preview "
+"above with a drag n' drop, or set the exact values here."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1250
+msgid "Padding on the top of the layer. Example: 10px"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1258 ..
+#: plugins/layerslider/config/defaults.php:1298 ..
+#: plugins/layerslider/views/transition_builder.php:462 ..
+#: plugins/layerslider/views/transition_builder.php:1016 ..
+#: include/customizer/kirki_options.php:886 ../include/customizer/kirki_options.
+#: php:1064 ../include/customizer/kirki_options.php:1990 ..
+#: include/customizer/kirki_options.php:2330 ../include/sowidgets/carrot-
+#: postswidget.class.php:207 ../include/sowidgets/carrot-postswidget.class.php:
+#: 289 ../include/sowidgets/carrot-postswidget.class.php:426 ..
+#: include/sowidgets/carrot-postswidget.class.php:491 ..
+#: include/sowidgets/fields/dimensions.class.php:52 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:45 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:98 ..
+#: include/sowidgets/widgets/carrot-menu/carrot-menu.php:59 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:73 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:160 ..
+#: include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:128
+msgid "Right"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1260
+msgid "Padding on the right side of the layer. Example: 10px"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1268 ..
+#: plugins/layerslider/config/defaults.php:1308 ..
+#: plugins/layerslider/views/transition_builder.php:463 ..
+#: plugins/layerslider/views/transition_builder.php:1017 ..
+#: include/customizer/kirki_options.php:1992 ../include/customizer/kirki_options.
+#: php:2332 ../include/sowidgets/carrot-postswidget.class.php:291 ..
+#: include/sowidgets/carrot-postswidget.class.php:412 ..
+#: include/sowidgets/carrot-postswidget.class.php:477 ..
+#: include/sowidgets/fields/dimensions.class.php:53 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:100 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:84 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:171
+msgid "Bottom"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1270
+msgid "Padding on the bottom of the layer. Example: 10px"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1280
+msgid "Padding on the left side of the layer. Example: 10px"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1290
+msgid "Border on the top of the layer. Example: 5px solid #000"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1300
+msgid "Border on the right side of the layer. Example: 5px solid #000"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1310
+msgid "Border on the bottom of the layer. Example: 5px solid #000"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1320
+msgid "Border on the left side of the layer. Example: 5px solid #000"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1328
+msgid "Family"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1330
+msgid ""
+"List of your chosen fonts separated with a comma. Please use apostrophes if "
+"your font names contains white spaces. Example: Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1338
+msgid "Size"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1340
+msgid "The font size in pixels. Example: 16px."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1348
+msgid "Line-height"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1350
+msgid "The line height of your text. The default setting is 'normal'. Example: 22px"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1358 ..
+#: posttypes/posttypes/projects/projects.class.php:61
+msgid "Color"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1360
+msgid ""
+"The color of your text. You can use color names, hexadecimal, RGB or RGBA "
+"values. Example: #333"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1368
+msgid "Background"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1370
+msgid ""
+"The background color of your layer. You can use color names, hexadecimal, "
+"RGB or RGBA values as well as the 'transparent' keyword. Example: #FFF"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1378
+msgid "Rounded corners"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1380
+msgid "If you want rounded corners, you can set its radius here. Example: 5px"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1398
+msgid "Custom styles"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1400
+msgid ""
+"If you want to set style settings other than above, you can use here any CSS "
+"codes. Please make sure to write valid markup."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1419 ..
+#: plugins/layerslider/views/slider_list.php:159
+msgid "ID"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1421
+msgid ""
+"You can apply an ID attribute on the HTML element of this layer to work with "
+"it in your custom CSS or Javascript code."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1429
+msgid "Classes"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1431
+msgid ""
+"You can apply classes on the HTML element of this layer to work with it in "
+"your custom CSS or Javascript code."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1439 ../include/sowidgets/carrot-
+#: basewidget.class.php:248 ../posttypes/posttypes/authors/authors.class.php:98
+msgid "Title"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1441
+msgid ""
+"You can add a title to this layer which will display as a tooltip if someone "
+"holds his mouse cursor over the layer."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1449
+msgid "Alt"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1451
+msgid ""
+"You can add an alternative text to your layer which is indexed by search "
+"engine robots and it helps people with certain disabilities."
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1459
+msgid "Rel"
+msgstr ""
+
+#: ../plugins/layerslider/config/defaults.php:1461
+msgid ""
+"Some plugin may use the rel attribute of a linked content, here you can "
+"specify it to make interaction with these plugins."
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:29 ..
+#: plugins/layerslider/views/skin_editor.php:33 ..
+#: plugins/layerslider/views/transition_builder.php:51 ..
+#: plugins/layerslider/views/slider_edit.php:64 ..
+#: plugins/layerslider/views/slider_list.php:90
+msgid "Show on screen"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:31 ..
+#: plugins/layerslider/views/skin_editor.php:35 ..
+#: plugins/layerslider/views/transition_builder.php:53 ..
+#: plugins/layerslider/views/slider_list.php:91
+msgid "Tooltips"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:36 ..
+#: plugins/layerslider/views/skin_editor.php:40 ..
+#: plugins/layerslider/views/transition_builder.php:58 ..
+#: plugins/layerslider/views/slider_edit.php:71 ..
+#: plugins/layerslider/views/slider_list.php:99
+msgid "Screen Options"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:43
+msgid "LayerSlider CSS Editor"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:44 ..
+#: plugins/layerslider/views/skin_editor.php:49 ..
+#: plugins/layerslider/views/transition_builder.php:508 ..
+#: plugins/layerslider/views/slider_edit.php:137
+msgid "Back to the list"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:50 ..
+#: plugins/layerslider/views/skin_editor.php:55 ..
+#: plugins/layerslider/views/transition_builder.php:512
+msgid "Your changes has been saved!"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:58
+msgid "Contents of your custom CSS file"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:59 ..
+#: plugins/layerslider/views/skin_editor.php:66
+msgid "Ctrl+Q to fold/unfold a block"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:67
+msgid ""
+"/* You can type here any CSS code that will be loaded both on your admin and "
+"front-end pages."
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:69
+msgid "Let us help you by giving a few exmaple CSS classes: */"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:82
+msgid ""
+"You need to make your uploads folder writable in order to save your changes. "
+"See the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" "
+"target=\"_blank\">Codex</a> for more information."
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:84 ..
+#: plugins/layerslider/views/skin_editor.php:87 ..
+#: plugins/layerslider/views/transition_builder.php:1068 ..
+#: plugins/layerslider/views/slider_edit.php:285 ..
+#: plugins/layerslider/views/slider_list.php:434 ..
+#: plugins/layerslider/views/slider_list.php:529
+msgid "Save changes"
+msgstr ""
+
+#: ../plugins/layerslider/views/style_editor.php:85
+msgid ""
+"Using invalid CSS code could break the appearance of your site or your "
+"sliders. Changes cannot be reverted after saving."
+msgstr ""
+
+#: ../plugins/layerslider/views/skin_editor.php:48
+msgid "LayerSlider Skin Editor"
+msgstr ""
+
+#: ../plugins/layerslider/views/skin_editor.php:68
+msgid "Choose a skin:"
+msgstr ""
+
+#: ../plugins/layerslider/views/skin_editor.php:80
+msgid ""
+"Built-in skins will be overwritten by plugin updates. Making changes should "
+"be done through the Custom Styles Editor."
+msgstr ""
+
+#: ../plugins/layerslider/views/skin_editor.php:85
+msgid ""
+"You need to make this file writable in order to save your changes. See the "
+"<a href=\"http://codex.wordpress.org/Changing_File_Permissions\" "
+"target=\"_blank\">Codex</a> for more information."
+msgstr ""
+
+#: ../plugins/layerslider/views/skin_editor.php:88
+msgid ""
+"Modifying a skin with invalid code can break your sliders' appearance. "
+"Changes cannot be reverted after saving."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:84 ..
+#: plugins/layerslider/views/transition_builder.php:366 ..
+#: plugins/layerslider/views/transition_builder.php:586 ..
+#: plugins/layerslider/views/transition_builder.php:918
+msgid "Basic properties"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:89 ..
+#: plugins/layerslider/views/transition_builder.php:371 ..
+#: plugins/layerslider/views/transition_builder.php:591 ..
+#: plugins/layerslider/views/transition_builder.php:923
+msgid "Transition name"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:90 ..
+#: plugins/layerslider/views/transition_builder.php:372 ..
+#: plugins/layerslider/views/transition_builder.php:592 ..
+#: plugins/layerslider/views/transition_builder.php:924
+msgid ""
+"The name of your custom transition. When you edit a slider, it will appear "
+"with this name, so you can easily identify the individual transitions."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:93 ..
+#: plugins/layerslider/views/transition_builder.php:375 ..
+#: plugins/layerslider/views/transition_builder.php:597 ..
+#: plugins/layerslider/views/transition_builder.php:929
+msgid "Rows"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:94 ..
+#: plugins/layerslider/views/transition_builder.php:376 ..
+#: plugins/layerslider/views/transition_builder.php:598 ..
+#: plugins/layerslider/views/transition_builder.php:930
+msgid ""
+"<i>number</i> or <i>min,max</i> If you specify a value greater than 1, "
+"LayerSlider will cut your slide into tiles. You can specify here how many "
+"rows of your transition should have. If you specify two numbers separated "
+"with a comma, LayerSlider will use that as a range and pick a random number "
+"between your values."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:95 ..
+#: plugins/layerslider/views/transition_builder.php:377 ..
+#: plugins/layerslider/views/transition_builder.php:599 ..
+#: plugins/layerslider/views/transition_builder.php:931
+msgid "Cols"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:96 ..
+#: plugins/layerslider/views/transition_builder.php:378 ..
+#: plugins/layerslider/views/transition_builder.php:600 ..
+#: plugins/layerslider/views/transition_builder.php:932
+msgid ""
+"<i>number</i> or <i>min,max</i> If you specify a value greater than 1, "
+"LayerSlider will cut your slide into tiles. You can specify here how many "
+"columns of your transition should have. If you specify two numbers separated "
+"with a comma, LayerSlider will use that as a range and pick a random number "
+"between your values."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:101 ..
+#: plugins/layerslider/views/transition_builder.php:383 ..
+#: plugins/layerslider/views/transition_builder.php:605 ..
+#: plugins/layerslider/views/transition_builder.php:937
+msgid "Tiles"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:107 ..
+#: plugins/layerslider/views/transition_builder.php:389 ..
+#: plugins/layerslider/views/transition_builder.php:611 ..
+#: plugins/layerslider/views/transition_builder.php:943
+msgid ""
+"You can apply a delay between the tiles and postpone their animation "
+"relative to each other."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:108 ..
+#: plugins/layerslider/views/transition_builder.php:390 ..
+#: plugins/layerslider/views/transition_builder.php:612 ..
+#: plugins/layerslider/views/transition_builder.php:944
+msgid "Sequence"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:110 ..
+#: plugins/layerslider/views/transition_builder.php:392 ..
+#: plugins/layerslider/views/transition_builder.php:614 ..
+#: plugins/layerslider/views/transition_builder.php:946
+msgid "You can control the animation order of the tiles here."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:111 ..
+#: plugins/layerslider/views/transition_builder.php:393 ..
+#: plugins/layerslider/views/transition_builder.php:615 ..
+#: plugins/layerslider/views/transition_builder.php:947
+msgid "Forward"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:112 ..
+#: plugins/layerslider/views/transition_builder.php:394 ..
+#: plugins/layerslider/views/transition_builder.php:616 ..
+#: plugins/layerslider/views/transition_builder.php:948
+msgid "Reverse"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:113 ..
+#: plugins/layerslider/views/transition_builder.php:395 ..
+#: plugins/layerslider/views/transition_builder.php:617 ..
+#: plugins/layerslider/views/transition_builder.php:949
+msgid "Col-forward"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:114 ..
+#: plugins/layerslider/views/transition_builder.php:396 ..
+#: plugins/layerslider/views/transition_builder.php:618 ..
+#: plugins/layerslider/views/transition_builder.php:950
+msgid "Col-reverse"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:115 ..
+#: plugins/layerslider/views/transition_builder.php:397 ..
+#: plugins/layerslider/views/transition_builder.php:465 ..
+#: plugins/layerslider/views/transition_builder.php:619 ..
+#: plugins/layerslider/views/transition_builder.php:951 ..
+#: plugins/layerslider/views/transition_builder.php:1019 ..
+#: include/sowidgets/widgets/carrot-ads/carrot-ads.php:30 ..
+#: posttypes/posttypes/banners/banners.class.php:211
+msgid "Random"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:122 ..
+#: plugins/layerslider/views/transition_builder.php:626
+msgid "Depth"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:124 ..
+#: plugins/layerslider/views/transition_builder.php:628
+msgid ""
+"The script tries to identify the optimal depth for your rotated objects "
+"(tiles). With this option you can force your objects to have a large depth "
+"when performing 180 degree (and its multiplies) rotation."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:126 ..
+#: plugins/layerslider/views/transition_builder.php:630
+msgid "Large depth"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:134 ..
+#: plugins/layerslider/views/transition_builder.php:642
+msgid "Before animation"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:136 ..
+#: plugins/layerslider/views/transition_builder.php:272 ..
+#: plugins/layerslider/views/transition_builder.php:644 ..
+#: plugins/layerslider/views/transition_builder.php:802
+msgid "Enabled"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:144 ..
+#: plugins/layerslider/views/transition_builder.php:201 ..
+#: plugins/layerslider/views/transition_builder.php:280 ..
+#: plugins/layerslider/views/transition_builder.php:652 ..
+#: plugins/layerslider/views/transition_builder.php:722 ..
+#: plugins/layerslider/views/transition_builder.php:810
+msgid ""
+"The duration of your animation. This value is in millisecs, so the value "
+"1000 means 1 second."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:180 ..
+#: plugins/layerslider/views/transition_builder.php:256 ..
+#: plugins/layerslider/views/transition_builder.php:316 ..
+#: plugins/layerslider/views/transition_builder.php:536 ..
+#: plugins/layerslider/views/transition_builder.php:555 ..
+#: plugins/layerslider/views/transition_builder.php:701 ..
+#: plugins/layerslider/views/transition_builder.php:782 ..
+#: plugins/layerslider/views/transition_builder.php:859
+msgid "Add new"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:182 ..
+#: plugins/layerslider/views/transition_builder.php:258 ..
+#: plugins/layerslider/views/transition_builder.php:318 ..
+#: plugins/layerslider/views/transition_builder.php:703 ..
+#: plugins/layerslider/views/transition_builder.php:784 ..
+#: plugins/layerslider/views/transition_builder.php:861
+msgid "Scale3D"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:194 ..
+#: plugins/layerslider/views/transition_builder.php:715
+msgid "Animation"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:236 ..
+#: plugins/layerslider/views/transition_builder.php:458 ..
+#: plugins/layerslider/views/transition_builder.php:757 ..
+#: plugins/layerslider/views/transition_builder.php:1012
+msgid "Direction"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:238 ..
+#: plugins/layerslider/views/transition_builder.php:759
+msgid "The direction of rotation."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:239 ..
+#: plugins/layerslider/views/transition_builder.php:760 ..
+#: include/sowidgets/widgets/carrot-menu/carrot-menu.php:49 ..
+#: posttypes/posttypes/projects/projects.class.php:149
+msgid "Vertical"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:240 ..
+#: plugins/layerslider/views/transition_builder.php:761 ..
+#: include/sowidgets/widgets/carrot-menu/carrot-menu.php:48 ..
+#: posttypes/posttypes/projects/projects.class.php:150
+msgid "Horizontal"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:270 ..
+#: plugins/layerslider/views/transition_builder.php:800
+msgid "After animation"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:329 ..
+#: plugins/layerslider/views/transition_builder.php:488 ..
+#: plugins/layerslider/views/transition_builder.php:872 ..
+#: plugins/layerslider/views/transition_builder.php:1042
+msgid "Transition options"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:335 ..
+#: plugins/layerslider/views/transition_builder.php:494 ..
+#: plugins/layerslider/views/transition_builder.php:878 ..
+#: plugins/layerslider/views/transition_builder.php:1048
+msgid "Remove transition"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:410 ..
+#: plugins/layerslider/views/transition_builder.php:964
+msgid ""
+"The duration of the animation. This value is in millisecs, so the value 1000 "
+"measn 1 second."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:452 ..
+#: plugins/layerslider/views/transition_builder.php:1006
+msgid "The type of the animation, either slide, fade or both (mixed)."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:453 ..
+#: plugins/layerslider/views/transition_builder.php:1007
+msgid "Slide"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:455 ..
+#: plugins/layerslider/views/transition_builder.php:1009
+msgid "Mixed"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:460 ..
+#: plugins/layerslider/views/transition_builder.php:1014
+msgid ""
+"The direction of the slide or mixed animation if you've chosen this type in "
+"the previous settings."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:466 ..
+#: plugins/layerslider/views/transition_builder.php:1020
+msgid "Top left"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:467 ..
+#: plugins/layerslider/views/transition_builder.php:1021
+msgid "Top right"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:468 ..
+#: plugins/layerslider/views/transition_builder.php:1022
+msgid "Bottom left"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:469 ..
+#: plugins/layerslider/views/transition_builder.php:1023
+msgid "Bottom right"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:480 ..
+#: plugins/layerslider/views/transition_builder.php:1034
+msgid "RotateZ"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:507
+msgid "LayerSlider Transition Builder"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:523
+msgid "3D transitions"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:525 ..
+#: plugins/layerslider/views/transition_builder.php:544
+msgid "Choose:"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:532
+msgid "No 3D transitions yet"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:542
+msgid "2D transitions"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:551
+msgid "No 2D transitions yet"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:887
+msgid "You didn't create any 3D transitions yet"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:888 ..
+#: plugins/layerslider/views/transition_builder.php:1058
+msgid "To create a new transition, click to the \\\"Add new\\\" button above."
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:1057
+msgid "You didn't create any 2D transitions yet"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:1070
+msgid ""
+"Before you can save your changes, you need to make your \"/wp-"
+"content/uploads\" folder writable. See the <a href=\"http://codex.wordpress."
+"org/Changing_File_Permissions\" target=\"_blank\">Codex</a>"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:1090
+msgid "Transition Builder documentation"
+msgstr ""
+
+#: ../plugins/layerslider/views/transition_builder.php:1090
+msgid ""
+"To get started with the LayerSlider WP Transition Builder, please read our "
+"online documentation by clicking on this help menu."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:134
+msgid "Editing slider:"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:151 ..
+#: plugins/layerslider/views/slider_list.php:163
+msgid "Slides"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:155
+msgid "Event Callbacks"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:159
+msgid "FAQ"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:163
+msgid "Documentation"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:165
+msgid "Need help? Try these: "
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:189
+msgid "Add new slide"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:204
+msgid "Fires when LayerSlider has loaded"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:214
+msgid "Calling when the slideshow has started."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:224
+msgid "Calling when the slideshow is stopped by the user."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:234
+msgid ""
+"Fireing when the slideshow is temporary on hold (e.g.: \"Pause on hover\" "
+"feature)."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:244
+msgid "Calling when the slider commencing slide change (animation start)."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:254
+msgid "Fireing when the slider finished a slide change (animation end)."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:264
+msgid "Calling when the slider will change to the previous slide by the user."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_edit.php:274
+msgid "Calling when the slider will change to the next slide by the user."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:65
+msgid "No sliders were selected to remove."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:66
+msgid "The selected sliders were removed."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:67 ..
+#: plugins/layerslider/views/slider_list.php:71
+msgid "No sliders were selected."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:68
+msgid "The selected sliders were permanently deleted."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:69
+msgid "You need to select at least 2 sliders to merge them."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:70
+msgid "The selected items were merged together as a new slider."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:72
+msgid "The selected sliders were restored."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:74
+msgid "No sliders were found to export."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:75
+msgid "No sliders were selected to export."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:76
+msgid "The PHP ZipArchive extension is required to import .zip files."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:78
+msgid "Choose a file to import sliders."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:79
+msgid "The import file seems to be invalid or corrupted."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:80
+msgid "Your slider has been imported."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:81
+msgid ""
+"Your account does not have the necessary permission you have chosen, and "
+"your settings have not been saved in order to prevent locking yourself out "
+"of the plugin."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:82
+msgid "Permission changes has been updated."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:83
+msgid "Your Google Fonts library has been updated."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:84
+msgid "Your settings has been updated."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:92
+msgid "Removed sliders"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:94
+msgid "Show me"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:94
+msgid "sliders per page"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:95 ..
+#: plugins/layerslider/views/slider_list.php:219
+msgid "Apply"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:118
+msgid "LayerSlider sliders"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:120
+msgid "Import sample sliders"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:145
+msgid "You haven't created any slider yet."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:146
+msgid "Click those buttons to add one or import our demo content."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:160
+msgid "Slider preview"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:161 ../include/sowidgets/carrot-
+#: postswidget.class.php:236 ../include/sowidgets/widgets/carrot-shortcode/carrot-
+#: shortcode.php:57 ../include/carrot_options.php:188 ../include/carrot_options.
+#: php:335 ../include/carrot_options.php:383 ../include/carrot_options.php:521 ..
+#: posttypes/posttypes/projects/projects.class.php:295 ..
+#: posttypes/posttypes/projects/templates/form.php:213
+msgid "Name"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:162
+msgid "Shortcode"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:164
+msgid "Created"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:165
+msgid "Modified"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:190
+msgid "ago"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:194
+msgid "Duplicate this slider"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:197
+msgid "Remove this slider"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:201
+msgid "Restore removed slider"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:211
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:212
+msgid "Remove selected"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:213
+msgid "Delete permanently"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:215
+msgid "Restore removed"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:217
+msgid "Merge selected as new"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:223
+msgid "items"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:241
+msgid "Auto-Updates"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:242
+msgid "Import / Export"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:243
+msgid "Permissions"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:244
+msgid "Google Fonts"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:245
+msgid "Advanced"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:252
+msgid "Receive update notifications and install new versions with 1-Click."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:253
+msgid "Read more"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:257
+msgid "This site is authorized to receive automatic updates."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:259
+msgid "This site is not yet authorized to receive plugin updates."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:268
+msgid "Enter your purchase code"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:269
+msgid ""
+"To receive automatic updates, you need to enter your item purchase code. "
+"Click on the Download button next to LayerSlider WP on your CodeCanyon "
+"downloads page and choose the &quot;License certificate & purchase code&quot;"
+" option. This will download a text file that contains your purchase code."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:270
+msgid "and"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:271
+msgid "choose release channel"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:272
+msgid "Stable"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:273
+msgid ""
+"Although pre-release versions meant to work properly, they might contain "
+"unknown issues, and are not recommended for sites in production."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:274
+msgid "Beta"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:277
+msgid ""
+"You can find your purchase code by selecting the License Certificate option "
+"under LayerSlider's Download button on your"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:278
+msgid "CodeCanyon Downloads"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:279
+msgid "page."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:283
+msgid ""
+"It seems you've received LayerSlider by a theme. Please note that the auto-"
+"update feature only works if you've purchased the plugin directly from us on "
+"<a href=\"http://codecanyon.net/item/layerslider-responsive-wordpress-slider-"
+"plugin-/1362246\" target=\"_blank\">CodeCanyon</a>."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:289 ..
+#: plugins/layerslider/views/slider_list.php:375 ../include/tgmpa/class-tgm-
+#: plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:290
+msgid "Deauthorize this site"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:291
+msgid "Download latest version manually"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:292
+msgid "Check for updates"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:301
+msgid "Move sliders between sites, make backups, import demo content"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:302
+msgid ""
+"The PHP ZipArchive extension is needed for exporting/importing images. The "
+"plugin will only copy your slider settings if it's not available. In that "
+"case please contact with your hosting provider."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:316
+msgid "Import"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:317
+msgid "Do not import images"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:319
+msgid ""
+"Choose a LayerSlider export file downloaded previously to import your "
+"sliders. In order to import from outdated versions, you need to create a "
+"file and paste the export code into it. The file needs to have a .json "
+"extension."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:330
+msgid ""
+"Downloads an export file that contains your selected sliders to import on "
+"your new site. You can select multiple sliders by holding the Ctrl/Cmd "
+"button while clicking."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:343
+msgid "Export"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:352
+msgid "Allow non-admin users to change plugin settings and manage your sliders"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:357
+msgid "Choose a role"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:360
+msgid "Super Admin"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:362
+msgid "Admin"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:363
+msgid "Editor, Admin"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:364
+msgid "Author, Editor, Admin"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:365
+msgid "Contributor, Author, Editor, Admin"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:366
+msgid "Custom"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:369
+msgid "enter a custom capability"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:372
+msgid ""
+"You can specify a custom capability if none of the pre-defined roles match "
+"your needs. You can find all the available capabilities on"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:372
+msgid "this page"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:383
+msgid "Choose from hundreds of custom fonts faces provided by Google Fonts"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:395 ..
+#: plugins/layerslider/views/slider_list.php:403
+msgid "Load only on admin interface"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:407
+msgid "You haven't added any Google font to your library yet."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:413
+msgid "Enter a font name to add to your collection"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:414 ../searchform.php:10 ..
+#: templates/search/search-box.php:6 ../include/customizer/kirki_options.php:11 .
+#: ./include/customizer/kirki_options.php:175
+msgid "Search"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:418
+msgid "Choose a font family"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:425
+msgid "Add font"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:426
+msgid "Back to results"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:437
+msgid "Cyrillic"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:438
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:439
+msgid "Devanagari"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:440
+msgid "Greek"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:441
+msgid "Greek Extended"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:442
+msgid "Khmer"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:443
+msgid "Latin"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:444
+msgid "Latin Extended"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:445
+msgid "Vietnamese"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:451
+msgid "Select new"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:460 ..
+#: plugins/layerslider/views/slider_list.php:467 ..
+#: plugins/layerslider/views/slider_list.php:474
+msgid "Remove character set"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:479
+msgid "Use character sets:"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:489
+msgid "Troubleshooting &amp; Advanced Settings"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:490
+msgid ""
+"Don't change these options without experience, incorrect settings might "
+"break your site."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:498
+msgid "Use slider markup caching"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:500
+msgid ""
+"Enabled caching can drastically increase the plugin performance and spare "
+"your server from unnecessary load."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:503
+msgid "Include scripts in the footer"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:505
+msgid ""
+"Including resources in the footer can improve load times and solve other "
+"type of issues. Outdated themes might not support this method."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:508
+msgid "Conditional script loading"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:510
+msgid ""
+"Increase your site's performance by loading resources only when necessary. "
+"Outdated themes might not support this method."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:513
+msgid "Concatenate output"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:515
+msgid ""
+"Concatenating the plugin's output could solve issues caused by custom "
+"filters your theme might use."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:518
+msgid "Use Google CDN version of jQuery"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:520
+msgid "This option will likely solve \"Old jQuery\" issues."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:523
+msgid "Put JS includes to body"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:525
+msgid ""
+"This is the most common workaround for jQuery related issues, and is "
+"recommended when you experience problems with jQuery."
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:538
+msgid "LayerSlider News"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:540
+msgid "Filter:"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:542
+msgid "All"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:543
+msgid "Announcements"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:544
+msgid "Release log"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:545
+msgid "Beta versions"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:548
+msgid ">You have version"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:548
+msgid "installed"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:567
+msgid "The documentation is here"
+msgstr ""
+
+#: ../plugins/layerslider/views/slider_list.php:567
+msgid "Open this help menu to quickly access to our online documentation."
+msgstr ""
+
+#: ../presets/bookstore/bookstore.php:539
+msgid "Vista Previa"
+msgstr ""
+
+#: ../presets/bookstore/bookstore.php:542 ../presets/bookstore/class-bookstore-
+#: woocommerce.php:595
+msgid ""
+"You can enjoy a brief summary of the book by downloading it through the "
+"following button."
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:74
+msgid "Product info"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:78 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:83
+msgid "Passages"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:98
+msgid "Add Passage"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:102
+msgid "Passage"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:123
+msgid "External Reviews"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:128
+msgid "Reviews"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:143
+msgid "Add Review"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:147
+msgid "Review Author"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:154
+msgid "Review Media"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:161
+msgid "Review Link"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:168
+msgid "Review Excerpt"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:192 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:197
+msgid "Awards"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:212
+msgid "Add Award"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:216 ..
+#: include/customizer/kirki_options.php:340
+msgid "Award"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:237 ..
+#: posttypes/posttypes/authors/authors.class.php:134
+msgid "Year"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:324 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:328
+msgid "Related Products"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:426 ..
+#: posttypes/posttypes/authors/authors.class.php:171
+msgid "Synopsis"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:442 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:470 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:545 ..
+#: include/sowidgets/carrot-postswidget.class.php:145 ..
+#: include/sowidgets/carrot-postswidget.class.php:451 ..
+#: posttypes/posttypes/projects/projects.class.php:316 ..
+#: posttypes/posttypes/authors/authors.class.php:14
+msgid "Author"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:476 ..
+#: presets/bookstore/class-bookstore-woocommerce.php:506
+msgid "Preview PDF"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:508
+msgid "Upload PDF"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:520
+msgid "Remove"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:546
+msgid "Create new author"
+msgstr ""
+
+#: ../presets/bookstore/class-bookstore-woocommerce.php:598 ..
+#: include/customizer/kirki_options.php:285
+msgid "Download"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/content-single-product.php:92
+msgid "Buy"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/add-to-cart/variable.php:20
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/add-to-cart/simple.php:35
+msgid "elLibro"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/product-image.php:74
+msgid "Awaiting product image"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/related.php:13 ..
+#: woocommerce/single-product/related.php:13
+msgid "You may also be interested..."
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: ../presets/bookstore/woocommerce/single-product/product-attributes.php:34
+msgid "Dimensions"
+msgstr ""
+
+#: ../tribe-events/single-event.php:55 ../tribe-events/single-event.php:108
+#, php-format
+msgid "%s Navigation"
+msgstr ""
+
+#: ../comments.php:22
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: ../comments.php:26
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:46
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:52 ../include/functions.php:188
+msgid "Previous"
+msgstr ""
+
+#: ../comments.php:53 ../include/functions.php:187
+msgid "Next"
+msgstr ""
+
+#: ../comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: ../templates/post.php:221
+#, php-format
+msgid "%s comments"
+msgstr ""
+
+#: ../templates/projects/single.php:69
+msgid "El Projecte"
+msgstr ""
+
+#: ../templates/projects/single.php:71
+msgid "Fotos"
+msgstr ""
+
+#: ../templates/projects/single.php:73
+msgid "L'Autor/a"
+msgstr ""
+
+#: ../templates/projects/single.php:75 ../templates/projects/single.php:443
+msgid "Making Off"
+msgstr ""
+
+#: ../templates/archive/archive-header-basic.php:11 ../templates/archive/archive-
+#: header-category.php:17 ../templates/archive/archive-header-posttype.php:11 ..
+#: include/sowidgets/carrot-postswidget.class.php:130
+msgid "Articles"
+msgstr ""
+
+#: ../templates/archive/archive-header-user.php:23
+msgid "Published articles"
+msgstr ""
+
+#: ../templates/archive/archive-header-category.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../templates/search/no-results.php:2
+msgid "No hi ha cap article que coincideixi amb el filtre:"
+msgstr ""
+
+#: ../templates/search/search-box.php:5
+msgid "Search for..."
+msgstr ""
+
+#. Name of the template
+msgid "No sidebar, no taxonomies"
+msgstr ""
+
+#: ../templates/post/alternate2.php:14 ../templates/post/alternate.php:26 ..
+#: templates/post/single-featured.php:14 ../templates/post/default.php:42
+msgid "Publicat el"
+msgstr ""
+
+#. Name of the template
+msgid "No sidebar"
+msgstr ""
+
+#: ../templates/post/alternate.php:32 ../templates/post/default.php:121 ..
+#: include/sowidgets/carrot-postswidget.class.php:148
+msgid "Categories"
+msgstr ""
+
+#: ../templates/post/alternate.php:42 ../templates/post/default.php:130
+msgid "Tags"
+msgstr ""
+
+#: ../templates/post/alternate.php:74 ../templates/post/default.php:149
+msgid "Deixa un comentari"
+msgstr ""
+
+#. Name of the template
+msgid "Content left + Featured image right"
+msgstr ""
+
+#. Name of the template
+msgid "Default"
+msgstr ""
+
+#: ../templates/post/default.php:26
+msgid "Un article de"
+msgstr ""
+
+#: ../templates/post/default.php:84
+msgid "Publicitat"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:20
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:45
+msgid "Articles més nous"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:48
+msgid "Articles més antics"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:117
+#, php-format
+msgid "Llegit %s vegada"
+msgid_plural "Llegit %s vegades"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/carrot_template_functions.php:135
+msgid "comments"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:149
+msgid "likes"
+msgstr ""
+
+#: ../include/carrot_template_functions.php:218 ../include/sowidgets/carrot-
+#: postswidget.class.php:251 ../include/functions.php:782
+msgid "Text: "
+msgstr ""
+
+#: ../include/carrot_template_functions.php:965
+msgid "Potser tamb&eacute; t'interessa..."
+msgstr "Related projects"
+
+#: ../include/carrot_template_functions.php:1332
+msgid "Loading ..."
+msgstr ""
+
+#: ../include/woocommerce/carrot-woocommerce-template-functions.php:19
+msgid "View your shopping cart"
+msgstr ""
+
+#: ../include/customizer/kirki_setup.php:84
+msgid "Carrot Theme."
+msgstr ""
+
+#: ../include/customizer/controls/kirki-icons.php:97
+msgid "Search icons..."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:5 ../include/customizer/kirki_options.
+#: php:26
+msgid "Logo"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:6
+msgid "Site title"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:7
+msgid "Site description"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:8 ../include/customizer/kirki_options.
+#: php:1548
+msgid "Contact info"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:9 ../include/customizer/kirki_options.
+#: php:1549
+msgid "Social icons"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:10 ../include/customizer/kirki_options.
+#: php:1550
+msgid "Menu"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:15
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:32 ../include/sowidgets/carrot-
+#: postswidget.class.php:155
+msgid "Style"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:33
+msgid "Customize site colors and text fonts."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:37 ../include/acf_options.php:54
+msgid "Settings"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:41 ../include/customizer/kirki_options.
+#: php:2516
+msgid "Full width"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:46
+msgid "Show preloader"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:51
+msgid "Show main logo in preloader"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:64
+msgid "Container max width"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:88
+msgid "Show pages title"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:93 ../include/customizer/kirki_options.
+#: php:2438 ../include/customizer/kirki_options.php:2526
+msgid "Show breadcrumb"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:101
+msgid "Icons"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:110
+msgid "Icons size"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:135
+msgid "Arrow right"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:140
+msgid "Arrow left"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:145
+msgid "Arrow up"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:150
+msgid "Arrow down"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:155 ..
+#: include/customizer/kirki_options.php:215
+msgid "Angle left"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:160 ..
+#: include/customizer/kirki_options.php:220
+msgid "Angle right"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:165
+msgid "Angle up"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:170
+msgid "Angle down"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:180 ..
+#: include/customizer/kirki_options.php:1082
+msgid "Plus"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:185
+msgid "Minus"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:190
+msgid "Close"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:195
+msgid "Category"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:200
+msgid "Tag"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:205 ../include/sowidgets/carrot-
+#: postswidget.class.php:146 ../include/sowidgets/carrot-postswidget.class.php:452
+msgid "Date"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:210
+msgid "Time"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:225 ..
+#: posttypes/posttypes/projects/templates/form.php:264
+msgid "Email"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:230
+msgid "Web"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:235 ..
+#: posttypes/posttypes/projects/templates/form.php:272
+msgid "Phone"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:240 ../include/sowidgets/carrot-
+#: postswidget.class.php:239
+msgid "Twitter"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:245
+msgid "Facebook"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:250
+msgid "Instagram"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:255
+msgid "Linkedin"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:260
+msgid "Youtube"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:265
+msgid "Google+"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:270
+msgid "Flickr"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:275
+msgid "Pinterest"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:280
+msgid "Wikipedia"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:290 ../include/functions.php:189
+msgid "Loading"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:295 ../include/sowidgets/carrot-
+#: postswidget.class.php:338 ../include/sowidgets/widgets/carrot-posts-
+#: slider/carrot-posts-slider.php:92
+msgid "Zoom"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:300
+msgid "Hand pointing"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:305
+msgid "Comment "
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:310
+msgid "Comment (not empty)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:315
+msgid "Pagination Item"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:320
+msgid "Shopping Cart (empty)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:325
+msgid "Shopping Cart (full)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:330
+msgid "Double quote left"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:335
+msgid "Double quote right"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:345
+msgid "Map marker"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:351
+msgid "Colors"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:355
+msgid "Body BG Color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:379
+msgid "Body Text Color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:413
+msgid "Body Strong Color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:424
+msgid "Borders & Separators Color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:493 ..
+#: include/sowidgets/fields/themecolor.class.php:30
+msgid "Primary Color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:613
+msgid "Text color Over Primary"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:664 ..
+#: include/sowidgets/fields/themecolor.class.php:31
+msgid "Alternate Color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:741
+msgid "Text color Over Alternate"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:781
+msgid "Typography "
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:785
+msgid "Text typography"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:806
+msgid "Headings typography"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:832 ../include/sowidgets/carrot-
+#: basewidget.class.php:549
+msgid "Header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:833
+msgid "Customize header display options "
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:837 ../include/acf_options.php:371
+msgid "Show Header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:844
+msgid "Header layout"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:847 ..
+#: include/customizer/kirki_options.php:1357
+msgid "Theme default"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:848 ..
+#: include/customizer/kirki_options.php:1311 ../include/customizer/kirki_options.
+#: php:1358
+msgid "Customized"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:861 ../include/acf_options.php:401
+msgid "Selected header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:862 ..
+#: include/sowidgets/widgets/carrot-block/carrot-block.php:48
+msgid ""
+"You can create your custom Blocks in the \"blocks\" section of the Wordpress "
+"Dashboard."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:881
+msgid "Header align"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:885 ../include/sowidgets/carrot-
+#: postswidget.class.php:206 ../include/sowidgets/carrot-postswidget.class.php:
+#: 425 ../include/sowidgets/carrot-postswidget.class.php:490 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:44 ..
+#: include/sowidgets/widgets/carrot-menu/carrot-menu.php:58 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:72 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:83 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:159 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:170 ..
+#: include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:127
+msgid "Center"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:904
+msgid "Full width header?"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:923 ..
+#: include/customizer/kirki_options.php:1189 ../include/customizer/kirki_options.
+#: php:1544
+msgid "Show Options"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:941
+msgid "Header color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:945 ..
+#: include/customizer/kirki_options.php:1206 ../include/customizer/kirki_options.
+#: php:1441 ../include/customizer/kirki_options.php:1577
+msgid "Primary color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:946 ..
+#: include/customizer/kirki_options.php:1207 ../include/customizer/kirki_options.
+#: php:1442 ../include/customizer/kirki_options.php:1578
+msgid "Primary color inverse"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:947 ..
+#: include/customizer/kirki_options.php:1208 ../include/customizer/kirki_options.
+#: php:1443 ../include/customizer/kirki_options.php:1579
+msgid "Alternate color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:948 ..
+#: include/customizer/kirki_options.php:1209 ../include/customizer/kirki_options.
+#: php:1444 ../include/customizer/kirki_options.php:1580
+msgid "Alternate color inverse"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:949 ..
+#: include/customizer/kirki_options.php:1210 ../include/customizer/kirki_options.
+#: php:1445 ../include/customizer/kirki_options.php:1581 ..
+#: include/sowidgets/fields/themecolor.class.php:33 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:65 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:13
+msgid "White"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:950 ..
+#: include/customizer/kirki_options.php:1211 ../include/customizer/kirki_options.
+#: php:1446 ../include/customizer/kirki_options.php:1582 ..
+#: include/sowidgets/fields/themecolor.class.php:34 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:64 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:14
+msgid "Black"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:951 ..
+#: include/customizer/kirki_options.php:1212 ../include/customizer/kirki_options.
+#: php:1447 ../include/customizer/kirki_options.php:1583
+msgid "Custom color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:969
+msgid "Header custom BG color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:999
+msgid "Header custom text color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1049
+msgid "Mobile drawer"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1053
+msgid "Show Mobile drawer "
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1060
+msgid "Phone Menu position"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1078
+msgid "Phone Menu opener style"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1081
+msgid "Hamburguer"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1094
+msgid "Opener size"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1148
+msgid "Show background overlay"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1159
+msgid "Overlay opacity"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1202
+msgid "Phone menu color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1225
+msgid "Phone Menu custom BG color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1256
+msgid "Phone Menu custom text color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1296 ../include/acf_options.php:372
+msgid "Sticky Header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1300
+msgid "Show Sticky Header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1307
+msgid "Sticky header layout"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1310 ../include/acf_options.php:400
+msgid "Default header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1324 ../include/acf_options.php:499
+msgid "Selected sticky header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1325
+msgid ""
+"You can create your custom Sticky Headers in the \"blocks\" section of the "
+"Wordpress Dashboard."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1344
+msgid "Footer"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1347
+msgid "Show footer?"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1354
+msgid "Footer layout"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1371 ../include/acf_options.php:584
+msgid "Selected footer"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1372
+msgid ""
+"You can create your custom Footers in the \"blocks\" section of the Wordpress "
+"Dashboard."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1388
+msgid "Show back to top button?"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1394 ../include/sowidgets/carrot-
+#: postswidget.class.php:300 ../include/sowidgets/widgets/carrot-ads/carrot-ads.
+#: php:68 ../include/acf_options.php:764 ../posttypes/posttypes/projects/projects.
+#: class.php:167
+msgid "Columns"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1397
+msgid "One"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1398
+msgid "Two"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1399
+msgid "Three"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1400
+msgid "Four"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1418
+msgid "Full width footer?"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1437
+msgid "Footer color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1465
+msgid "Footer custom BG color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1495
+msgid "Footer custom text color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1528
+msgid "Show Subfooter"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1547
+msgid "Copyright"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1573
+msgid "Subfooter color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1602
+msgid "Subfooter custom BG color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1626
+msgid "Subfooter custom text color"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1650
+msgid "Copyright text"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1673
+msgid "Contact"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1678
+msgid "Show Icons"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1684
+msgid "Contact layout"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1687 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:53 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:126
+msgid "Inline"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1688 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:54 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:124 ..
+#: posttypes/posttypes/block/block.class.php:14
+msgid "Block"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1694
+msgid "Contact Phone"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1699
+msgid "Contact Email"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1704
+msgid "Contact Address"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1710
+msgid "Facebook URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1716
+msgid "Twitter Username"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1722
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1728
+msgid "Google + URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1734
+msgid "Youtube URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1740
+msgid "Flickr URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1746
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1752
+msgid "Instagram User"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1758
+msgid "RSS Feed"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1767 ../include/carrot_starter-content.
+#: php:23
+msgid "Blog"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1774
+msgid "Blog Style"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1778
+msgid "Classic"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1779 ..
+#: include/customizer/kirki_options.php:2118 ../include/customizer/kirki_options.
+#: php:2421 ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:
+#: 117
+msgid "List"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1780 ..
+#: include/customizer/kirki_options.php:2119 ../include/customizer/kirki_options.
+#: php:2422 ../posttypes/posttypes/projects/projects.class.php:151
+msgid "Grid"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1787 ..
+#: include/customizer/kirki_options.php:2132 ../include/customizer/kirki_options.
+#: php:2444 ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:35
+msgid "Grid Columns"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1805 ..
+#: include/customizer/kirki_options.php:2150 ../include/customizer/kirki_options.
+#: php:2462
+msgid "Sidebar"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1810 ..
+#: include/customizer/kirki_options.php:2155 ../include/customizer/kirki_options.
+#: php:2467 ../include/acf_options.php:274
+msgid "Left sidebar"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1811 ..
+#: include/customizer/kirki_options.php:2156 ../include/customizer/kirki_options.
+#: php:2468 ../include/acf_options.php:275
+msgid "Right sidebar"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1812 ..
+#: include/customizer/kirki_options.php:2157 ../include/acf_options.php:276
+msgid "Bottom bar"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1818 ..
+#: include/customizer/kirki_options.php:2163
+msgid "Pagination"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1822 ..
+#: include/customizer/kirki_options.php:2167 ../include/sowidgets/widgets/carrot-
+#: posts-grid/carrot-posts-grid.php:42
+msgid "No pagination"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1823 ..
+#: include/customizer/kirki_options.php:2168
+msgid "Classic (next/prev)"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1824 ..
+#: include/customizer/kirki_options.php:2169
+msgid "Page numbers"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1830 ..
+#: include/customizer/kirki_options.php:2175 ../include/acf_options.php:291
+msgid "Sidebar Columns"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1848 ..
+#: include/customizer/kirki_options.php:2193 ../include/customizer/kirki_options.
+#: php:2475
+msgid "Articles gap"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1852 ..
+#: include/customizer/kirki_options.php:2197 ../include/customizer/kirki_options.
+#: php:2479 ../include/sowidgets/carrot-sowidgets-setup.php:107 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:170 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:417 ../include/sowidgets/carrot-sowidgets-setup.php:618 ..
+#: posttypes/posttypes/projects/projects.class.php:222
+msgid "None"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1853 ..
+#: include/customizer/kirki_options.php:2198 ../include/customizer/kirki_options.
+#: php:2480 ../posttypes/posttypes/projects/projects.class.php:223
+msgid "1px"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1854 ..
+#: include/customizer/kirki_options.php:2199 ../include/customizer/kirki_options.
+#: php:2481 ../include/sowidgets/widgets/carrot-button/carrot-button.php:74 ..
+#: posttypes/posttypes/projects/projects.class.php:224
+msgid "Small"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1855 ..
+#: include/customizer/kirki_options.php:2200 ../include/customizer/kirki_options.
+#: php:2482 ../include/sowidgets/widgets/carrot-button/carrot-button.php:75 ..
+#: posttypes/posttypes/projects/projects.class.php:225
+msgid "Medium"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1856 ..
+#: include/customizer/kirki_options.php:2201 ../include/customizer/kirki_options.
+#: php:2483 ../posttypes/posttypes/projects/projects.class.php:226
+msgid "Big"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1868 ..
+#: include/customizer/kirki_options.php:2214
+msgid "Articles border"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1887 ..
+#: include/customizer/kirki_options.php:2233
+msgid "Show Thumbnail"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1899 ..
+#: include/customizer/kirki_options.php:2090 ../include/customizer/kirki_options.
+#: php:2239 ../include/posttypes/customposttype.class.php:265
+msgid "Show Title"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1911 ..
+#: include/customizer/kirki_options.php:2251
+msgid "Show Date"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1924 ..
+#: include/customizer/kirki_options.php:2263
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1936 ..
+#: include/customizer/kirki_options.php:2276
+msgid "Show Author"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1948 ..
+#: include/customizer/kirki_options.php:2289
+msgid "Show Content"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1960 ..
+#: include/customizer/kirki_options.php:2301
+msgid "Show Categories"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1972 ..
+#: include/customizer/kirki_options.php:2313
+msgid "Show Comments"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:1985 ..
+#: include/customizer/kirki_options.php:2325
+msgid "Thumbnail position"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2009 ..
+#: include/customizer/kirki_options.php:2349
+msgid "Thumbnail Columns"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2042 ..
+#: include/customizer/kirki_options.php:2382
+msgid "Thumbnail border radius"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2075
+msgid "Single Posts"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2082
+msgid "Post Layout"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2096 ../include/acf_options.php:374 ..
+#: include/posttypes/customposttype.class.php:271
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2105
+msgid "Archive"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2114
+msgid "Archive Style"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2126
+msgid "Show Archive Header"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2409
+msgid "Woocommerce"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2410
+msgid "Customize woocommerce options."
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2417
+msgid "Shop Style"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2428
+msgid "Shop full width"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2433 ..
+#: include/customizer/kirki_options.php:2521
+msgid "Show title"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2489
+msgid "Products border"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2509
+msgid "Woocommerce Product"
+msgstr ""
+
+#: ../include/customizer/kirki_options.php:2531 ..
+#: posttypes/posttypes/projects/projects.class.php:361
+msgid "Show related"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:253
+msgid "Widget Style"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:258 ..
+#: include/sowidgets/carrot-basewidget.class.php:559
+msgid "Font Family"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:269
+msgid "Text color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:275
+msgid "Box Margins"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:280 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:52
+msgid "Margin"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:294
+msgid "Box Border"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:299 ..
+#: include/sowidgets/fields/dimensions.class.php:73
+msgid "Apply the same value to all?"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:311
+msgid "Border All"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:321 ..
+#: include/sowidgets/carrot-basewidget.class.php:367 ../include/sowidgets/carrot-
+#: basewidget.class.php:413 ../include/sowidgets/carrot-basewidget.class.php:459 .
+#: ./include/sowidgets/carrot-basewidget.class.php:505 ..
+#: include/sowidgets/carrot-basewidget.class.php:598 ../include/sowidgets/carrot-
+#: basewidget.class.php:634 ../include/sowidgets/carrot-postswidget.class.php:180
+#: ../include/sowidgets/carrot-sowidgets-setup.php:157 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:377 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:578
+msgid "Border Width"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:331 ..
+#: include/sowidgets/carrot-basewidget.class.php:377 ../include/sowidgets/carrot-
+#: basewidget.class.php:423 ../include/sowidgets/carrot-basewidget.class.php:469 .
+#: ./include/sowidgets/carrot-basewidget.class.php:515 ..
+#: include/sowidgets/carrot-basewidget.class.php:608 ../include/sowidgets/carrot-
+#: basewidget.class.php:644
+msgid "Border color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:337 ..
+#: include/sowidgets/carrot-basewidget.class.php:383 ../include/sowidgets/carrot-
+#: basewidget.class.php:429 ../include/sowidgets/carrot-basewidget.class.php:475 .
+#: ./include/sowidgets/carrot-basewidget.class.php:521 ..
+#: include/sowidgets/carrot-basewidget.class.php:614 ../include/sowidgets/carrot-
+#: basewidget.class.php:650
+msgid "Border style"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:341 ..
+#: include/sowidgets/carrot-basewidget.class.php:387 ../include/sowidgets/carrot-
+#: basewidget.class.php:433 ../include/sowidgets/carrot-basewidget.class.php:479 .
+#: ./include/sowidgets/carrot-basewidget.class.php:525 ..
+#: include/sowidgets/carrot-basewidget.class.php:618 ../include/sowidgets/carrot-
+#: basewidget.class.php:654
+msgid "No border"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:342 ..
+#: include/sowidgets/carrot-basewidget.class.php:388 ../include/sowidgets/carrot-
+#: basewidget.class.php:434 ../include/sowidgets/carrot-basewidget.class.php:480 .
+#: ./include/sowidgets/carrot-basewidget.class.php:526 ..
+#: include/sowidgets/carrot-basewidget.class.php:619 ../include/sowidgets/carrot-
+#: basewidget.class.php:655 ../include/sowidgets/carrot-sowidgets-setup.php:171 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:418 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:619
+msgid "Solid"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:343 ..
+#: include/sowidgets/carrot-basewidget.class.php:389 ../include/sowidgets/carrot-
+#: basewidget.class.php:435 ../include/sowidgets/carrot-basewidget.class.php:481 .
+#: ./include/sowidgets/carrot-basewidget.class.php:527 ..
+#: include/sowidgets/carrot-basewidget.class.php:620 ../include/sowidgets/carrot-
+#: basewidget.class.php:656 ../include/sowidgets/carrot-sowidgets-setup.php:173 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:420 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:621
+msgid "Dotted"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:344 ..
+#: include/sowidgets/carrot-basewidget.class.php:390 ../include/sowidgets/carrot-
+#: basewidget.class.php:436 ../include/sowidgets/carrot-basewidget.class.php:482 .
+#: ./include/sowidgets/carrot-basewidget.class.php:528 ..
+#: include/sowidgets/carrot-basewidget.class.php:621 ../include/sowidgets/carrot-
+#: basewidget.class.php:657 ../include/sowidgets/carrot-sowidgets-setup.php:172 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:419 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:620
+msgid "Dashed"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:345 ..
+#: include/sowidgets/carrot-basewidget.class.php:391 ../include/sowidgets/carrot-
+#: basewidget.class.php:437 ../include/sowidgets/carrot-basewidget.class.php:483 .
+#: ./include/sowidgets/carrot-basewidget.class.php:529 ..
+#: include/sowidgets/carrot-basewidget.class.php:622 ../include/sowidgets/carrot-
+#: basewidget.class.php:658 ../include/sowidgets/carrot-sowidgets-setup.php:174 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:421 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:622
+msgid "Double"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:350 ..
+#: include/sowidgets/carrot-basewidget.class.php:396 ../include/sowidgets/carrot-
+#: basewidget.class.php:442 ../include/sowidgets/carrot-basewidget.class.php:488 .
+#: ./include/sowidgets/carrot-basewidget.class.php:534
+msgid "Border radius"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:362 ..
+#: include/sowidgets/carrot-basewidget.class.php:593
+msgid "Border Top"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:408
+msgid "Border Right"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:454 ..
+#: include/sowidgets/carrot-basewidget.class.php:629
+msgid "Border Bottom"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:500
+msgid "Border Left"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:555
+msgid "Show header"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:564 ..
+#: include/sowidgets/carrot-postswidget.class.php:369 ..
+#: include/sowidgets/widgets/carrot-button/carrot-button.php:82
+msgid "Icon"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:568
+msgid "Icon Image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:569 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:38 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:125
+msgid "Choose image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:570 ..
+#: include/sowidgets/widgets/carrot-files/carrot-files.php:92 ..
+#: include/sowidgets/widgets/carrot-files/carrot-files.php:126 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:39 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:126
+msgid "Set image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:576
+msgid "Header Background color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:582
+msgid "Header Text color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-basewidget.class.php:589
+msgid "Show More Button if possible"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:135
+msgid "Posts query"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:141
+msgid "Show post options"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:143
+msgid "Post Thumbnail"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:144 ..
+#: include/sowidgets/carrot-postswidget.class.php:450
+msgid "Post Title"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:147
+msgid "Comments"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:149 ..
+#: include/sowidgets/carrot-postswidget.class.php:454
+msgid "Excerpt"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:191
+msgid "Articles Separation"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:193
+msgid "No gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:194
+msgid "Small gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:195
+msgid "Medium gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:196
+msgid "Big gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:197
+msgid "One pixel gap"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:203
+msgid "Text alignment"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:219
+msgid "Append plus icon after excerpt"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:226
+msgid "Author Display"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:234
+msgid "Show author options"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:237
+msgid "Avatar"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:238
+msgid "Bio"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:240 ..
+#: include/sowidgets/carrot-postswidget.class.php:250
+msgid "Prefix"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:246
+msgid "Author before post title "
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:257 ..
+#: include/sowidgets/widgets/carrot-files/carrot-files.php:90 ..
+#: include/sowidgets/widgets/carrot-files/carrot-files.php:124
+msgid "Thumbnail"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:263
+msgid "Image Type"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:266 ..
+#: include/carrot_posttypes.php:7
+msgid "Featured Image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:267
+msgid "Author Image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:268
+msgid "Post Type Image"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:274
+msgid "Format"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:277
+msgid "Landscape"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:278
+msgid "Portrait"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:279
+msgid "Square"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:285
+msgid "Position"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:313
+msgid "Thumb is responsive"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:328
+msgid "Hover Effect"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:333
+msgid "Effect on hover"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:336 ..
+#: include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:86
+msgid "No effect"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:337
+msgid "Opacity"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:347
+msgid "BG color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:353
+msgid "FG color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:354
+msgid "Only applicable when custom BG color is chosen"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:360
+msgid "Show view more icon"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:377
+msgid "View more icon size"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:387
+msgid "View more icon Border Width"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:397
+msgid "View more icon Border radius"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:407
+msgid "View more icon vertical position"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:411 ..
+#: include/sowidgets/carrot-postswidget.class.php:476
+msgid "Middle"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:421
+msgid "View more icon horizontal position"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:435
+msgid "Show Text"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:448
+msgid "Show text options"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:453
+msgid "Taxonomy"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:466
+msgid "Show entry taxonomy"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:472
+msgid "Text vertical position"
+msgstr ""
+
+#: ../include/sowidgets/carrot-postswidget.class.php:486
+msgid "Text horizontal position"
+msgstr ""
+
+#: ../include/sowidgets/fields/themecolor.class.php:29
+msgid "Transparent"
+msgstr ""
+
+#: ../include/sowidgets/fields/themecolor.class.php:32
+msgid "Borders Color"
+msgstr ""
+
+#: ../include/sowidgets/fields/themecolor.class.php:35
+msgid "Custom Color"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-layerslider/carrot-layerslider.php:29
+msgid "(Unnamed Slider)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-layerslider/carrot-layerslider.php:51
+msgid "Choose the Layer Slider"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-layerslider/carrot-layerslider.php:52
+msgid ""
+"You can edit existing slider or create new ones in the <a href=\"admin.php?"
+"page=layerslider\">LayerSlider WP</a> section in the Wordpress Dashboard."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:59
+msgid "Files"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:60 ..
+#: include/sowidgets/widgets/carrot-files/carrot-files.php:78
+msgid "File"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:69
+msgid "File name"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:73
+msgid "File description"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:79
+msgid "Choose file"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:80
+msgid "Set file"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:86
+msgid "Custom icon"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:91
+msgid "Custom icon image"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:94 ..
+#: include/sowidgets/widgets/carrot-files/carrot-files.php:128
+msgid "If set, it will be displayed over the icon."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:99
+msgid "File referer URL"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:106
+msgid "Files description"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:113
+msgid "Show filesize"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:118
+msgid "Default icon"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/carrot-files.php:125
+msgid "Default image icon"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-files/tpl/carrot-files.php:46
+msgid "Referer"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:25
+msgid "Button text"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:30
+msgid "Button style"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:33
+msgid "Flat"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:34
+msgid "Wire"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:35
+msgid "Pill"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:40
+msgid "Button align"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:50
+msgid "Button display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:59
+msgid "Button color"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:62 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:10
+msgid "Primary"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:63 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:11
+msgid "Alternate"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:70
+msgid "Button size"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:73
+msgid "Extra Small"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:76
+msgid "Large"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:77
+msgid "Extra Large"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:94
+msgid "Icon position"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-button/carrot-button.php:106
+msgid "Button URL"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-block/carrot-block.php:47
+msgid "Choose the Block to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:24 ..
+#: posttypes/posttypes/projects/projects.class.php:153
+msgid "Slider"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:30
+msgid "Auto play"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:35
+msgid "Loop"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:45
+msgid "Enable dragging"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:50
+msgid "Show navigation"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:55
+msgid "Show Pagination"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:63
+msgid "Articles per page"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:71
+msgid "Articles per page in small devices"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:76
+msgid "Cycle by page"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:77
+msgid ""
+"If there is more than one item per page and this option is checked, "
+"navigation will cycle the whole page. Otherwise it will cycle by article."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:83
+msgid "Effect"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:84
+msgid "Effect only works when there is 1 article per page"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:88
+msgid "Slide Horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:89
+msgid "Slide Vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:90
+msgid "Flip Horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:91
+msgid "Flip Vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:101
+msgid "Slider timeout"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:102
+msgid "Time between slides (in miliseconds)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:111
+msgid "Slide speed"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-slider/carrot-posts-slider.php:112
+msgid "Slide transition speed (in miliseconds)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:39
+msgid "Choose the Menu to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:45
+msgid "Menu layout"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-menu/carrot-menu.php:54 ..
+#: include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:123
+msgid "Align"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:41
+msgid "Choose the Shortcode to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:47
+msgid "or Type the shortcode name (without the brackets)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:52
+msgid "Attributes"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:53
+msgid "Attribute"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-shortcode/carrot-shortcode.php:61 ..
+#: include/carrot_options.php:169 ../posttypes/posttypes/projects/projects.class.
+#: php:302
+msgid "Value"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:22
+msgid "Front Side"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:31
+msgid "Background Color"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:37 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:124
+msgid "Background Image"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:45 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:132
+msgid "Background image opacity"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:55 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:142
+msgid "Background size"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:59 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:146
+msgid "Default size"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:60 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:147
+msgid "Cover"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:61 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:148
+msgid "Contain"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:62 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:149
+msgid "Stretch"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:67 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:154
+msgid "Background horizontal position"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:78 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:165
+msgid "Background vertical position"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:89 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:176
+msgid "Background repeat"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:93 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:180
+msgid "No repeat"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:94 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:181
+msgid "Repeat Both"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:95 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:182
+msgid "Repeat X"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:96 ..
+#: include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:183
+msgid "Repeat V"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:109
+msgid "Back Side"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:198
+msgid "Flip Effect"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:201
+msgid "Flip horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:202
+msgid "Flip vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:203
+msgid "Slide horizontal"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:204
+msgid "Slide vertical"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:205
+msgid "Cross-fade"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-flip-card/carrot-flip-card.php:210
+msgid "Enable horiozontal swipe on touch devices?"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:47
+msgid "Book to display"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:50
+msgid "Random book"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:51
+msgid "Last book published"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:52
+msgid "Selected book"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:61
+msgid "Select a book"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:73
+msgid "Info to display of the book"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:76
+msgid "Book cover"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:77
+msgid "Book author"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:78
+msgid "Book passages"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:79
+msgid "Book reviews"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-book/carrot-book.php:88
+msgid "Enter a number (leave blank for unlimited)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:26
+msgid "Showed ADs"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:31 ..
+#: posttypes/posttypes/banners/banners.class.php:212
+msgid "Last published"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:32 ..
+#: posttypes/posttypes/banners/banners.class.php:213
+msgid "Related (by current post or page tags)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:33 ..
+#: posttypes/posttypes/banners/banners.class.php:214
+msgid "User selected"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:43
+msgid "Banner Format"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:55 ..
+#: posttypes/posttypes/banners/banners.class.php:262
+msgid "AD Number"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:56
+msgid "The max number of banners showed."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:69
+msgid "The number of columns the banners will be displayed"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:77
+msgid "Columns (small devices)"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:78
+msgid "The number of columns the banners will be displayed on small devices"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:87 ..
+#: posttypes/posttypes/banners/banners.class.php:297
+msgid "Selected ADs"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:96
+msgid "Track Imprints"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-ads/carrot-ads.php:101
+msgid "Track Clicks"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:26
+msgid "Grid Options"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:39
+msgid "Pagination Style"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:43
+msgid "Next and Previous arrows"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:44
+msgid "Numbered pagination"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:45
+msgid "Dotted pagination"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:46
+msgid "Load More Button"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:47
+msgid "Lazy Load"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:53
+msgid "Filters"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:54
+msgid "Filter"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:63
+msgid "Filter Title"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:67
+msgid "Hide Title"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:72
+msgid "Filtering"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:79 ..
+#: include/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:84
+msgid "Terms to select"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:88
+msgid "Single"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:89
+msgid "Multiple"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:98
+msgid "Filter terms condition"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:102
+msgid "All the terms"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:103
+msgid "Any term"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:114
+msgid "Filter style"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:118
+msgid "Dropdown"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:136
+msgid "Filters condition"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:140
+msgid "All the filters"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:141
+msgid "Any filter"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:172
+msgid "Load more"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:173
+msgid "Loading..."
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:174
+msgid "No more items"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:175
+msgid "No results"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:176
+msgid "Older posts"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:177
+msgid "Newer posts"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:178
+msgid "Choose filter"
+msgstr ""
+
+#: ../include/sowidgets/widgets/carrot-posts-grid/carrot-posts-grid.php:281
+msgid "Reset"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:12
+msgid "Borders"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:56
+msgid "Margin arround the entire widget."
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:62 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:315 ../include/sowidgets/carrot-sowidgets-setup.php:516
+msgid "Hidden on Extra small devices"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:63 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:316 ../include/sowidgets/carrot-sowidgets-setup.php:517
+msgid "Phones (<768px)"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:70 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:323 ../include/sowidgets/carrot-sowidgets-setup.php:524
+msgid "Hidden on Small devices"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:71 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:324 ../include/sowidgets/carrot-sowidgets-setup.php:525
+msgid "Tablets (>=768px)"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:79 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:332 ../include/sowidgets/carrot-sowidgets-setup.php:533
+msgid "Hidden on Medium devices"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:80 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:333 ../include/sowidgets/carrot-sowidgets-setup.php:534
+msgid "Desktops (>=992px)"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:88 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:341 ../include/sowidgets/carrot-sowidgets-setup.php:542
+msgid "Hidden on Large  devices"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:89 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:342 ../include/sowidgets/carrot-sowidgets-setup.php:543
+msgid "Desktops (>=1200px)"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:103
+msgid "Appear Effect"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:104
+msgid "Choose the effect of the widget when it enters screen."
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:108
+msgid "From top"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:109
+msgid "From right"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:110
+msgid "From bottom"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:111
+msgid "From left"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:112
+msgid "From center"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:121
+msgid "Display"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:125
+msgid "Inline block"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:136 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:356 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:557
+msgid "Theme Background color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:137 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:147 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:357 ../include/sowidgets/carrot-sowidgets-setup.php:367 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:558 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:568
+msgid "Choose a color from the theme customizer colors."
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:146 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:366 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:567
+msgid "Theme Border color"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:167 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:414 ../include/sowidgets/carrot-
+#: sowidgets-setup.php:615
+msgid "Border Style"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:306 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:499
+msgid "Top Margin"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:307 ..
+#: include/sowidgets/carrot-sowidgets-setup.php:500
+msgid "Space above the row. Default is 0px."
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:507
+msgid "Bottom Margin"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:508
+msgid "Space blelow the row. Default is 0px."
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:659
+msgid "Themify Icons"
+msgstr ""
+
+#: ../include/sowidgets/carrot-sowidgets-setup.php:1033
+msgid "Carrot SiteOrigin Widgets"
+msgstr ""
+
+#: ../include/carrot_options.php:23 ../include/carrot_options.php:24
+msgid "Carrot"
+msgstr ""
+
+#. parent
+#: ../include/carrot_options.php:34 ../include/carrot_options.php:35
+msgid "Developer"
+msgstr ""
+
+#: ../include/carrot_options.php:60 ../include/carrot_options.php:516
+msgid "Shortcodes"
+msgstr ""
+
+#: ../include/carrot_options.php:61 ../include/carrot_options.php:167 ..
+#: include/carrot_options.php:420 ../include/posttypes/customposttype.class.php:
+#: 495
+msgid "Options"
+msgstr ""
+
+#: ../include/carrot_options.php:62
+msgid "Customizer"
+msgstr ""
+
+#: ../include/carrot_options.php:112
+msgid "Welcome to Carrot! Enjoy :)"
+msgstr ""
+
+#: ../include/carrot_options.php:164
+msgid "Slug"
+msgstr ""
+
+#: ../include/carrot_options.php:165 ../include/carrot_options.php:189 ..
+#: include/carrot_options.php:336 ../include/carrot_options.php:384
+msgid "Label"
+msgstr ""
+
+#: ../include/carrot_options.php:170 ../include/carrot_options.php:338
+msgid "Code"
+msgstr ""
+
+#: ../include/carrot_options.php:378
+msgid "Subfields"
+msgstr ""
+
+#: ../include/carrot_options.php:462
+msgid "Global"
+msgstr ""
+
+#: ../include/carrot_options.php:602
+msgid "Choose a style preset"
+msgstr ""
+
+#: ../include/functions.php:76
+msgid "Header Menu"
+msgstr ""
+
+#: ../include/functions.php:77
+msgid "Sticky Header Menu"
+msgstr ""
+
+#: ../include/functions.php:78
+msgid "Phone Menu"
+msgstr ""
+
+#: ../include/functions.php:79
+msgid "Footer Menu"
+msgstr ""
+
+#: ../include/functions.php:90
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../include/functions.php:98
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../include/functions.php:107
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../include/functions.php:296
+#, php-format
+msgid "You searched: %s"
+msgstr ""
+
+#: ../include/functions.php:304
+msgid "Y"
+msgstr ""
+
+#: ../include/functions.php:306
+msgid "F Y"
+msgstr ""
+
+#: ../include/functions.php:308
+msgid "F j, Y"
+msgstr ""
+
+#: ../include/functions.php:311
+msgid "Asides"
+msgstr ""
+
+#: ../include/functions.php:313
+msgid "Galleries"
+msgstr ""
+
+#: ../include/functions.php:315 ../posttypes/posttypes/projects/projects.class.
+#: php:96
+msgid "Images"
+msgstr ""
+
+#: ../include/functions.php:319
+msgid "Quotes"
+msgstr ""
+
+#: ../include/functions.php:321
+msgid "Links"
+msgstr ""
+
+#: ../include/functions.php:323
+msgid "Statuses"
+msgstr ""
+
+#: ../include/functions.php:325
+msgid "Audio"
+msgstr ""
+
+#: ../include/functions.php:327
+msgid "Chats"
+msgstr ""
+
+#: ../include/functions.php:334
+msgid "Archives"
+msgstr ""
+
+#: ../include/functions.php:1024
+msgid "-- Select a Block --"
+msgstr ""
+
+#: ../include/functions.php:1082 ../include/carrot_starter-content.php:15
+msgid "Home"
+msgstr ""
+
+#: ../include/functions.php:1289
+msgid "Page"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:16
+msgid "This is home page placeholder. Welcome!"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:24
+msgid ""
+"This is blog page placeholder. Anything you enter here will not appear in "
+"the front end, except for search results pages."
+msgstr ""
+
+#: ../include/carrot_starter-content.php:29
+msgid "Header Sample"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:30
+msgid "This is a header sample"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:35
+msgid "Footer Sample"
+msgstr ""
+
+#: ../include/carrot_starter-content.php:36
+msgid "This is a footer sample"
+msgstr ""
+
+#: ../include/acf_options.php:13 ../include/acf_options.php:14 ..
+#: include/acf_options.php:22
+msgid "Theme Settings"
+msgstr ""
+
+#: ../include/acf_options.php:60
+msgid "Enable Advanced Custom Fields Admin Page"
+msgstr ""
+
+#: ../include/acf_options.php:101 ../posttypes/posttypes/authors/authors.class.
+#: php:215 ../posttypes/posttypes/authors/authors.class.php:220
+msgid "Social Networks"
+msgstr ""
+
+#: ../include/acf_options.php:138
+msgid "Enter the full URL of the Facebook page or profile."
+msgstr ""
+
+#: ../include/acf_options.php:154
+msgid "Enter the Twitter username, with the preceding @."
+msgstr ""
+
+#: ../include/acf_options.php:173
+msgid "Enter the Instagram username, with the preceding @."
+msgstr ""
+
+#: ../include/acf_options.php:192
+msgid "Enter the full URL of the LinkedIn profile."
+msgstr ""
+
+#: ../include/acf_options.php:211
+msgid "Enter the full URL of the Wikipedia page."
+msgstr ""
+
+#: ../include/acf_options.php:262
+msgid "Sidebar display"
+msgstr ""
+
+#: ../include/acf_options.php:323
+msgid "Page display options"
+msgstr ""
+
+#: ../include/acf_options.php:335
+msgid "Site Defaults"
+msgstr ""
+
+#: ../include/acf_options.php:336
+msgid "Custom options for this page"
+msgstr ""
+
+#: ../include/acf_options.php:351
+msgid "Custom display options"
+msgstr ""
+
+#: ../include/acf_options.php:373
+msgid "Show Page Title"
+msgstr ""
+
+#: ../include/acf_options.php:375
+msgid "Show Footer"
+msgstr ""
+
+#: ../include/acf_options.php:389
+msgid "Header Layout"
+msgstr ""
+
+#: ../include/acf_options.php:473
+msgid "Sticky Header Style"
+msgstr ""
+
+#: ../include/acf_options.php:498
+msgid "Default sticky header"
+msgstr ""
+
+#: ../include/acf_options.php:558
+msgid "Footer Layout"
+msgstr ""
+
+#: ../include/acf_options.php:583
+msgid "Default footer"
+msgstr ""
+
+#: ../include/acf_options.php:672
+msgid "Article fields"
+msgstr ""
+
+#: ../include/acf_options.php:676
+msgid "Summary"
+msgstr ""
+
+#: ../include/acf_options.php:716
+msgid "Article Options"
+msgstr ""
+
+#: ../include/acf_options.php:720
+msgid "Drop Cap"
+msgstr ""
+
+#: ../include/acf_options.php:723
+msgid "Check to highlight the article first letter"
+msgstr ""
+
+#: ../include/acf_options.php:734
+msgid "Hyphenate"
+msgstr ""
+
+#: ../include/acf_options.php:737
+msgid "Check to hyphen content ends of lines"
+msgstr ""
+
+#: ../include/acf_options.php:749
+msgid "Columnize"
+msgstr ""
+
+#: ../include/acf_options.php:752
+msgid "Check to distribute content in columns"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:66
+msgid "CustomPostTypes"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:67
+msgid "CustomPostType"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:400
+msgid "Options for:"
+msgstr ""
+
+#: ../include/posttypes/customposttype.class.php:505
+msgid "Manage"
+msgstr ""
+
+#: ../include/posttypes/customtaxonomy.class.php:32
+msgid "CustomTaxonomies"
+msgstr ""
+
+#: ../include/posttypes/customtaxonomy.class.php:33
+msgid "CustomTaxonomy"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:393 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:920 ../include/tgmpa/class-tgm-plugin-activation.php:
+#: 2626 ../include/tgmpa/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:394 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:395 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1027 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:1214 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3602 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3602 ../include/tgmpa/class-
+#: tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../include/tgmpa/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtype.class.php:13 ..
+#: posttypes/posttypes/banners/banners.class.php:127
+msgid "Banner Type"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtype.class.php:14
+msgid "Banner Types"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtype.class.php:15 ../posttypes/taxonomies/adtype.
+#: class.php:16
+msgid "New Banner Type"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtype.class.php:17
+msgid "Add new Banner Type"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtype.class.php:18
+msgid "Edit Banner Type"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtag.class.php:13
+msgid "Banner Tag"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtag.class.php:14
+msgid "Banner Tags"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtag.class.php:15 ../posttypes/taxonomies/adtag.class.
+#: php:16
+msgid "New Banner Tag"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtag.class.php:17
+msgid "Add new Banner Tag"
+msgstr ""
+
+#: ../posttypes/taxonomies/adtag.class.php:18
+msgid "Edit Banner Tag"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:13
+msgid "Banners"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:14
+msgid "Banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:15 ..
+#: posttypes/posttypes/banners/banners.class.php:16
+msgid "New banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:17
+msgid "Add new banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:18
+msgid "Edit banner"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:31
+msgid "Extern URL"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:46
+msgid "Intern Link"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:67
+msgid "Open in new window"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:82 ..
+#: posttypes/posttypes/banners/banners.class.php:143
+msgid "Clicks"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:97 ..
+#: posttypes/posttypes/banners/banners.class.php:151
+msgid "Imprints"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:175
+msgid "Show ADs"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:191
+msgid "AD Type"
+msgstr ""
+
+#: ../posttypes/posttypes/banners/banners.class.php:228
+msgid "AD Format"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:13 ..
+#: posttypes/posttypes/authors/authors.class.php:287
+msgid "Projects"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:14
+msgid "Project"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:15
+msgid "New project"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:16
+msgid "Add new project"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:17
+msgid "Edit project"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:29
+msgid "Project settings"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:75
+msgid "Image Gallery"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:80
+msgid "Show image gallery"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:203
+msgid "Gutter"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:246
+msgid "Show videos"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:268 ..
+#: posttypes/posttypes/authors/authors.class.php:250
+msgid "Add Video"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:271 ..
+#: posttypes/posttypes/authors/authors.class.php:253
+msgid "Video URL"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:274 ..
+#: posttypes/posttypes/authors/authors.class.php:256
+msgid "Youtube or Vimeo video URL"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:280
+msgid "Data sheet"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:286
+msgid "Fields"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:292
+msgid "Add field"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:321
+msgid "Project Author"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:344 ..
+#: posttypes/posttypes/authors/authors.class.php:315
+msgid "Photo"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/projects.class.php:367 ..
+#: posttypes/posttypes/authors/authors.class.php:348
+msgid "Show featured image"
+msgstr ""
+
+#. Name of the template
+msgid "Side by side (content left)"
+msgstr ""
+
+#. Name of the template
+msgid "Default Layout (gallery full width)"
+msgstr ""
+
+#. Name of the template
+msgid "Side by side (content right)"
+msgstr ""
+
+#. Name of the template
+msgid "Default Layout (content top)"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:44
+msgid "Order info"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:45
+msgid "Shipping data"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:46
+msgid "Billing information"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:56
+msgid "Order ID"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:60
+msgid "Order unique identifier"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:65
+msgid "Order Date"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:73
+msgid "Payment Method"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:82
+msgid "State"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:93
+msgid "Payed"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:100
+msgid "Shipped"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:115
+msgid "Product"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:116
+msgid "Quantity"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:117
+msgid "Price"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:118 ..
+#: posttypes/posttypes/projects/templates/form.php:194
+msgid "Total"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:145
+msgid "View item"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:146
+msgid "Edit item"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:167
+msgid "Subtotal"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:221
+msgid "Surname"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:229 ..
+#: posttypes/posttypes/projects/templates/form.php:306
+msgid "Address"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:238 ..
+#: posttypes/posttypes/projects/templates/form.php:315
+msgid "Zipcode"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:247 ..
+#: posttypes/posttypes/projects/templates/form.php:324
+msgid "City"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:256 ..
+#: posttypes/posttypes/projects/templates/form.php:333
+msgid "Country"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:290
+msgid "Business Name"
+msgstr ""
+
+#: ../posttypes/posttypes/projects/templates/form.php:298
+msgid "NIF"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:13
+msgid "Authors"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:15 ..
+#: posttypes/posttypes/authors/authors.class.php:16
+msgid "New author"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:17
+msgid "Add new author"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:18
+msgid "Edit author"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:33
+msgid "Personal data"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:39
+msgid "Birth year"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:59
+msgid "Birth place"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:65
+msgid "Publications"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:80
+msgid "Other publications"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:95
+msgid "Add publication"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:116
+msgid "Editorial"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:154
+msgid "Awards and Honours"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:191 ..
+#: posttypes/posttypes/authors/authors.class.php:196
+msgid "Interview"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:239
+msgid "Multimedia"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:261
+msgid "Audio/Music"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:267
+msgid "Add Audio"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:270
+msgid "Audio URL"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:273
+msgid "Spotify song or playlist URL"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:292
+msgid "Author projects"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:327
+msgid "Link to Woocommerce products"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:334
+msgid "Link to Projects"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:358 ..
+#: posttypes/posttypes/authors/authors.class.php:363
+msgid "Related Authors"
+msgstr ""
+
+#: ../posttypes/posttypes/authors/authors.class.php:603
+msgid "También ha escrito"
+msgstr ""
+
+#. Name of the template
+msgid "Full width Layout (only basic info)"
+msgstr ""
+
+#. Name of the template
+msgid "Full width Layout"
+msgstr ""
+
+#: ../posttypes/posttypes/block/block.class.php:13
+msgid "Blocks"
+msgstr ""
+
+#: ../posttypes/posttypes/block/block.class.php:15
+msgid "New block"
+msgstr ""
+
+#: ../posttypes/posttypes/block/block.class.php:16
+msgid "Add new block"
+msgstr ""
+
+#: ../posttypes/posttypes/block/block.class.php:17
+msgid "Edit block"
+msgstr ""
+
+#. Name of the template
+msgid "Default Layout"
+msgstr ""
+
+#. Name of the theme
+msgid "Carrot Theme"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://mensula.cat/"
+msgstr ""
+
+#. Author of the theme
+msgid "Txo"
+msgstr ""

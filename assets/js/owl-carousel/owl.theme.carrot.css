@@ -1,0 +1,65 @@
+/* carrot*/
+
+.owl-nav [class*='owl-'],
+.owl-dots .owl-dot{
+	-moz-transition:all 200ms ease-out;
+	-ms-transition:all 200ms ease-out;
+	-o-transition:all 200ms ease-out;
+	-webkit-transition:all 200ms ease-out;
+	transition:all 200ms ease-out;
+}
+
+.owl-nav {
+    margin-top: 1em;
+    text-align: center;
+}
+.owl-nav [class*='owl-'] {
+    color: #FFF;
+    border-width: 0px;
+	border-style: solid;
+    text-transform: uppercase;
+    padding: 1em;
+	display: inline-block;
+    cursor: pointer;
+    
+}
+.owl-nav [class*='owl-']:hover {
+    text-decoration: none;
+}
+.owl-nav.disabled {
+    display:none;
+}
+.owl-nav .disabled {
+    opacity:.3;
+	cursor:default;
+}
+.owl-nav.disabled + .owl-dots {
+    margin-top: .5em;
+}
+.owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+.owl-dots.disabled{
+	display:none;
+}
+
+.owl-dots .owl-dot{
+	display:inline-block;
+	border-radius:50%;
+	border-style:solid;
+	margin:5px;
+	width:15px;
+	height:15px;
+	line-height:15px;
+	padding:0;
+	opacity:1;
+	border-width:1px;
+	background-color:transparent;
+	cursor:pointer;
+}
+
+.owl-dots .owl-dot:hover,
+.owl-dots .owl-dot.active{
+	opacity:1;
+}

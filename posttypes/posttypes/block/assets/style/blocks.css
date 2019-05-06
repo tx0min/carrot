@@ -1,0 +1,7 @@
+.single-block #header, 
+.single-block #sticky-header, 
+.single-block  #phone-menu, 
+.single-block #footer, 
+.single-block #footer_sticky{
+	display:none;
+} 

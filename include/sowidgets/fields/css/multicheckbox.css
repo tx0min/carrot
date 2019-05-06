@@ -1,0 +1,19 @@
+.multicheckbox-field ul{
+	margin:0.5em 0em;
+	padding:0.5em;
+	border:1px solid #dedede;
+	background-color:#f6f6f6;
+}
+
+
+.multicheckbox-field ul li{
+	display:block;
+
+}
+
+.multicheckbox-field.horizontal ul li{
+	display:inline-block;
+	margin:0em;
+	margin-right:1em;
+	padding:0px;
+}

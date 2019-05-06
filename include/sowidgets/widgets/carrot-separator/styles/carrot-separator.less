@@ -1,0 +1,17 @@
+.widget-function('import_base_styles');
+
+
+@separator_width : 100%;
+@separator_height_px : 1px;
+@separator_style : solid;
+@separator_color : #fff;
+
+.separator{
+	width: unit(@separator_width, %);
+	border-width:0px;
+	height:0px;
+	border-style: @separator_style;
+	border-top-width: @separator_height_px;
+	border-top-color: @separator_color;
+}
+

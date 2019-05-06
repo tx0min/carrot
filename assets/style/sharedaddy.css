@@ -1,0 +1,236 @@
+.sharedaddy .sd-button.share-more, .sharing-hidden{
+	-moz-transition:all 200ms ease-out;
+	-ms-transition:all 200ms ease-out;
+	-o-transition:all 200ms ease-out;
+	-webkit-transition:all 200ms ease-out;
+	transition:all 200ms ease-out;
+}
+
+
+/*SHAREADDY */
+
+.sharedaddy {
+	position:relative;
+	
+	z-index:200;
+	/*width:40px;*/
+}
+
+
+
+.sharedaddy ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+
+.sharedaddy .sd-button.share-more{
+	display:inline-block;
+	font-family: 'themify'  ;
+	speak: none  ;
+	font-style: normal  ;
+	font-weight: normal  ;
+	font-variant: normal  ;
+	text-transform: none  ;
+	line-height: 1  ;
+
+	/* Better Font Rendering =========== */
+	
+	border:0px solid #dedede ;
+	padding:6px 8px 6px 8px ;
+	border-radius:50% ;
+	color:#aaa;
+	box-shadow: none ;
+	
+	
+}
+.sharedaddy:hover .sd-button.share-more{
+	color:#333;
+	
+}
+.sharedaddy .sd-button.share-more:before {
+	font-family: 'themify'  ;
+	
+	content: '\e72e' !important;
+	/*content: '\e750' ;*/
+	font-size:16pt;
+}
+.sharedaddy .sd-button.share-more span{
+	display:none;
+}
+.sharedaddy  .sharing-hidden{
+	position:absolute;
+	left:40px;
+	top:0px;
+	opacity:0;
+}
+.sharedaddy:hover .sharing-hidden{
+	opacity:1;
+}
+.sharedaddy .sharing-hidden .inner{
+	/*width:400px;*/
+	display:block !important;
+}
+
+.sharedaddy .sharing-hidden .inner ul{
+	white-space: nowrap;
+}
+.sharedaddy .sharing-hidden .inner ul li{
+	display:inline-block;
+	margin-left:10px;
+	padding:;
+}
+.sharedaddy .sharing-hidden .inner ul li a{
+	display:block;
+	width:30px;
+	height:30px;
+	overflow:hidden;
+	background-color:#dedede;
+	line-height:25px;
+	text-align:center;
+	border-radius:50%;
+}
+.sharedaddy .sd-social-icon .sd-content ul li a.sd-button{
+	margin-right:0px;
+}
+
+.share-end{
+	display:none !important;
+}
+
+/* Special look colors */
+
+/* All icons */
+
+.sharing-screen-reader-text {
+	display:none;
+}
+.sd-social-icon .sd-content ul li[class*='share-'] a.sd-button {
+	background: #e9e9e9;
+	margin-top: 0px;
+	text-indent: 0;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'] a.sd-button:before {
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font: normal 14px/1 'themify';
+	vertical-align: top;
+	position: relative;
+	top: 9px;
+	text-align: center;
+}
+
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-tumblr a.sd-button {
+	background: #2c4762;
+	color: #fff !important;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-facebook a.sd-button {
+	background: #3b5998;
+	color: #fff !important;
+}
+
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-twitter a.sd-button {
+	background: #00acee;
+	color: #fff !important;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-pinterest a.sd-button {
+	background: #ca1f27;
+	color: #fff !important;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-digg a.sd-button {
+	color: #555555 !important;
+}
+
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-linkedin a.sd-button {
+	background: #0077b5;
+	color: #fff !important;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-google-plus-1 a.sd-button {
+	background: #dd4b39;
+	color: #fff !important;
+}
+
+.sd-social-icon .sd-content ul li[class*='share-'].share-reddit a.sd-button {
+	background: #cee3f8;
+	color: #555555 !important;
+}
+
+
+/* Individual icons */
+.sd-social-icon .sd-content ul li.share-print a:before,
+.sd-social-text .sd-content ul li.share-print a:before,
+.sd-content ul li.share-print div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-print a:before,
+.sd-social-official .sd-content li.share-print a:before {
+	content: '\e681';
+}
+
+.sd-social-icon .sd-content ul li.share-email a:before,
+.sd-social-text .sd-content ul li.share-email a:before,
+.sd-content ul li.share-email div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-email a:before,
+.sd-social-official .sd-content li.share-email a:before {
+	content: '\e75a';
+}
+.sd-social-icon .sd-content ul li.share-linkedin a:before,
+.sd-social-text .sd-content ul li.share-linkedin a:before,
+.sd-content ul li.share-linkedin div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-linkedin a:before {
+	content: '\e735';
+}
+.sd-social-icon .sd-content ul li.share-twitter a:before,
+.sd-social-text .sd-content ul li.share-twitter a:before,
+.sd-content ul li.share-twitter div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-twitter a:before {
+	content: '\e74b';
+}
+.sd-social-icon .sd-content ul li.share-reddit a:before,
+.sd-social-text .sd-content ul li.share-reddit a:before,
+.sd-content ul li.share-reddit div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-reddit a:before {
+	content: '\e752';
+}
+.sd-social-icon .sd-content ul li.share-tumblr a:before,
+.sd-social-text .sd-content ul li.share-tumblr a:before,
+.sd-content ul li.share-tumblr div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-tumblr a:before {
+	content: '\e74c';
+}
+.sd-social-icon .sd-content ul li.share-pinterest a:before,
+.sd-social-text .sd-content ul li.share-pinterest a:before,
+.sd-content ul li.share-pinterest div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-pinterest a:before {
+	content: '\e731';
+}
+.sd-social-icon .sd-content ul li.share-google-plus-1 a:before,
+.sd-social-text .sd-content ul li.share-google-plus-1 a:before,
+.sd-content ul li.share-google-plus-1 div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-google-plus-1 a:before {
+	content: '\e73e';
+}
+.sd-social-icon .sd-content ul li.share-facebook a:before,
+.sd-social-text .sd-content ul li.share-facebook a:before,
+.sd-content ul li.share-facebook div.option.option-smart-off a:before,
+.sd-social-icon-text .sd-content li.share-facebook a:before {
+	content: '\e741';
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+	.sharedaddy{
+		
+	}
+}
+@media screen and (max-width: 767px) {
+	.sharedaddy{
+		
+	}
+}

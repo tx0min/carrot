@@ -1,0 +1,57 @@
+
+.themecolor-field{
+	display:inline-block;
+	
+}
+.themecolor-field ul{
+	padding:0px;
+	margin:0px;
+	display:inline-block;
+}
+.themecolor-field .themecolor-input{
+	display:inline-block;
+}
+.themecolor-field ul li{
+	padding:0px;
+	margin:0px;
+	display:inline-block;
+}
+
+.themecolor-field ul li.transparent .sample{
+	background-image:url('../img/bgtrans.png');
+	
+}
+
+.themecolor-field ul li .sample{
+	display:inline-block;
+	width:24px;
+	line-height:24px;
+	height:24px;
+	text-align:center;
+	background-color:#dedede;
+	border:1px solid #dedede;
+	border-radius:3px;
+	cursor:pointer;
+	color:#ccc;
+}
+
+.themecolor-field ul li.selected .sample{
+	border-color:#ff9933;
+	border-width:3px;
+}
+
+.dimensions-check-container{
+	margin:1em;
+}
+.siteorigin-widget-field.notcustom  .wp-picker-container{
+	display:none;
+}
+.color-description{
+	font-size:.9em;
+	position:relative;
+	top:-0.7em;
+	display:block;
+	margin-top:1em;
+	font-style:italic;
+
+}

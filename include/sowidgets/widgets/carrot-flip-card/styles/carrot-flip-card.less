@@ -1,0 +1,49 @@
+.widget-function('import_base_styles');
+
+@front_bgcolor: transparent;
+@front_padding: 0px;
+@front_bgimage_url : none;
+@front_bgsize : cover;
+@front_bghposition : center;
+@front_bgvposition : center;
+@front_bgrepeat : no-repeat;
+@front_bgopacity : 100;
+
+@back_bgcolor: transparent;
+@back_padding: 0px;
+@back_bgimage_url : '';
+@back_bgsize : cover;
+@back_bghposition : center;
+@back_bgvposition : center;
+@back_bgrepeat : no-repeat;
+@back_bgopacity : 100;
+
+
+
+.flip-card > .front-side{
+	padding: @front_padding;
+	background-color: @front_bgcolor;
+	
+}
+
+.flip-card > .front-side::after {
+	background-image: @front_bgimage_url;
+	background-size: @front_bgsize;
+	background-position: @front_bghposition @front_bgvposition;
+	background-repeat: @front_bgrepeat;
+	opacity: @front_bgopacity/100;
+	
+}
+
+
+.flip-card > .back-side{
+	padding: @back_padding;
+	background-color: @back_bgcolor;
+}
+.flip-card > .back-side::after {
+	background-image: @back_bgimage_url;
+	background-size: @back_bgsize;
+	background-position: @back_bghposition @back_bgvposition;
+	background-repeat: @back_bgrepeat;
+	opacity: @back_bgopacity/100;
+}

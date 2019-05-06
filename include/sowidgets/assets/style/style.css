@@ -1,0 +1,83 @@
+.carrot-widget .carrot-widget-pager a{
+	-moz-transition:all 200ms ease-out;
+	-ms-transition:all 200ms ease-out;
+	-o-transition:all 200ms ease-out;
+	-webkit-transition:all 200ms ease-out;
+	transition:all 200ms ease-out;
+}
+.carrot-widget {
+	
+}
+.carrot-widget .widget-header{
+	padding: 1em 0;
+	position:relative;
+
+}
+
+.carrot-widget .widget-header .header-nav{
+	position:absolute;
+	right:0;
+	top:1em;
+}
+
+.carrot-widget.header-border-bottom .widget-header{
+	margin-bottom:1em;
+}
+
+.carrot-widget .widget-header h3{
+	font-weight: 700;
+	text-transform:uppercase;
+	font-size:1em;
+	
+	
+}
+.carrot-widget .widget-header .header_thumb{
+	width:auto;
+	height:40px;
+}
+.carrot-widget .widget-body{
+
+}
+
+.carrot-widget .carrot-widget-nav{
+	display:inline-block;
+	cursor:pointer;
+	padding:0 0.3em;
+}
+
+.carrot-widget .carrot-widget-pager a{
+	display:inline-block;
+	transform-origin:center center;
+	margin:0 0.05em;
+	font-size:1.3em;
+	opacity:0.5;
+	vertical-align: text-top;
+	-moz-transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	-o-transform: scale(0.8) ;
+	-ms-transform: scale(0.8) ;
+	transform: scale(0.8) ;
+	
+}
+
+.carrot-widget .carrot-widget-pager a.cycle-pager-active{
+	opacity:1;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1) ;
+	-ms-transform: scale(1) ;
+	transform: scale(1) ;
+	
+	
+}
+
+
+.carrot-widget .carrot-widget-pager a:hover{	
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1) ;
+	-ms-transform: scale(1.1) ;
+	transform: scale(1.1) ;
+}
+
+

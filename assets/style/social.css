@@ -1,0 +1,107 @@
+.social-links {
+
+	display:inline-block;
+
+	position: relative;
+
+	margin:0px;
+
+	padding:0px;
+
+	
+
+}
+
+.social-links li{
+
+	display:inline-block;
+
+}
+
+
+
+.social-links li a{
+	display:inline-block;
+	padding:0.5em;
+	text-decoration:none;
+
+	
+
+}
+
+
+
+.social-links li a:hover{
+
+	color:#fff  !important; 
+	text-decoration:none !important;
+}
+
+
+.social-links li.icon-ti-facebook a:hover{
+
+	background-color:#3b5998 !important; 
+
+}
+
+
+
+ .social-links li.icon-ti-twitter-alt a:hover{
+
+	background-color:#00a0d1 !important; 
+
+}
+
+
+
+ .social-links li.icon-ti-linkedin a:hover{
+
+	background-color:#0e76a8 !important; 
+
+}
+
+
+
+ .social-links li.icon-ti-instagram a:hover{
+
+	background-color:#cd486b !important; 
+
+}
+
+
+
+ .social-links li.icon-ti-google a:hover{
+
+	background-color:#dd4b39 !important;/*ff0084; */
+
+} 
+
+
+
+.social-links li.icon-ti-flickr a:hover{
+
+	background-color:#ff0084 !important;/*ff0084; */
+
+}
+
+
+
+.social-links li.icon-ti-pinterest-p a:hover, .social-links li.icon-ti-pinterest a:hover{
+
+	background-color:#cb2027 !important;/*ff0084; */
+
+}
+
+
+
+.social-links li.icon-ti-rss-alt a:hover{
+
+	background-color:#f57d00 !important;/*ff0084; */
+
+}
+
+ .social-links li.icon-ti-youtube a:hover,.social-links li.icon-ti-youtube-play a:hover{
+
+	background-color:#bb0000 !important;/*ff0084; */
+
+}

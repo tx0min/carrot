@@ -1,0 +1,30 @@
+.carrot-separator .separator{
+	display:block;
+	text-align: center;
+	position:relative;
+}
+
+
+
+.carrot-separator .separator.align-center{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.carrot-separator .separator.align-left{
+	margin-left:0px;
+	margin-right:auto;
+}
+
+.carrot-separator .separator.align-right{
+	margin-left:auto;
+	margin-right:0px;
+}
+
+
+.carrot-separator .separator > span{
+	position:absolute;
+	top:-50%;
+	left:50%;
+	transform: translateX(-50%);
+}

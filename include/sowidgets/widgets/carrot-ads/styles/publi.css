@@ -1,0 +1,21 @@
+.banner img{
+	-moz-transition:all 200ms ease-out;
+	-ms-transition:all 200ms ease-out;
+	-o-transition:all 200ms ease-out;
+	-webkit-transition:all 200ms ease-out;
+	transition:all 200ms ease-out;
+}
+
+.banner{
+	display:block;
+	margin-bottom:1em;
+
+}
+
+.banner img{
+	width:100%;
+	height:auto;
+	border-width:1px;
+	border-style:solid;
+}
+

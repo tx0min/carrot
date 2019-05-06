@@ -1,0 +1,16 @@
+.dimensions-table th{
+	text-align:left;
+	font-weight:400;
+	font-style:italic;
+
+}
+input.dimension{
+	width:60px !important;
+	display:inline-block;
+}
+
+.dimension-final-input{
+	width:200px !important;
+	display:inline-block;
+	display:none;
+}

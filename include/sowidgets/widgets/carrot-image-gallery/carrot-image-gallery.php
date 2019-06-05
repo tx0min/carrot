@@ -53,6 +53,15 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							        'label' => __('Title', THEME_NAME)
 							    )
 					        )
+						),
+						'image22' => array(
+							'type' => 'media',
+							'multiple' => true,
+							'label' => __( 'Choose an image', THEME_NAME ),
+							'choose' => __( 'Choose image', THEME_NAME ),
+							'update' => __( 'Set image', THEME_NAME ),
+							'library' => 'image',
+							'fallback' => true
 						)
 
 					)
@@ -244,6 +253,11 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							'type' => 'checkbox',
 							'default' => false,
 							'label' => __( 'Bordered images', THEME_NAME )
+						),
+						'gallery_random_order' => array(
+							'type' => 'checkbox',
+							'default' => false,
+							'label' => __( 'Random start', THEME_NAME )
 						)
 						
 
@@ -290,9 +304,22 @@ siteorigin_widget_register('carrot-image-gallery-widget', __FILE__, 'Carrot_Imag
 
 
 if(!function_exists("carrot_generate_images_array")){
-	function carrot_generate_images_array($images){
+	function carrot_generate_images_array($images, $random_start=false){
+		
+		
+		if($random_start){
+			$middle=rand(0,count($images)-1);
+			if($middle>0){
+				$part1 = array_slice($images, 0, $middle);
+				$part2 = array_slice($images, $middle);
+				$images= array_merge($part2, $part1 );
+			}
+			
+		}
+
 		$ret=array();
 		//_dump($images);
+		
 		foreach($images as $image){
 			if(isset($image["video_url"]) && $image["video_url"]){
 				$video=array();
@@ -325,6 +352,8 @@ if(!function_exists("carrot_generate_images_array")){
 				//_dump($img);
 			}
 		}
+
+
 		return $ret;
 	}
 }

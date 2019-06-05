@@ -489,8 +489,7 @@
 				}
 				
 				break;
-			default: break;
-
+		
 		}
 		return $ret;
 	}

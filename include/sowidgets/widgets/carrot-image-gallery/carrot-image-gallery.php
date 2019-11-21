@@ -53,15 +53,6 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							        'label' => __('Title', THEME_NAME)
 							    )
 					        )
-						),
-						'image22' => array(
-							'type' => 'media',
-							'multiple' => true,
-							'label' => __( 'Choose an image', THEME_NAME ),
-							'choose' => __( 'Choose image', THEME_NAME ),
-							'update' => __( 'Set image', THEME_NAME ),
-							'library' => 'image',
-							'fallback' => true
 						)
 
 					)

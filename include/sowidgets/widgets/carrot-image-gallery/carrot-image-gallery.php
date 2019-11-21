@@ -254,10 +254,15 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							'default' => false,
 							'label' => __( 'Bordered images', THEME_NAME )
 						),
-						'gallery_random_order' => array(
+						'gallery_random_start' => array(
 							'type' => 'checkbox',
 							'default' => false,
 							'label' => __( 'Random start', THEME_NAME )
+						),
+						'gallery_random_order' => array(
+							'type' => 'checkbox',
+							'default' => false,
+							'label' => __( 'Full random sort', THEME_NAME )
 						)
 						
 
@@ -304,10 +309,17 @@ siteorigin_widget_register('carrot-image-gallery-widget', __FILE__, 'Carrot_Imag
 
 
 if(!function_exists("carrot_generate_images_array")){
-	function carrot_generate_images_array($images, $random_start=false){
+	function carrot_generate_images_array($images, $options=[]){
 		
-		
-		if($random_start){
+		$defoptions=[
+			"random_start"=>false, 
+			"random_order"=>false
+		];
+		if($options && is_array($options)){
+			$defoptions=array_merge($defoptions,$options);
+		}
+
+		if($defoptions["random_start"]){
 			$middle=rand(0,count($images)-1);
 			if($middle>0){
 				$part1 = array_slice($images, 0, $middle);
@@ -315,6 +327,8 @@ if(!function_exists("carrot_generate_images_array")){
 				$images= array_merge($part2, $part1 );
 			}
 			
+		}else if($defoptions["random_order"]){
+			shuffle($images);
 		}
 
 		$ret=array();

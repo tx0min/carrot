@@ -5,7 +5,7 @@
 	$this->carrot_widget_header($instance);
 		
 	
-	$images = carrot_generate_images_array($gallery_images, $gallery_random_order);
+	$images = carrot_generate_images_array($gallery_images, ["random_start"=>$gallery_random_start, "random_order"=>$gallery_random_order]);
 	
 
 	$options["thumbsize"]=$gallery_thumbnail_size;

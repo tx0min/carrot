@@ -215,7 +215,14 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 									'label' => __( 'Slides height', THEME_NAME ),
 									'description' => __( 'Slides height (include units). Autoheight if not set.', THEME_NAME ),
 									
-								)
+								),
+								'gallery_lazyload' => array(
+									'type' => 'checkbox',
+									'default' => false,
+									'label' => __( 'Lazyload', THEME_NAME ),
+									'description' => __( 'Activate with big sliders to reduce loading time.', THEME_NAME ),
+
+								),
 							),
 							'state_handler' => array(
 								'gallery_disposition[slider]' => array('show'),
@@ -254,6 +261,11 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							'type' => 'checkbox',
 							'default' => false,
 							'label' => __( 'Full random sort', THEME_NAME )
+						),
+						'gallery_group_categories' => array(
+							'type' => 'checkbox',
+							'default' => false,
+							'label' => __( 'Group by category', THEME_NAME )
 						)
 						
 
@@ -304,7 +316,8 @@ if(!function_exists("carrot_generate_images_array")){
 		
 		$defoptions=[
 			"random_start"=>false, 
-			"random_order"=>false
+			"random_order"=>false,
+			"group_categories"=>false
 		];
 		if($options && is_array($options)){
 			$defoptions=array_merge($defoptions,$options);
@@ -317,13 +330,57 @@ if(!function_exists("carrot_generate_images_array")){
 				$part2 = array_slice($images, $middle);
 				$images= array_merge($part2, $part1 );
 			}
+
 			
 		}else if($defoptions["random_order"]){
 			shuffle($images);
 		}
 
+
+		//agrupa por categorias. Si alguna imagen tiene más de una categoría saldra varias veces
+		if($defoptions["group_categories"]){
+			$grouped=[];
+			// _dump($images);
+			foreach($images as $image){
+				if(!isset($image["video_url"]) || !$image["video_url"]){
+					$id=$image["image"];
+					$img=wp_get_attachment_metadata($id);
+					$imagecategories=get_the_category($id);
+					if($imagecategories){
+						foreach($imagecategories as $cat){
+							if(!isset($grouped[$cat->slug])) $grouped[$cat->slug]=[];
+							$grouped[$cat->slug][]= $image;
+						}
+					}else{
+						if(!isset($grouped["uncategorized"])) $grouped["uncategorized"]=[];
+						$grouped["uncategorized"][]= $image;
+					}
+				}
+			}
+
+			// _dump($grouped);
+			//si ademas es random, reordeno dentro de la categoria
+			if($defoptions["random_order"]){
+				foreach($grouped as $i=>$group){
+					shuffle($grouped[$i]);
+				}
+			}
+
+			// _dump($grouped);
+			//flatten the array
+			$flatten=[];
+			foreach($grouped as $i=>$group){
+				$flatten=array_merge($flatten,$group);
+			}
+			// _dump($flatten);
+			$images=$flatten;
+
+			
+			// die();
+		}
+
 		$ret=array();
-		//_dump($images);
+		// _dump($images);
 		
 		foreach($images as $image){
 			if(isset($image["video_url"]) && $image["video_url"]){

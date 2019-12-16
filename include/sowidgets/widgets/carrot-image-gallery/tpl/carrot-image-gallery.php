@@ -5,7 +5,11 @@
 	$this->carrot_widget_header($instance);
 		
 	
-	$images = carrot_generate_images_array($gallery_images, ["random_start"=>$gallery_random_start, "random_order"=>$gallery_random_order]);
+	$images = carrot_generate_images_array($gallery_images, [
+		"group_categories"=>$gallery_group_categories,
+		"random_start"=>$gallery_random_start, 
+		"random_order"=>$gallery_random_order
+	]);
 	
 
 	$options["thumbsize"]=$gallery_thumbnail_size;
@@ -15,6 +19,7 @@
 	$options["gutter"]=$gallery_gap;
 	$options["lightbox"]=$gallery_lightbox;
 	$options["bordered"]=$gallery_bordered;
+	$options["lazyload"]=$gallery_lazyload;
 	
 	$options["images"]=$images;
 

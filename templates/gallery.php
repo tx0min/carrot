@@ -71,6 +71,7 @@
 		<?php if($lazyload){?>
 			data-lazy-load-eager="3"
 		<?php } ?>
+		
 		<?=$fixedheight?"data-fixed-height='".$fixedheight."'":''?> 
 		 >
 		<div class="gallery-loader"><?=_icon("icon_loading","fa-spin")?></div>

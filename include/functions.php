@@ -440,7 +440,7 @@ endif;
 if ( ! function_exists( 'carrot_init_thumbsizes' ) ) :
 	function carrot_init_thumbsizes(){
 		$thumbsizes=carrot_get_thumbsizes();
-		if($thumbsizes && is_array($thumbsizes) && count($thumbsizes>0)){
+		if($thumbsizes && is_array($thumbsizes) && count($thumbsizes)>0){
 			foreach($thumbsizes as $key=>$thumbsize){
 				add_image_size( $key, $thumbsize[0], $thumbsize[1], true );
 			}

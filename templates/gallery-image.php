@@ -12,6 +12,7 @@
 			<a class="biglink venobox" href='<?=$image["url"]?>' rel="<?=$options["galID"]?>" data-overlay="<?=$options["color"]?>" data-gall="<?=$options["galID"]?>" data-image-index="<?=$image["index"]?>" title="<?=$image["title"]?>">
 		<?php } ?>
 				<div  class="imgwrap">
+					
 					<?php
 						if(isset($options["lazyload"]) && $options["lazyload"]){
 					?>

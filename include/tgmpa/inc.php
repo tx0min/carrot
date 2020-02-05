@@ -178,7 +178,12 @@ function carrot_register_required_plugins() {
 			'name'      => 'Advanced Browser Check',
 			'slug'      => 'advanced-browser-check',
 			'required'  => false,
-		)/*,array(
+		),array(
+			'name'      => 'Media Library Categories',
+			'slug'      => 'wp-media-library-categories',
+			'required'  => false,
+		)
+		/*,array(
 			'name'      => 'Theme Check',
 			'slug'      => 'theme-check',
 			'required'  => false,

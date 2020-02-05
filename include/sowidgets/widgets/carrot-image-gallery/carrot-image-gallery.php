@@ -53,15 +53,6 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							        'label' => __('Title', THEME_NAME)
 							    )
 					        )
-						),
-						'image22' => array(
-							'type' => 'media',
-							'multiple' => true,
-							'label' => __( 'Choose an image', THEME_NAME ),
-							'choose' => __( 'Choose image', THEME_NAME ),
-							'update' => __( 'Set image', THEME_NAME ),
-							'library' => 'image',
-							'fallback' => true
 						)
 
 					)
@@ -261,10 +252,20 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 							'default' => false,
 							'label' => __( 'Bordered images', THEME_NAME )
 						),
-						'gallery_random_order' => array(
+						'gallery_random_start' => array(
 							'type' => 'checkbox',
 							'default' => false,
 							'label' => __( 'Random start', THEME_NAME )
+						),
+						'gallery_random_order' => array(
+							'type' => 'checkbox',
+							'default' => false,
+							'label' => __( 'Full random sort', THEME_NAME )
+						),
+						'gallery_group_categories' => array(
+							'type' => 'checkbox',
+							'default' => false,
+							'label' => __( 'Group by category', THEME_NAME )
 						)
 						
 
@@ -311,21 +312,75 @@ siteorigin_widget_register('carrot-image-gallery-widget', __FILE__, 'Carrot_Imag
 
 
 if(!function_exists("carrot_generate_images_array")){
-	function carrot_generate_images_array($images, $random_start=false){
+	function carrot_generate_images_array($images, $options=[]){
 		
-		
-		if($random_start){
+		$defoptions=[
+			"random_start"=>false, 
+			"random_order"=>false,
+			"group_categories"=>false
+		];
+		if($options && is_array($options)){
+			$defoptions=array_merge($defoptions,$options);
+		}
+
+		if($defoptions["random_start"]){
 			$middle=rand(0,count($images)-1);
 			if($middle>0){
 				$part1 = array_slice($images, 0, $middle);
 				$part2 = array_slice($images, $middle);
 				$images= array_merge($part2, $part1 );
 			}
+
 			
+		}else if($defoptions["random_order"]){
+			shuffle($images);
+		}
+
+
+		//agrupa por categorias. Si alguna imagen tiene más de una categoría saldra varias veces
+		if($defoptions["group_categories"]){
+			$grouped=[];
+			// _dump($images);
+			foreach($images as $image){
+				if(!isset($image["video_url"]) || !$image["video_url"]){
+					$id=$image["image"];
+					$img=wp_get_attachment_metadata($id);
+					$imagecategories=get_the_category($id);
+					if($imagecategories){
+						foreach($imagecategories as $cat){
+							if(!isset($grouped[$cat->slug])) $grouped[$cat->slug]=[];
+							$grouped[$cat->slug][]= $image;
+						}
+					}else{
+						if(!isset($grouped["uncategorized"])) $grouped["uncategorized"]=[];
+						$grouped["uncategorized"][]= $image;
+					}
+				}
+			}
+
+			// _dump($grouped);
+			//si ademas es random, reordeno dentro de la categoria
+			if($defoptions["random_order"]){
+				foreach($grouped as $i=>$group){
+					shuffle($grouped[$i]);
+				}
+			}
+
+			// _dump($grouped);
+			//flatten the array
+			$flatten=[];
+			foreach($grouped as $i=>$group){
+				$flatten=array_merge($flatten,$group);
+			}
+			// _dump($flatten);
+			$images=$flatten;
+
+			
+			// die();
 		}
 
 		$ret=array();
-		//_dump($images);
+		// _dump($images);
 		
 		foreach($images as $image){
 			if(isset($image["video_url"]) && $image["video_url"]){

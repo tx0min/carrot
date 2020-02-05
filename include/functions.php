@@ -271,6 +271,7 @@ if ( ! function_exists( 'carrot_styles' ) ) :
 
 		//wp_enqueue_style( 'dynamic', THEME_URI .'/assets/style/dynamic.css.php'.(is_single()?"?single=".get_the_ID():"") );
         wp_enqueue_style( 'scrollbar', THEME_URI .'/assets/style/scrollbar.css');
+		
         
 		
 		
@@ -297,6 +298,8 @@ if ( ! function_exists( 'carrot_admin_scripts_styles' ) ) :
 	function carrot_admin_scripts_styles(){
 		wp_enqueue_script( 'theme-admin', THEME_URI . '/assets/js/theme-admin.js', array( 'jquery' ));
 		wp_enqueue_style( 'theme-admin', THEME_URI .'/assets/style/admin.css');
+		wp_enqueue_style( 'blocks-admin', THEME_URI .'/assets/style/blocks.css');
+
 	}
 endif;
 
@@ -465,6 +468,7 @@ if ( ! function_exists( 'carrot_init_body_classes' ) ) :
 	function carrot_init_body_classes( $classes ) {
 		    //$kirki_classes=array();
 		    if(_o("site_fullwidth")) $classes[]="fullwidth";
+		    if(_o("always_show_drawer")) $classes[]="show-drawer";
 		
 			$classes[]="site-loading";
 			$classes[]="theme-preset-".carrot_get_current_preset();
@@ -1620,3 +1624,5 @@ if ( ! function_exists( 'get_post_bgcolor' ) ) {
 		else return _o($bgcolor."_color");
 	}
 }
+
+add_theme_support( 'align-wide' );			

@@ -10,6 +10,7 @@
 ?>
 
 
+
 <article id="post-<?php the_ID(); ?>" <?php post_class($classes ); ?>>
 
 	<header class="entry-header clearfix">

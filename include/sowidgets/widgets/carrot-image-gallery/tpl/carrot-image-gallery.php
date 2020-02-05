@@ -15,6 +15,7 @@
 	$options["gutter"]=$gallery_gap;
 	$options["lightbox"]=$gallery_lightbox;
 	$options["bordered"]=$gallery_bordered;
+	$options["lazyload"]=$gallery_lazyload;
 	
 	$options["images"]=$images;
 

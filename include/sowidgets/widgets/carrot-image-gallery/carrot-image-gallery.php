@@ -224,7 +224,14 @@ class Carrot_Image_Gallery_Widget extends Carrot_SiteOrigin_Widget {
 									'label' => __( 'Slides height', THEME_NAME ),
 									'description' => __( 'Slides height (include units). Autoheight if not set.', THEME_NAME ),
 									
-								)
+								),
+								'gallery_lazyload' => array(
+									'type' => 'checkbox',
+									'default' => false,
+									'label' => __( 'Lazyload', THEME_NAME ),
+									'description' => __( 'Activate with big sliders to reduce loading time.', THEME_NAME ),
+
+								),
 							),
 							'state_handler' => array(
 								'gallery_disposition[slider]' => array('show'),

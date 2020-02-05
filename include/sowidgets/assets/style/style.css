@@ -81,3 +81,9 @@
 }
 
 
+.wrap-link{
+	display:block;
+	transition: all 200ms ease-out;
+	padding:0;
+	margin:0;
+}

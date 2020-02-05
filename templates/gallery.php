@@ -16,6 +16,7 @@
 	$autoplay=$options["autoplay"];
 	$loop=$options["loop"];
 	$pause_on_hover=$options["pause_on_hover"];
+	$lazyload=isset($options["lazyload"])?$options["lazyload"]:false;
 	
 	
 	$timeout=$options["timeout"];
@@ -66,7 +67,10 @@
 		data-fx="<?=$slide_effect?>"
 		data-valign="<?=$valign?>"
 		data-auto-height="<?=$fixedheight?'false':'true'?>" 
-
+		data-lazy-load="<?=$lazyload?>"
+		<?php if($lazyload){?>
+			data-lazy-load-eager="3"
+		<?php } ?>
 		<?=$fixedheight?"data-fixed-height='".$fixedheight."'":''?> 
 		 >
 		<div class="gallery-loader"><?=_icon("icon_loading","fa-spin")?></div>

@@ -547,8 +547,8 @@ function fixBoxedArticleHeight(articles){
 	function initSlider(slider){
 		//al("initSlider");
 		var settings = slidersDefaults;
-		//al(settings);
 		if(slider.data()) settings = $.extend(true, {}, settings, slider.data()); 
+		//al(settings);
 		
 		settings.responsive[0].items=settings.itemsResponsive;
 		settings.responsive[768].items=settings.items;
@@ -595,6 +595,8 @@ function fixBoxedArticleHeight(articles){
 		if(settings.fixedHeight){
 			slider.css('height',settings.fixedHeight);
 		}
+
+		
 
 		//add pause button if needed
 
@@ -823,7 +825,16 @@ function fixBoxedArticleHeight(articles){
 	   }
 	}
 	
-	
+	function initClickables(){
+		$('.clickable').each(function(){
+			var $a=$("<a class='wrap-link' href='"+$(this).data('href')+"'/>");
+			$(this).parent().wrap($a);
+		});
+		
+		
+	}
+
+
 	//init everything height related
 	function initThings(){
 		windowHeight = $(window).height();
@@ -929,6 +940,7 @@ function fixBoxedArticleHeight(articles){
 		prepareVideos();
         resizeManager();
 		
+		initClickables();
 		
 		
 

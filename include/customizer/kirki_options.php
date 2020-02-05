@@ -1226,6 +1226,13 @@ $carrotthemeoptions=array(
 						'default'     => '1'
 
 					),
+
+					'always_show_drawer' => array(
+						'type'        => 'toggle',
+						'label'       => __( 'Show always ', THEME_NAME ),
+						'default'     => '0'
+
+					),
 					'drawer_layout' => array(
 						
 						'type'        => 'radio-buttonset',

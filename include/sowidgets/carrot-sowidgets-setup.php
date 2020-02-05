@@ -112,7 +112,13 @@ if (!class_exists('Carrot_SO_Widgets_Setup')):
 			);
 			
 			
-			
+			$fields['widget_link_to']= array(
+				'type' => 'text',
+				'name' => __( 'Link to', THEME_NAME),
+				'default' => '',
+				'group' => 'layout',
+				'priority' => 15
+			);
 			
 			
 			
@@ -275,7 +281,11 @@ if (!class_exists('Carrot_SO_Widgets_Setup')):
 			if( !empty( $args['widget_border_color'] ) ) {
 				array_push($attributes['class'], 'border-'.$args['widget_border_color']);
 			}
-			
+			if( !empty( $args['widget_link_to'] ) ) {
+				array_push($attributes['class'], 'clickable');
+				$attributes['data-href']=$args['widget_link_to'];
+				
+			}
 			
 			if( !empty( $args['widget_margin'] ) ) {
 				$attributes['style'].='margin:'.$args['widget_margin'].';';
@@ -332,7 +342,11 @@ if (!class_exists('Carrot_SO_Widgets_Setup')):
 			if( !empty( $args['top_margin'] ) ) {
 				$attributes['style'].='margin-top:'.$args['top_margin'].';';
 			}
-			
+			if( !empty( $args['link_to'] ) ) {
+				array_push($attributes['class'], 'clickable');
+				$attributes['data-href']=$args['link_to'];
+				
+			}
 			
 			$attributes['style'].="border-width:0px;";
 		
@@ -406,6 +420,13 @@ if (!class_exists('Carrot_SO_Widgets_Setup')):
 			
 			
 			
+			$fields['link_to']= array(
+				'type' => 'text',
+				'name' => __( 'Link to', THEME_NAME),
+				'default' => '',
+				'group' => 'layout',
+				'priority' => 15
+			);
 			
 			
 			

@@ -1767,7 +1767,7 @@ endif;
 
 if(!function_exists('carrot_has_post_featured')):
 	function carrot_has_post_featured(){
-		return (has_post_thumbnail() && (( gf("show_featured_image")=="show") || (gf("show_featured_image")=="theme" && _o("single_post_show_featured"))));
+		return (has_post_thumbnail() && (( gf("show_featured_image")=="show") || !has_field("carrot_has_post_featured") || (gf("show_featured_image")=="theme" && _o("single_post_show_featured"))));
 	}
 endif;
 

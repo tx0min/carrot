@@ -2032,7 +2032,7 @@ article.page-builder-enabled  .so-widget-sow-editor  p,
 article.article-single .entry-content  p {
 	margin-bottom: 1.8em;
 	line-height: 1.3em;
-	text-align: left;
+	/*text-align: left;*/
 }
 
 article.page-builder-enabled.dropcaps  .so-widget-sow-editor  > p:first-of-type:first-letter,
@@ -2160,8 +2160,8 @@ article.article-single .entry-content img.aligncenter {
 	margin-right: auto;
 }
 
-article.page-builder-enabled  .so-widget-sow-editor ul:not(.menu):not(.select2-selection__rendered):not(.social-links),
-article.article-single .entry-content ul:not(.menu):not(.select2-selection__rendered):not(.social-links){
+article.page-builder-enabled  .so-widget-sow-editor ul:not(.menu):not(.select2-selection__rendered):not(.social-links):not(.blocks-gallery-grid),
+article.article-single .entry-content ul:not(.menu):not(.select2-selection__rendered):not(.social-links):not(.blocks-gallery-grid){
 	margin: 1em 0em;
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -2171,14 +2171,14 @@ article.article-single .entry-content ul:not(.menu):not(.select2-selection__rend
 	clear: both;
 }
 
-article.page-builder-enabled  .so-widget-sow-editor ul:not(.menu):not(.select2-selection__rendered):not(.social-links):first-child,
-article.article-single .entry-content ul:not(.menu):not(.select2-selection__rendered):not(.social-links):first-child{
+article.page-builder-enabled  .so-widget-sow-editor ul:not(.menu):not(.select2-selection__rendered):not(.social-links):not(.blocks-gallery-grid):first-child,
+article.article-single .entry-content ul:not(.menu):not(.select2-selection__rendered):not(.social-links):not(.blocks-gallery-grid):first-child{
 	margin-top: 0em;
 	padding-top: 0em;
 }
 	
-article.page-builder-enabled  .so-widget-sow-editor  ul:not(.menu):not(.select2-selection__rendered):not(.social-links)  li ,
-article.article-single .entry-content  ul:not(.menu):not(.select2-selection__rendered):not(.social-links)  li {
+article.page-builder-enabled  .so-widget-sow-editor  ul:not(.menu):not(.select2-selection__rendered):not(.social-links):not(.blocks-gallery-grid)  li ,
+article.article-single .entry-content  ul:not(.menu):not(.select2-selection__rendered):not(.social-links):not(.blocks-gallery-grid)  li {
 	margin-left: 2em;
 	list-style: square;
 	
@@ -2204,62 +2204,20 @@ article.article-single .entry-content  blockquote {
 }
 
 
-article.article-single .entry-content blockquote.aleft {
-	margin-right: 2em;
-	margin-left: 0em;
-	float: left;
-	width: 45%;
-}
 
-article.page-builder-enabled  .so-widget-sow-editor blockquote.aleft p ,
-article.article-single .entry-content blockquote.aleft p {
-	text-align: right !important;
+article.page-builder-enabled  .so-widget-sow-editor blockquote ,
+article.article-single .entry-content blockquote {
+	font-size: 1em;
 }
-
-article.article-single .entry-content blockquote.aright {
-	margin-right: 0em;
-	margin-left: 2em;
-	float: right;
-	width: 45%;
-}
-
-article.page-builder-enabled  .so-widget-sow-editor blockquote.aright p ,
-article.article-single .entry-content blockquote.aright p {
-	text-align: left !important;
-}
-
-article.page-builder-enabled  .so-widget-sow-editor blockquote.acenter ,
-article.article-single .entry-content blockquote.acenter {
-	clear: both;
-	max-width: 100%;
-	margin-left: 0em;
-	margin-right: 0em;
-}
-
-article.article-single.columnize .entry-content blockquote.aleft,
-article.article-single.columnize .entry-content blockquote.aright {
-	width: 100%;
-}
-
-article.page-builder-enabled  .so-widget-sow-editor blockquote.acenter span.underliner,
-article.article-single .entry-content blockquote.acenter span.underliner {
-	border-bottom-width: 0px;
-}
-
 article.page-builder-enabled  .so-widget-sow-editor blockquote p ,
 article.article-single .entry-content blockquote p {
 	margin: 0px;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	font-size: 1.6em;
-	line-height: 1.3em;
+	padding: .5em 2em;
+	font-size: 1em;
+	line-height: 1.4em;
+	font-style: italic;
 }
 
-
-article.page-builder-enabled  .so-widget-sow-editor blockquote.acenter p ,
-article.article-single .entry-content blockquote.acenter p {
-	text-align: center !important;
-}
 
 
 
@@ -2386,21 +2344,8 @@ article.article-single .post-tags li a {
 		margin: 1em auto;
 		display:block;
 	}
-	article.page-builder-enabled  .so-widget-sow-editor blockquote.aleft,
-	article.page-builder-enabled  .so-widget-sow-editor blockquote.aright ,
-	article.article-single .entry-content blockquote.aleft,
-	article.article-single .entry-content blockquote.aright {
-		width: 100% !important;
-		margin-left: 0 !important;
-		margin-right: 0 !important;
-	}
-
-	article.page-builder-enabled  .so-widget-sow-editor blockquote.aleft p,
-	article.page-builder-enabled  .so-widget-sow-editor blockquote.aright p,
-	article.article-single .entry-content blockquote.aleft p,
-	article.article-single .entry-content blockquote.aright p {
-		text-align: center !important;
-	}
+	
+	
 
 
 

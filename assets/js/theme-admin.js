@@ -88,7 +88,7 @@
 	$(document).ready(function(e){
 		initTabs($("body"));
 		initPresetSelector();
-		initUploaders();
+		//initUploaders();
 	});
 	
 })(jQuery);

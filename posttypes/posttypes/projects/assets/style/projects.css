@@ -41,6 +41,7 @@
 }
 
 .projects-single.posttype-template-default #project .entry-content,
+.projects-single.posttype-template-default-no-sidebar #project .entry-content,
 .projects-single.posttype-template-default-full-width-gallery #project .entry-content
 {
 	padding-right:2em;
@@ -48,12 +49,16 @@
 
 @media screen and (max-width:768px) {
 	.projects-single.posttype-template-default #project .entry-content,
+	.projects-single.posttype-template-default-no-sidebar #project .entry-content,
 	.projects-single.posttype-template-default-full-width-gallery #project .entry-content,
 	.projects-single.posttype-template-default #project .entry-header,
+	.projects-single.posttype-template-default-no-sidebar #project .entry-header,
 	.projects-single.posttype-template-default-full-width-gallery #project .entry-header,
 	.projects-single.posttype-template-default #project .project-data-sheet,
+	.projects-single.posttype-template-default-no-sidebar #project .project-data-sheet,
 	.projects-single.posttype-template-default-full-width-gallery #project .project-data-sheet,
 	.projects-single.posttype-template-default #project .addtoany_shortcode,
+	.projects-single.posttype-template-default-no-sidebar #project .addtoany_shortcode,
 	.projects-single.posttype-template-default-full-width-gallery #project .addtoany_shortcode
 	{
 		padding-left:2em;

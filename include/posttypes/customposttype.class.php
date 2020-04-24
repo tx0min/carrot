@@ -76,7 +76,7 @@
 				"menu_name" => __( 'Mis aaaa', THEME_NAME ),
 				"all_items" => __( 'Todos los aaa', THEME_NAME ),
 				"add_new" => __( 'Nuevo aaa', THEME_NAME ),
-				"add_new_item" => __( 'Añadir nuevo aaa', THEME_NAME ),
+				"add_new_item" => __( 'Aï¿½adir nuevo aaa', THEME_NAME ),
 				"edit_item" => __( 'Editar aaa', THEME_NAME ),
 				"new_item" => __( 'Nuevo aaa', THEME_NAME ),
 				"view_item" => __( 'Ver aaa', THEME_NAME ),
@@ -85,14 +85,14 @@
 				"not_found_in_trash" => __( 'No se encontraron aaa en la papelera', THEME_NAME ),
 				"parent_item_colon" => __( 'aaa padre', THEME_NAME ),
 				"featured_image" => __( 'Imagen del aaa', THEME_NAME ),
-				"set_featured_image" => __( 'Definir imágen', THEME_NAME ),
+				"set_featured_image" => __( 'Definir imï¿½gen', THEME_NAME ),
 				"remove_featured_image" => __( 'Quitar imagen', THEME_NAME ),
 				"use_featured_image" => __( 'Usar como imagen', THEME_NAME ),
 				"archives" => __( 'Archivo de aaa', THEME_NAME ),
 				"insert_into_item" => __( 'Insertar en aaa', THEME_NAME ),
 				"uploaded_to_this_item" => __( 'Subir a aaa', THEME_NAME ),
 				"filter_items_list" => __( 'Filtrar lista de aaa', THEME_NAME ),
-				"items_list_navigation" => __( 'Navegación de la lista de aaa', THEME_NAME ),
+				"items_list_navigation" => __( 'Navegaciï¿½n de la lista de aaa', THEME_NAME ),
 				"items_list" => __( 'Lista de aaa', THEME_NAME ),
 				"parent_item_colon" => __( 'aaa padre', THEME_NAME ),*/
 			);
@@ -178,7 +178,7 @@
 			add_action( 'pre_get_posts', array($this,'setColumnsSortingFunction' ));
 			
 			/*add to rest api*/
-			add_action( 'rest_api_init', array($this, 'registerRestFields'));
+			//add_action( 'rest_api_init', array($this, 'registerRestFields'));
 			
 			add_action( 'restrict_manage_posts', array($this, 'addFilters') );
 			add_filter( 'parse_query', array($this, 'filterQuery') );

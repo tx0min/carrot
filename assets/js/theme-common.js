@@ -78,9 +78,10 @@ function fixBoxedArticleHeight(articles){
 		var bpadding=30; //px
 		
 		$('.carrotaffix').each(function(i){
+			//al('initAffix');
 			var obj=$(this);
 			obj.width($(this).parent().width());
-			obj.data("top",$('#header').outerHeight(true) + tpadding);
+			obj.data("top",$('#sticky-header').outerHeight(true) + tpadding);
 			
 			var btrigger=obj.parent();
 			if(obj.data("parenttrigger")) btrigger=obj.closest(obj.data("parenttrigger"));
@@ -90,7 +91,7 @@ function fixBoxedArticleHeight(articles){
 			  offset: {
 				top: function () {
 				 // al($('#header').outerHeight(true));
-				  return (this.top = $('#header').outerHeight(true));
+				  return (this.top = $('#sticky-header').outerHeight(true));
 				},
 				bottom: function () {
 				 

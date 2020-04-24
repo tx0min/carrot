@@ -245,6 +245,7 @@ if ( ! function_exists( 'carrot_styles' ) ) :
         wp_enqueue_style( 'themify-icons', THEME_URI .'/assets/style/themify-icons.css');
         wp_enqueue_style( 'fontawesome-icons', THEME_URI .'/assets/style/font-awesome.min.css');
         wp_enqueue_style( 'base', THEME_URI .'/assets/style/base.css');
+        wp_enqueue_style( 'blocks', THEME_URI .'/assets/style/blocks.css');
 		
 		
         //wp_enqueue_style( 'custom', THEME_URI .'/assets/style/custom.css');
@@ -298,7 +299,7 @@ if ( ! function_exists( 'carrot_admin_scripts_styles' ) ) :
 	function carrot_admin_scripts_styles(){
 		wp_enqueue_script( 'theme-admin', THEME_URI . '/assets/js/theme-admin.js', array( 'jquery' ));
 		wp_enqueue_style( 'theme-admin', THEME_URI .'/assets/style/admin.css');
-		wp_enqueue_style( 'blocks-admin', THEME_URI .'/assets/style/blocks.css');
+		wp_enqueue_style( 'blocks-admin', THEME_URI .'/assets/style/admin-blocks.css');
 
 	}
 endif;

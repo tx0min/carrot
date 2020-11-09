@@ -29,7 +29,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 ?>
 <div class="tile">
 	<article <?php post_class(); ?>>
-		<div class="article-inner">
+		<div class="the-gap article-inner">
 		
 		<?php
 		/**

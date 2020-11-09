@@ -28,7 +28,7 @@
 		
 	);
 	$styles=array('style.css');
-	$scripts=array('scripts.js');
+	$scripts=array('scripts.js','init.js');
 
 
 

@@ -323,6 +323,7 @@ div.woocommerce h3 {
     padding: 1.5em 1em 1.2em 1em;
     position: relative;
     margin-bottom: 0em;
+    background-color: #fff;
 }
 
 .woocommerce-message a,
@@ -1293,4 +1294,36 @@ form.woocommerce-checkout {
 
 .woocommerce-result-count {
     font-size: .8em;
+}
+
+.woocommerce-pagination ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.woocommerce-pagination ul li span {
+    padding: 1em;
+}
+
+.woocommerce-pagination ul li a {
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.woocommerce-terms-and-conditions-wrapper {
+    font-size: .9em;
+    opacity: .9;
+    font-style: italic;
+}
+
+.woocommerce-terms-and-conditions {
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+.woocommerce-privacy-policy-text {
+    margin-bottom: 1em;
 }

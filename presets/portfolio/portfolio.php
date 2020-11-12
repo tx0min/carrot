@@ -27,7 +27,7 @@
 		
 		
 	);
-	$styles=array('style.css');
+	$styles=array('style.css','woocommerce.css');
 	$scripts=array('scripts.js','init.js');
 
 
@@ -36,7 +36,13 @@
 	$customizerelements= array(
 		'primary_color' => array(
 			array(
-				'element' => '
+				'element' => ' .woocommerce-terms-and-conditions-wrapper a, 
+								.woocommerce-message a, .woocommerce-info a, .woocommerce-error a,
+								.woocommerce-message a:hover, .woocommerce-info a:hover, .woocommerce-error a:hover,
+								.woocommerce-message a:focus, .woocommerce-info a:focus, .woocommerce-error a:focus,
+								.woocommerce-message .button, .woocommerce-info .button, .woocommerce-error .button,
+								.woocommerce-message .button:hover, .woocommerce-info .button:hover, .woocommerce-error .button:hover,
+								.woocommerce-message .button:focus, .woocommerce-info .button:focus, .woocommerce-error .button:focus,
 								.project-meta h3,
 								article.article-single  .taxonomies
 								',
@@ -58,9 +64,10 @@
 
 			)
 		),
+		
 		'body_bg_color' => array(
 			array(
-				'element'  => '.single-nav.single-projects-nav li a:hover, .image-gallery.gallery-slider.gallery-fixedheight .imgwrap',
+				'element'  => '.woocommerce-checkout .woocommerce-checkout-review-order .review-content.affix, .single-nav.single-projects-nav li a:hover, .image-gallery.gallery-slider.gallery-fixedheight .imgwrap',
 				'property' => 'background-color'
 			)
 		),

@@ -47,6 +47,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
 			</div>
 		</div>
+		
 
 		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 
@@ -55,7 +56,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 
 		<div id="order_review" class="woocommerce-checkout-review-order ">
-			<div class="review-content carrotaffix" data-parenttrigger="form">
+			<div class="review-content " data-parenttrigger="form">
 				<div>
 					<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
 					<?php do_action( 'woocommerce_checkout_order_review' ); ?>

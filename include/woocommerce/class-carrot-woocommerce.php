@@ -26,7 +26,7 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 			add_filter('wc_get_template_part', array( $this, 'carrot_wc_get_template_part') , 10, 3 );
 			add_filter('wc_get_template', array( $this, 'carrot_wc_get_template') , 10, 3 );
 			 
-
+			
 
 			/*CARROT*/
 			//remove wrapper
@@ -89,8 +89,11 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 			}
 		
 			
-			
-			
+			/**product image mails */
+			//add_filter( 'woocommerce_email_order_items_table', array($this, 'carrot_order_email_images' ) );
+
+			add_filter( 'woocommerce_email_order_items_args', array($this, 'carrot_order_email_args') );
+
 			
 			
 			
@@ -170,12 +173,12 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 			echo "<div class='shop-form-header'>";
 			echo "<div class='container'>";
 			echo "	<div class='row'>";
-			echo "		<div class='col-sm-6'>";
+			echo "		<div class='col-sm-9'>";
 			
 		}
 		public function carrot_woocommerce_form_header_between(){
 			echo "	</div>";
-			echo "	<div class='col-sm-6 text-right'>";
+			echo "	<div class='col-sm-3 shop-form-header-order'>";
 			
 		}
 		public function carrot_woocommerce_form_header_end(){
@@ -319,7 +322,8 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 		 * Products per page
 		 */
 		public function products_per_page() {
-			return intval( apply_filters( 'carrot_products_per_page', $this->columns * 4 ) );
+			
+			return intval( apply_filters( 'carrot_products_per_page', _o("woo_products_per_page", $this->columns * 4) ) );
 		}
 
 		
@@ -346,6 +350,14 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 		
 		
 		
+		public function carrot_order_email_args( $args ) {
+
+			$args['show_image'] = true;
+			$args['image_size'] = array( 80, 80 );
+
+			return $args;
+		
+		}
 		
 		
 		
@@ -366,5 +378,6 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 	}
 
 endif;
+
 
 return new Carrot_WooCommerce();

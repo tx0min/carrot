@@ -2893,6 +2893,17 @@ $carrotthemeoptions=array(
 						)
 
 					),
+
+					'woo_products_per_page' => array(
+						'label'=> __( 'Products per page', THEME_NAME ),
+						'type' => 'number',
+						'default'     => 20,
+						'choices'     => array(
+							'min'  => 1,
+							'max'  => 100,
+							'step' => 1,
+						),
+					),
 					'woo_sidebar'=>array(
 						'type'        => 'select',
 						'label'       => __( 'Sidebar', THEME_NAME ),

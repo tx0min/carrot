@@ -1,0 +1,103 @@
+.price {
+    padding: 1em 0;
+    font-size: 2em;
+}
+
+.wcppec-checkout-buttons__separator {
+    display: none;
+}
+
+.shop-form-header-order {
+    text-align: right;
+}
+
+.single-product div.product .summary form.cart {
+    width: 100%;
+}
+
+.single-product div.product .summary form.cart .quantity {
+    width: 100px;
+}
+
+.single-product div.product .summary form.cart .quantity>input {
+    font-size: 1.5em;
+}
+
+.single-product div.product .summary form.cart>button {
+    font-size: 1.5em;
+}
+
+table.woocommerce-product-attributes th {
+    padding-right: 2em;
+}
+
+@media screen and (max-width:768px) {
+    .woocommerce-notices-wrapper {
+        width: auto;
+        margin: 0 1em 2em 1em;
+    }
+    .woocommerce-cart .woocommerce-cart-form {
+        padding: 0 0;
+    }
+    .woocommerce-cart .cart-collaterals {
+        padding: 2em 0;
+    }
+    .shop_table.shop_table_responsive tr td {
+        text-align: left;
+    }
+    .shop_table.shop_table_responsive tr td:before {
+        width: 50%;
+    }
+    .shop_table.shop_table_responsive td .quantity {
+        width: auto;
+        text-align: left;
+        float: none;
+    }
+    .shop_table.shop_table_responsive td .quantity>label {
+        display: none;
+    }
+    .woocommerce-checkout .col2-set .col-1,
+    .woocommerce-checkout .col2-set .col-2 {
+        padding: 0 0em;
+    }
+    .woocommerce-checkout .woocommerce-checkout-review-order {
+        width: 100%;
+        padding: 0em 0em;
+    }
+    .woocommerce-checkout .woocommerce-checkout-review-order .review-content {
+        border-left-width: 0px;
+    }
+    .woocommerce-checkout .woocommerce-checkout-review-order .review-content>div {
+        padding-left: 0;
+    }
+    .woocommerce-checkout #order_review_heading {
+        padding: 1em;
+        text-align: center;
+    }
+    .woocommerce-order {
+        padding: 0 0;
+    }
+    .woocommerce-result-count {
+        padding: 1em;
+        text-align: center;
+    }
+    .shop-form-header-order {
+        text-align: center;
+    }
+    .single-product div.product {
+        padding: 0 2em;
+    }
+    .single-product div.product .summary form.cart {
+        width: 100%
+    }
+    .single-product div.product .summary form.cart .quantity {
+        display: none;
+    }
+    .single-product div.product .summary form.cart .single_add_to_cart_button {
+        display: block;
+        width: 100%;
+    }
+    .shop .sidebar {
+        padding: 0 2em;
+    }
+}

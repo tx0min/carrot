@@ -832,10 +832,12 @@ form.woocommerce-checkout {
 }
 
 .single-product div.product .summary form.cart {
-    width: 50%;
-    display: flex;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+
+.single-product div.product .summary form.cart:not(.variations_form) {
+    display: flex;
 }
 
 .single-product div.product .summary form.cart .quantity {

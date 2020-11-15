@@ -37,12 +37,6 @@
 		'primary_color' => array(
 			array(
 				'element' => ' .woocommerce-terms-and-conditions-wrapper a, 
-								.woocommerce-message a, .woocommerce-info a, .woocommerce-error a,
-								.woocommerce-message a:hover, .woocommerce-info a:hover, .woocommerce-error a:hover,
-								.woocommerce-message a:focus, .woocommerce-info a:focus, .woocommerce-error a:focus,
-								.woocommerce-message .button, .woocommerce-info .button, .woocommerce-error .button,
-								.woocommerce-message .button:hover, .woocommerce-info .button:hover, .woocommerce-error .button:hover,
-								.woocommerce-message .button:focus, .woocommerce-info .button:focus, .woocommerce-error .button:focus,
 								.project-meta h3,
 								article.article-single  .taxonomies
 								',
@@ -54,6 +48,41 @@
 								',
 				'property' => 'fill'
 				
+			),
+			array(
+				'element' => ' .button:hover, .button:active, .button:focus					',
+				'property' => 'background-color'
+				
+			),
+			array(
+				'element' => ' .button:hover, .button:active, .button:focus ',
+				'property' => 'border-color'
+				
+			)
+
+		),
+		'primary_text_color' => array(
+			array(
+				'element' => '.button:hover, .button:active, .button:focus, .woocommerce-message a',
+				'property' => 'color',
+				
+			),
+		),	
+		'alt_color' => array(
+			array(
+				'element' => '.button, .woocommerce-active #footer-cart .cart-contents .count ',
+				'property' => 'background-color',
+			),
+			array(
+				'element' => '.button',
+				'property' => 'border-color',
+			)
+		),
+		
+		'alt_text_color' => array(
+			array(
+				'element' => '.button, .woocommerce-active #footer-cart .cart-contents .count ',
+				'property' => 'color',
 			)
 		),
 		'body_text_color' => array(
@@ -62,15 +91,32 @@
 				'property' => 'fill',
 				'important'   => true
 
+			),
+			array(
+				'element'  => '#footer-cart .cart-contents, .woocommerce-active #footer-cart .cart-contents .cart-icon
+
+					',
+				'property' => 'color',
+				
+
 			)
 		),
 		
 		'body_bg_color' => array(
 			array(
-				'element'  => '.woocommerce-checkout .woocommerce-checkout-review-order .review-content.affix, .single-nav.single-projects-nav li a:hover, .image-gallery.gallery-slider.gallery-fixedheight .imgwrap',
+				'element'  => '.woocommerce-checkout .woocommerce-checkout-review-order .review-content.affix, .single-nav.single-projects-nav li a:hover, .image-gallery.gallery-slider.gallery-fixedheight .imgwrap, 
+				#footer-cart .cart-contents',
+
 				'property' => 'background-color'
 			)
 		),
+
+		'borders_color' => array(
+			array(
+				'element' => '.wc_payment_methods li',
+				'property' =>'border-color'
+			)
+		)
 	);
 
 

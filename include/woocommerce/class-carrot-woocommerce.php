@@ -20,7 +20,8 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 			add_filter( 'woocommerce_product_thumbnails_columns', 	array( $this, 'thumbnail_columns' ) );
 			add_filter( 'loop_shop_per_page', 						array( $this, 'products_per_page' ) );
 
-			
+			add_filter( 'woocommerce_product_tabs', array($this, 'carrot_woo_reorder_tabs'), 98 );
+
 				
 			/*override woocommerce templates with presets*/
 			add_filter('wc_get_template_part', array( $this, 'carrot_wc_get_template_part') , 10, 3 );
@@ -102,7 +103,13 @@ if ( ! class_exists( 'Carrot_WooCommerce' ) ) :
 			
 
 		}
+		public function carrot_woo_reorder_tabs( $tabs ) {
 
+			$tabs['additional_information']['priority'] = 5;	// Additional information first
+			$tabs['description']['priority'] = 10;			// Description second
+		
+			return $tabs;
+		}
 		
 		public function carrot_wc_get_template($located, $template_name){
 			   //_dump("LOCATED:".$located);

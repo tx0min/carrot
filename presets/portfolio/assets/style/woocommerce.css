@@ -3,6 +3,11 @@
     font-size: 2em;
 }
 
+.products .product .price {
+    font-size: 1.2em;
+    padding: 1em 0 1.5em 0;
+}
+
 .wcppec-checkout-buttons__separator {
     display: none;
 }
@@ -15,6 +20,10 @@
     width: 100%;
 }
 
+.single-product div.product .summary form.cart .woocommerce-variation-add-to-cart {
+    display: flex;
+}
+
 .single-product div.product .summary form.cart .quantity {
     width: 100px;
 }
@@ -23,12 +32,61 @@
     font-size: 1.5em;
 }
 
-.single-product div.product .summary form.cart>button {
+.single-product div.product .summary form.cart .single_add_to_cart_button {
     font-size: 1.5em;
+}
+
+table.variations {
+    margin-bottom: 1em;
+}
+
+.woocommerce-variation-description {
+    display: none;
+}
+
+.single_variation_wrap {
+    position: relative;
+}
+
+.woocommerce-variation-price {
+    position: absolute;
+    right: 0em;
+    top: 0;
+}
+
+.woocommerce-variation-price .price {
+    padding: .5em;
+}
+
+@media screen and (max-width:768px) {
+    .woocommerce-variation-price {
+        top: -100%;
+    }
+    .woocommerce-variation-price .price {
+        padding: 0em;
+    }
+}
+
+table.variations .reset_variations {
+    display: none !important;
+}
+
+table.variations td.label {
+    display: none;
+}
+
+table.woocommerce-product-attributes th,
+table.woocommerce-product-attributes td {
+    padding: .5em;
 }
 
 table.woocommerce-product-attributes th {
     padding-right: 2em;
+    text-align: left;
+}
+
+.woocommerce-mini-cart__empty-message {
+    padding: 1em;
 }
 
 @media screen and (max-width:768px) {
@@ -91,7 +149,7 @@ table.woocommerce-product-attributes th {
         width: 100%
     }
     .single-product div.product .summary form.cart .quantity {
-        display: none;
+        display: none !important;
     }
     .single-product div.product .summary form.cart .single_add_to_cart_button {
         display: block;
@@ -100,4 +158,104 @@ table.woocommerce-product-attributes th {
     .shop .sidebar {
         padding: 0 2em;
     }
+}
+
+.woocommerce-tabs {
+    padding-top: 4em;
+}
+
+@media screen and (max-width:768px) {
+    .woocommerce-tabs .woocommerce-Tabs-panel {
+        padding-top: 1em;
+    }
+}
+
+.woocommerce-tabs .woocommerce-Tabs-panel>h2 {
+    display: none;
+}
+
+#footer-cart {
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    .woocommerce-active #footer-cart {
+        display: block;
+    }
+    .woocommerce-active #footer-cart .site-header-cart {
+        margin-right: 0em;
+        top: auto;
+    }
+    .woocommerce-active #footer-cart .cart-contents {
+        display: block;
+        position: fixed;
+        z-index: 900;
+        bottom: 1em;
+        right: 1em;
+        padding: .6em;
+        margin: 0 !important;
+        font-size: 1.4em;
+        font-weight: 100;
+        border-radius: 50%;
+        border-width: 0px;
+        opacity: 1;
+        transition: bottom 200ms ease-out;
+    }
+    .woocommerce-active #footer-cart .cart-contents.cart-empty {
+        bottom: -3em;
+        opacity: 0;
+    }
+    .woocommerce-active #footer-cart .cart-contents .count {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        font-size: 7pt;
+        padding: 0px 1em;
+    }
+    .woocommerce-active #footer-cart .cart-contents .cart-icon {
+        font-size: 1em;
+    }
+    body.woocommerce-checkout #footer-cart,
+    body.woocommerce-cart #footer-cart {
+        display: none;
+    }
+}
+
+.sku_wrapper {
+    display: none;
+}
+
+.woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image:first-child {
+    width: 100%;
+    float: none;
+    margin-bottom: 0em;
+}
+
+.woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image {
+    width: 33.3%;
+    float: left;
+}
+
+.woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image a {
+    display: block;
+    padding: .5em;
+}
+
+.woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image a img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:575px) {
+    .woocommerce-product-gallery__wrapper .woocommerce-product-gallery__image {
+        width: 50%;
+    }
+}
+
+.woocommerce-terms-and-conditions-wrapper {
+    margin-bottom: 2em;
+}
+
+.shop_table .quantity>label {
+    display: none;
 }

@@ -19,7 +19,7 @@ if ( ! function_exists( 'carrot_cart_link' ) ) {
 			if(!function_exists('WC')) return;
 			if(!WC()->cart) return;
 		?>
-			<a class="cart-contents" href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" title="<?php esc_attr_e( 'View your shopping cart', THEME_NAME ); ?>">
+			<a class="cart-contents <?=((WC()->cart->get_cart_contents_count()==0)?'cart-empty':'') ?>" href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" title="<?php esc_attr_e( 'View your shopping cart', THEME_NAME ); ?>">
 				<span class="amount"><?php echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?></span> 
 				<?php if(WC()->cart->get_cart_contents_count()>0){ ?>
 					<span class="count"><?php echo WC()->cart->get_cart_contents_count(); //echo wp_kses_data( sprintf( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count(), THEME_NAME ), WC()->cart->get_cart_contents_count() ) );?></span>

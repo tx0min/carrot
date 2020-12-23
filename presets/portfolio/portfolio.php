@@ -33,7 +33,7 @@
 
 
 	
-	$customizerelements= array(
+	$customizerelements = array(
 		'primary_color' => array(
 			array(
 				'element' => ' .woocommerce-terms-and-conditions-wrapper a, 
@@ -50,21 +50,32 @@
 				
 			),
 			array(
-				'element' => ' .button:hover, .button:active, .button:focus					',
+				'element' => ' .button:hover, .button:active, .button:focus	, 
+						#footer-cart .cart-contents:hover, .woocommerce-active #footer-cart .cart-contents:hover .cart-icon,
+						#footer-cart .cart-contents:active, .woocommerce-active #footer-cart .cart-contents:active .cart-icon,
+						#footer-cart .cart-contents:focus, .woocommerce-active #footer-cart .cart-contents:focus .cart-icon
+						',
 				'property' => 'background-color'
 				
 			),
 			array(
-				'element' => ' .button:hover, .button:active, .button:focus ',
-				'property' => 'border-color'
+				'element' => ' .button:hover, .button:active, .button:focus , .button:hover:active',
+				'property' => 'border-color',
+				'important'   => true
 				
 			)
 
 		),
 		'primary_text_color' => array(
 			array(
-				'element' => '.button:hover, .button:active, .button:focus, .woocommerce-message a',
+				'element' => '.button:hover, .button:active, .button:focus, .woocommerce-message a,
+							#footer-cart .cart-contents:hover, .woocommerce-active #footer-cart .cart-contents:hover .cart-icon,
+							#footer-cart .cart-contents:active, .woocommerce-active #footer-cart .cart-contents:active .cart-icon,
+							#footer-cart .cart-contents:focus, .woocommerce-active #footer-cart .cart-contents:focus .cart-icon
+							',
 				'property' => 'color',
+				'important' => true
+
 				
 			),
 		),	
@@ -93,10 +104,14 @@
 
 			),
 			array(
-				'element'  => '#footer-cart .cart-contents, .woocommerce-active #footer-cart .cart-contents .cart-icon
-
-					',
+				'element'  => '#footer-cart .cart-contents, .woocommerce-active #footer-cart .cart-contents .cart-icon',
 				'property' => 'color',
+				
+
+			),
+			array(
+				'element'  => '.woocommerce-error, .entry-content ul.woocommerce-error ',
+				'property' => 'border-color',
 				
 
 			)

@@ -359,10 +359,15 @@ div.woocommerce h3 {
 @media (max-width: 767px) {
     .woocommerce-message,
     .woocommerce-info,
-    .woocommerce-error {}
+    .woocommerce-error {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .woocommerce-message a.button {
+        margin-top: 1em;
+        text-align: center;
         position: static;
-        float: right;
+        display: block;
     }
 }
 
@@ -586,6 +591,7 @@ form.woocommerce-checkout {
 
 .shop_table th {
     text-align: left;
+    padding-right: 1em;
 }
 
 .shop_table tfoot {
@@ -610,8 +616,16 @@ form.woocommerce-checkout {
 
 .shop_table td,
 .shop_table th {
-    padding: 1em 0;
+    padding: 1em 1em 1em 0em;
     vertical-align: top;
+}
+
+.shop_table a {
+    font-weight: bold;
+}
+
+.shop_table td.product-name {
+    width: 40%;
 }
 
 .shop_table .remove {
